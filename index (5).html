@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zgh" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f7ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            text-align: justify;
+            width: 100%;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0,150,255,0.2);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .surah {
+            padding: 20px;
+            border-bottom: 24px solid #b3e0ff;
+        }
+        .surah-name {
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #0077be;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .bismillah {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #00a86b;
+        }
+        .verse {
+            font-size: 20px;
+            line-height: 2;
+            color: #333;
+            display: inline;
+        }
+        .verse-number {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #0077be;
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+            margin-left: 10px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        .header {
+            background-color: #0077be;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 32px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .highlighted {
+            background-color: #ffff00;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ</div>
+  <div style="text-align: center; padding: 20px;">
+      The following link has the original book of Quran meanings translation to Amazigh by Jouhadi Lahoussine:
+  <a href="https://www.jouhadilahoussine.com/publications/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%85%D8%B9%D8%A7%D9%86%D9%8A%D9%87-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D8%B2%D9%8A%D8%BA%D9%8A%D8%A9/8Ias6M02wrtAmU4lZYVd">Click here!</a>
+        Or <a href="https://archive.org/details/quran-jouhadi/">Here for a better scanned version</a>
+    <p style="margin-bottom: 10px;">This page features a re-written version in Amazigh script.  Only The opening Surah and Hizb 60 so far. It still needs Reviewing to fix any mistakes.</p>
+        <p style="margin-bottom: 10px;"><br><span style="color: red;">REMEMBER THAT QURAN TRANSLATIONS ARE MEANT ONLY FOR UNDERSTANDING THE MEANINGS.</span></p>
+  </div>
+    <div class="container" id="quranContent"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('quran.txt')
+                .then(response => response.text())
+                .then(content => {
+                    displayQuran(content);
+                })
+                .catch(error => {
+                    console.error('Error loading quran.txt:', error);
+                });
+        });
+        
+        function displayQuran(content) {
+            const lines = content.split('\n');
+            let quranHTML = '';
+            let currentSurah = '';
+            let isBismillah = false;
+            lines.forEach(line => {
+                line = line.trim();
+                if (line.startsWith('[') && line.endsWith(']')) {
+                    if (currentSurah) {
+                        quranHTML += '</div>';
+                    }
+                    currentSurah = line.slice(1, -1);
+                    quranHTML += `<div class="surah"><h2 class="surah-name">${currentSurah}</h2>`;
+                    isBismillah = true;
+                } else if (isBismillah) {
+                    quranHTML += `<p class="bismillah">${line}</p>`;
+                    isBismillah = false;
+                } else if (line) {
+                    const [verseNumber, ...verseText] = line.split(' ');
+                    const highlightedText = highlightWords(verseText.join(' '));
+                    quranHTML += `<span class="verse">${highlightedText}<span class="verse-number">${verseNumber}</span></span>`;
+                } else {
+                    quranHTML += '<span class="verse">&nbsp;</span>';
+                }
+            });
+            if (currentSurah) {
+                quranHTML += '</div>';
+            }
+            document.getElementById('quranContent').innerHTML = quranHTML;
+        }
+
+        function highlightWords(text) {
+            return text.replace(/\*\*(.*?)\*\*/g, '<span class="highlighted">$1</span>');
+        }
+    </script>
+</body>
+</html>
