@@ -1,8 +1,8 @@
 1
 [Tasaduft]
 
-1 S yism n ṛbbi amallay amsmullu
-2 Amuy i ṛbbi lli mu tga tulɣit tinns, ṛbbi n iɣzwarn, kra gan
+1 S yism n Ṛbbi amallay amsmullu
+2 Amuy i Ṛbbi lli mu tga tulɣit tinns, Ṛbbi n iɣzwarn, kra gan
 3 Amallay amsmullu, ɣ tmzwarut ula ɣ tmggarut
 4 Agllid n wass n ufra, ass n ussḥsu, kraygat yan d mad iskr
 5 Ha nn kyyin ka s nssumd, d kyyin ka ad nmmtr
@@ -11,17 +11,17 @@
 
 2
 [Tafunast]
-S yism n ṛbbi amallay amsmullu
-1 **alif**-**lam**-**mim**: ṛbbi ka ad issnn mad srs iwatts?
-2 Ɣwad ad igan adlis, ur gis turda, iga tifawt n imkṣaḍ n ṛbbi
-3 Ɣwilli flsnin s untal zun d ṛbbi, d yinirn, d tɣrɣart, aywan ar ttẓallan, ar akkan ɣ ɣaylli asn nurg
+S yism n Ṛbbi amallay amsmullu
+1 **alif**-**lam**-**mim**: Ṛbbi ka ad issnn mad srs iwatts?
+2 Ɣwad ad igan adlis, ur gis turda, iga tifawt n imkṣaḍ n Ṛbbi
+3 Ɣwilli flsnin s untal zun d Ṛbbi, d yinirn, d tɣrɣart, aywan ar ttẓallan, ar akkan ɣ ɣaylli asn nurg
 4 D ɣwilli flsnin s ma nn fllak igguzn, ad t igan d **lqʷran** d mad d igguzn izwar k, d tmggarut, ssnn is d tqqan
-5 Ɣwinn (ɣʷin?) munn d uɣaras n ṛbbi nnsn, ɣiklli gan wid ṛwanin
+5 Ɣwinn (ɣʷin?) munn d uɣaras n Ṛbbi nnsn, ɣiklli gan wid ṛwanin
 6 Amma ɣwilli nblnin, ha nn ingadda ukan darsn, iɣ tn tssiwdt, d iɣ tn ur tssiwdt, ha nn ur ad flsn
-7 Acku imsl ṛbbi wulawn nnsn, d imzgan nnsn, ig amdlu f walln nnsn, ha nn tqql srsn tmmara iggutn?
-8 Ha nn illa ɣ middn mad ittinin, nfls s ṛbbi, d wass amggaru, macc nttni ur gin inaflasn
-9 Ar ttknadn ṛbbi d willi flsnin, awa, ha nn ur ad ttknadn a bla ixfawn nnsn, sul ur as frikn? 
-1 acku tlla tmaḍunt ɣ wulawn nnsn, s asn issugt ṛbbi tayyaḍ, d tlla asn tmmara tamagẓaẓt, f uylli sskirkksn
+7 Acku imsl Ṛbbi wulawn nnsn, d imzgan nnsn, ig amdlu f walln nnsn, ha nn tqql srsn tmmara iggutn?
+8 Ha nn illa ɣ middn mad ittinin, nfls s Ṛbbi, d wass amggaru, macc nttni ur gin inaflasn
+9 Ar ttknadn Ṛbbi d willi flsnin, awa, ha nn ur ad ttknadn a bla ixfawn nnsn, sul ur as frikn? 
+1 acku tlla tmaḍunt ɣ wulawn nnsn, s asn issugt Ṛbbi tayyaḍ, d tlla asn tmmara tamagẓaẓt, f uylli sskirkksn
 11 D iɣ asn ittunna ad ur tsgufsum ɣ yiggi n wakal, nnan: ha nn ad akkʷ nga d imssawkan
 12 Awa, ha nn nttni s yixfawn nnsn gan igufsa, macc ur as frikn
 13 D iɣ asn ittunna: aywa flsat, ɣik lli flsn middn, nnan: awa ad nfls ɣik lli flsn imṣuḍn, macc ur srs ssinn
@@ -29,112 +29,112 @@ S yism n ṛbbi amallay amsmullu
 
 62
 [Tamunt ɣ yimalass (aṣiḍyas)]
-S yism n ṛbbi amallay amsmullu
-1 Hann ar immuy i ṛbbi kra illan ɣ ignwan, d kra illan ɣ wakal, iga agllid afuẓaṛ, iga anddabu amusnaw
-2 Ntta s ixf nns ad d yuznn amazan ɣ iqubbann: ad tn igan d waɛṛabn, acku ur aqqran, ula ar ttaran, ɣikann d ntta ur ad ittara zun nttni, ar fllasn yaqqra aylan n ṛbbi ad tn igan d **lquran**, d ar tn issɣus, yaywa ar asn immal adlis, d tmussni, waxxa s tt inn kkan ɣ mad izrin llan ɣ tillas llasnin
+S yism n Ṛbbi amallay amsmullu
+1 Hann ar immuy i Ṛbbi kra illan ɣ ignwan, d kra illan ɣ wakal, iga agllid afuẓaṛ, iga anddabu amusnaw
+2 Ntta s ixf nns ad d yuznn amazan ɣ iqubbann: ad tn igan d waɛṛabn, acku ur aqqran, ula ar ttaran, ɣikann d ntta ur ad ittara zun nttni, ar fllasn yaqqra aylan n Ṛbbi ad tn igan d **lquran**, d ar tn issɣus, yaywa ar asn immal adlis, d tmussni, waxxa s tt inn kkan ɣ mad izrin llan ɣ tillas llasnin
 3 Ɣikann d wiyyaḍ gisn ur disn nyalkamn, ntta ad igan anddabu amusnaw
-4 Ɣikann ad igan tulluɣt n ṛbbi, ar tt yakka i wanna ira, acku akuc iga bu tulluɣt iggutn
-5 Hann anaw n willi f d tgguz **ttawrat** macc ur ad srs skarn, hann gan zun d aɣyul yusin idlisn, ixx ɣ wanaw n mddn lli sskirkkisnin timitar n ṛbbi?! Hann akuc ur ad ismun d uɣaras mddn ganin inẓḍamn
-6 Ini asn: wa willi sgdnin s **ttawrat** iɣ tɣalm is tgam ayt ṛbbi tufm mddn? Aywa, ttrat i ṛbbi tamttant iɣ tgam imuɣẓann?
+4 Ɣikann ad igan tulluɣt n Ṛbbi, ar tt yakka i wanna ira, acku akuc iga bu tulluɣt iggutn
+5 Hann anaw n willi f d tgguz **ttawrat** macc ur ad srs skarn, hann gan zun d aɣyul yusin idlisn, ixx ɣ wanaw n mddn lli sskirkkisnin timitar n Ṛbbi?! Hann akuc ur ad ismun d uɣaras mddn ganin inẓḍamn
+6 Ini asn: wa willi sgdnin s **ttawrat** iɣ tɣalm is tgam ayt Ṛbbi tufm mddn? Aywa, ttrat i Ṛbbi tamttant iɣ tgam imuɣẓann?
 7 Awa, hann ur sar rad t ttrn akkʷ, acku kṣuḍn aylli zwarn ifassn nnsn skrn t, hann akuc issfaw inẓḍamn
 8 Ini asn: hann tamttant lliɣ ad trwalm, hann rad kʷn tamẓ, taywam tiwrrim s dar umassan lli ifawn kra intln, ula kra d yuggan, yaywa iml awn aylli s tt inn tkkam ar t tskarm
-9 Wa willi flsnin: iɣ ittuɣra s tẓallit zɣ wass n imalass: **ljamɛ**, aywa wattsat taẓallit n ṛbbi tajjim tunuzt, hann ɣikann yuf awn tt iɣ tgam wid ssnnin
-1 iɣ tufra tẓallit aywa lluzzuyat ɣ iggi n wakal, ar tsiggilm ɣ tulluɣt n ṛbbi, taywam ar taddrm ṛbbi bahra bar ad tgim imrkidn
-11 Iɣ ẓṛan talzazt nnɣ urarn ar srs ttazzaln, aywan fln k a amazan tbiddt ar fllasn taqqrat, aywa ini asn: hann aylli illan ɣ dar ṛbbi yuf urarn ɣiklli yuf tanzazt, acku akuc yuf kra yakkan
+9 Wa willi flsnin: iɣ ittuɣra s tẓallit zɣ wass n imalass: **ljamɛ**, aywa wattsat taẓallit n Ṛbbi tajjim tunuzt, hann ɣikann yuf awn tt iɣ tgam wid ssnnin
+1 iɣ tufra tẓallit aywa lluzzuyat ɣ iggi n wakal, ar tsiggilm ɣ tulluɣt n Ṛbbi, taywam ar taddrm Ṛbbi bahra bar ad tgim imrkidn
+11 Iɣ ẓṛan talzazt nnɣ urarn ar srs ttazzaln, aywan fln k a amazan tbiddt ar fllasn taqqrat, aywa ini asn: hann aylli illan ɣ dar Ṛbbi yuf urarn ɣiklli yuf tanzazt, acku akuc yuf kra yakkan
 
 63
 [Izballaɣn]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi i umazan nns: iɣ k id uckan izballaɣn nnan: hann nga inagan is tgit amazan n ṛbbi, acku akuc issn is tgit amazan nns, hann akuc issn izballaɣn is gan imsskirkksn
-2 Skrn ɣ tgalliwt nnsn asntl, aywan anfn i uɣaras n ṛbbi, hann innukma uylli s tt inn kkan ar t skarn
-3 Ɣikann acku kkan tt inn flsn, aywan nbln daɣ, s imsl ṛbbi ulawn nnsn, hann nttni ur ad t ssnn
-4 Iɣ ad tn tettmnadt ar k tssusum tiddi nnsn, iɣ ad sawaln ar tssfladt i wawal nnsn, zun d igjwan bddnin, ar ttɣaln is d kraygatt taɣuyyit is d nttni a f tlla, nttni gan amagzan, aywa sḍucci gisn, ad tn irgn ṛbbi, manik s snfln tifawt s tillas?
-5 Iɣ asn ittunna: ackat t, ad awn ittr umazan i ṛbbi asaruf, aywan ssfrɣn ixfawn nnsn, s tn tannit ar ttanfn i ɣikann, acku gan imnnumɣrn
-6 Hann igadda ukan darsn, iɣ asn tssurft, d iɣ asn ur tssurft? Hann ur sar rad asn issurf ṛbbi, acku akuc ur ad ismun d uɣaras mddn ganin infraɣ
-7 Nttni ad ittinin, hann ad ur takkam i willi llanin ɣ dar umazan n ṛbbi ard iɣ bḍan, awa hann lmrs* n ignwan d wakal iga a ɣar win ṛbbi, macc izballaɣn ur rad t ssnn
-8 Ar ttinin ad nggal iɣ nurri ɣr **lmadina** ad sar gis issufɣ umdwas amnugr, hann tadusi tga a ɣar tin ṛbbi, d umazan nns, d inaflasn, macc izballaɣn ur rad t ssnn
-9 Wa willi flsnin, hann ad kʷn ur isngiri wayada nnun, d tarwa nnun d uɣaras n ṛbbi, hann wanna ingaran d ɣikann hann iga zɣ imukal
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi i umazan nns: iɣ k id uckan izballaɣn nnan: hann nga inagan is tgit amazan n Ṛbbi, acku akuc issn is tgit amazan nns, hann akuc issn izballaɣn is gan imsskirkksn
+2 Skrn ɣ tgalliwt nnsn asntl, aywan anfn i uɣaras n Ṛbbi, hann innukma uylli s tt inn kkan ar t skarn
+3 Ɣikann acku kkan tt inn flsn, aywan nbln daɣ, s imsl Ṛbbi ulawn nnsn, hann nttni ur ad t ssnn
+4 Iɣ ad tn tettmnadt ar k tssusum tiddi nnsn, iɣ ad sawaln ar tssfladt i wawal nnsn, zun d igjwan bddnin, ar ttɣaln is d kraygatt taɣuyyit is d nttni a f tlla, nttni gan amagzan, aywa sḍucci gisn, ad tn irgn Ṛbbi, manik s snfln tifawt s tillas?
+5 Iɣ asn ittunna: ackat t, ad awn ittr umazan i Ṛbbi asaruf, aywan ssfrɣn ixfawn nnsn, s tn tannit ar ttanfn i ɣikann, acku gan imnnumɣrn
+6 Hann igadda ukan darsn, iɣ asn tssurft, d iɣ asn ur tssurft? Hann ur sar rad asn issurf Ṛbbi, acku akuc ur ad ismun d uɣaras mddn ganin infraɣ
+7 Nttni ad ittinin, hann ad ur takkam i willi llanin ɣ dar umazan n Ṛbbi ard iɣ bḍan, awa hann lmrs* n ignwan d wakal iga a ɣar win Ṛbbi, macc izballaɣn ur rad t ssnn
+8 Ar ttinin ad nggal iɣ nurri ɣr **lmadina** ad sar gis issufɣ umdwas amnugr, hann tadusi tga a ɣar tin Ṛbbi, d umazan nns, d inaflasn, macc izballaɣn ur rad t ssnn
+9 Wa willi flsnin, hann ad kʷn ur isngiri wayada nnun, d tarwa nnun d uɣaras n Ṛbbi, hann wanna ingaran d ɣikann hann iga zɣ imukal
 1 aywa, ar akkayat zɣ aylli awn nfka maḥdd urta d tucki **tmttant**s yan gigun, yayw ar ittini: wa akuc, mtad is iyi tsugrit ar imikk ɣ uzmz d yaẓn, fad ad akkaɣ, sul gɣ yan zɣ imuknan
 11 Hann akuc ur sar rad ismatti azmz n iman iɣ tn ilkm uzmz n **tmttant**, acku akuc iga amussn n kra tskarm
 
 64
 [Taɣndaft]
-S yism n ṛbbi amallay amsmullu
-1 Ar ittummuy i ṛbbi kra illan ɣ ignwan, d kra illan ɣ wakal, tagldit tga tinns, ɣiklli tga tamayt tinns, ntta iẓḍaṛ i kra illan
+S yism n Ṛbbi amallay amsmullu
+1 Ar ittummuy i Ṛbbi kra illan ɣ ignwan, d kra illan ɣ wakal, tagldit tga tinns, ɣiklli tga tamayt tinns, ntta iẓḍaṛ i kra illan
 2 Ntta ad kʷn iskrn, gigun amnabal, ɣiklli anaflas, hann akuc iga amannay n kra tskarm
 3 Iskr ignwan d wakal s unzgi, yaywa issulf kʷn, sul issfalki iwlafn nnun, hann dars ad nn tra tuɣult
-4 Issn mad illan ɣ yignwan d wakal, ɣiklli issn mad t nnḥḍam, ula mad d tssuggam, hann ṛbbi iga amassan n kra tswingimm
+4 Issn mad illan ɣ yignwan d wakal, ɣiklli issn mad t nnḥḍam, ula mad d tssuggam, hann Ṛbbi iga amassan n kra tswingimm
 5 Is kn id ur yucki unɣmis n ɣwilli nblnin ɣ mad izrin? Ha nn mḍin tassast n warrazn nnsn, ɣiklli asn tlla tmmara tamagzaẓt 
-6 Ɣikann acku kkan tt inn imazann nnsn ar asn d ttawin timitar, nnan: maxx is d afgan a rad aɣ ismun d uɣaras? Aywan nbln anfn i uɣaras n ṛbbi, awa ha nn ṛbbi ur fllasn ilkim, acku ṛbbi iga amadwas amttugaḍay
-7 Ɣaln ɣwilli inblnin, is ur sar rad d nkrn ɣ ismḍal nnsn, ini: ɛad, tagallit s ṛbbi a s rad sul tnkrm, sul tettusqsim ɣ kra tskrm, ha nn iga amussn n kra tskarm
-8 Aywa, flsat s ṛbbi d umazan nns, d tifawt lli d nssugz: **lquran** ha nn akuc iga amussn n kra tskarm
-9 Kʷti d ass lli ɣ rad kʷn ismun ṛbbi ɣ wass n tɣrɣart u, ad t igan d wass n unmuqqar, ɣwann ad igan ass n tɣndaft, ha nn wanna iflsn s ṛbbi, ar iskar mad ifulkin rad fllas nssitti ibkkaḍn nns, naywa nsskcm t s turtitin lli mu ngin isaffn ɣ ddawat nnsnt, aywan zdɣn bdda gisnt, ɣik ann ad igan amrkid anmɣur
+6 Ɣikann acku kkan tt inn imazann nnsn ar asn d ttawin timitar, nnan: maxx is d afgan a rad aɣ ismun d uɣaras? Aywan nbln anfn i uɣaras n Ṛbbi, awa ha nn Ṛbbi ur fllasn ilkim, acku Ṛbbi iga amadwas amttugaḍay
+7 Ɣaln ɣwilli inblnin, is ur sar rad d nkrn ɣ ismḍal nnsn, ini: ɛad, tagallit s Ṛbbi a s rad sul tnkrm, sul tettusqsim ɣ kra tskrm, ha nn iga amussn n kra tskarm
+8 Aywa, flsat s Ṛbbi d umazan nns, d tifawt lli d nssugz: **lquran** ha nn akuc iga amussn n kra tskarm
+9 Kʷti d ass lli ɣ rad kʷn ismun Ṛbbi ɣ wass n tɣrɣart u, ad t igan d wass n unmuqqar, ɣwann ad igan ass n tɣndaft, ha nn wanna iflsn s Ṛbbi, ar iskar mad ifulkin rad fllas nssitti ibkkaḍn nns, naywa nsskcm t s turtitin lli mu ngin isaffn ɣ ddawat nnsnt, aywan zdɣn bdda gisnt, ɣik ann ad igan amrkid anmɣur
 1 amma willi nblnin sskirkksn timitar nnɣ, ha nn winn ad igan ayt lɛfit rad bdda giszzdɣn, ixx ɣ tuɣult!
-11 Ha nn ur ad tkkat kra n twaɣit bla s turayt n ṛbbi, wanna iflsn s ṛbbi, ha nn rad ismun ul nns d uɣaras, acku akuc iga amassan n kra illan 
-12 Aywa sgdat i ṛbbi, tsgdm i umazan, iɣ tugim, ha nn ad akkʷ illan xf umazan nnɣ, d usslkm ifawn
-13 Yaywa ṛbbi imla aɣ: ha nn **llah** {ɛazza wajjalla} ur illi kra n ṛbbi bla ntta, ha nn akuc a mu ttggan inaflasn tawrit nnsn ɣ ufus nns
+11 Ha nn ur ad tkkat kra n twaɣit bla s turayt n Ṛbbi, wanna iflsn s Ṛbbi, ha nn rad ismun ul nns d uɣaras, acku akuc iga amassan n kra illan 
+12 Aywa sgdat i Ṛbbi, tsgdm i umazan, iɣ tugim, ha nn ad akkʷ illan xf umazan nnɣ, d usslkm ifawn
+13 Yaywa Ṛbbi imla aɣ: ha nn **Allah** {ɛazza wajjalla} ur illi kra n Ṛbbi bla ntta, ha nn akuc a mu ttggan inaflasn tawrit nnsn ɣ ufus nns
 14 Wa willi flsnin: ha nn amagzar nnun, illa ɣ tmɣarin nnun d tarwa nnun, awa ikṣuḍat gisn, macc iɣ tsifsism, taywam tzzrim asn t, tssurfm asn, ha nn akuc iga amssaruf amsmullu
-15 Ha nn ad akkʷ iga wayada nnun d warraw nnun d tmrwayt, ha nn tiɣrad ggutnin llant ɣ dar ṛbbi
-16 Aywa ikṣuḍat ṛbbi s unck nna mu tẓḍaṛm, tssfldm i mad awn ittunnan, taywam tsgdm, sul ar takkam, ha nn iga afulki i ixfawn nnun, ha nn wanna iḥḍan ixf nns ɣ tassast n wayada nns, ha nn winn ad igan imrkidn
-17 Iɣ ad tṛṭṭlm i ṛbbi aṛṭṭal ifulkin, ha nn rad awn t irar xf snat tikkal, sul issurf awn, acku akuc iga asnnmmar anmmazzu
+15 Ha nn ad akkʷ iga wayada nnun d warraw nnun d tmrwayt, ha nn tiɣrad ggutnin llant ɣ dar Ṛbbi
+16 Aywa ikṣuḍat Ṛbbi s unck nna mu tẓḍaṛm, tssfldm i mad awn ittunnan, taywam tsgdm, sul ar takkam, ha nn iga afulki i ixfawn nnun, ha nn wanna iḥḍan ixf nns ɣ tassast n wayada nns, ha nn winn ad igan imrkidn
+17 Iɣ ad tṛṭṭlm i Ṛbbi aṛṭṭal ifulkin, ha nn rad awn t irar xf snat tikkal, sul issurf awn, acku akuc iga asnnmmar anmmazzu
 18 Ntta ad igan amassan n kra iḥḍan, ula kra d yuggan, ɣiklli iga andabu amusnaw
 
 67
 [Tagldit]
-S yism n ṛbbi amallay amsmullu
-1 Irɣuda ɣwalli mu tga tgldit ɣ ufus nns ad t igan d ṛbbi, yattuy f imrwasn nkra iskr, ntta ad iẓḍaṛn i kra illan
+S yism n Ṛbbi amallay amsmullu
+1 Irɣuda ɣwalli mu tga tgldit ɣ ufus nns ad t igan d Ṛbbi, yattuy f imrwasn nkra iskr, ntta ad iẓḍaṛn i kra illan
 2 Ntta ad iskrn tamttant (**lmut**) d tudrt, fad ad kn yarm, yaywa isti ma mu gigun fulkin iskkirn nns, ntta ad igan anddabu amssaruf 
 3 Ɣwalli iskrn sa ignwan yan f iggi n yan, ur tlli kra n tmzrayt ɣ kra iskr umallay, aywa rar iẓṛi s ignna is rad tannit kra tsttiɣt
 4 Aywa, siwrri iẓṛi snat tikkal, hann ar ak d itturray iẓṛi iga amnnugr, ɣiklli iga amnngṛaẓ
 5 Tagallit ar nssuggla* yad ignna lli d yaẓn s itran ɣiklli gisn nskr imrruyn ar kkatn iblasiwn, naywa nsgudi asn tammara tafdaddayt
-6 Ɣiklli tqql tmmara n urwass s ɣwilli nblnin s ṛbbi nnsn, nnx ɣ tazduɣt!? 
+6 Ɣiklli tqql tmmara n urwass s ɣwilli nblnin s Ṛbbi nnsn, nnx ɣ tazduɣt!? 
 7 Iɣ nn gis ḍṛn ar gis ssflidn i tḥiṭṭit nns, yaywa ar ittsis
 8 Yaẓ d ad ibbaqqi s turfa, kudnna ann ukan gis iḍṛ yan ugzdi, ar t saqsan imḥḍan nns ar asn ttinin, maxx is kʷn nn ur yucki umssiwd?
-9 Nnan asn ɛad, yucka aɣ yad umssiwd, macc nsskirkks t, naywa nenna ur d izzugz ṛbbi mqqar d kra, hann knni ur tllim bla ɣ tillas llasnin
+9 Nnan asn ɛad, yucka aɣ yad umssiwd, macc nsskirkks t, naywa nenna ur d izzugz Ṛbbi mqqar d kra, hann knni ur tllim bla ɣ tillas llasnin
 1 nnan: mtad is ad nssflid nɣ ad nswingim ur rad akkʷ ng ɣ ayt uẓiẓn? 
-11 Aywan zzigzn abkkaḍ nnsn, awa ad imzi ṛbbi ayt tmẓla
-12 Hann ɣwilli ttikṣuḍnin ṛbbi nnsn ɣ untal, illa asn usaruf d tɣrad ggutnin
-13 Awa, ɣilad adrat i wawal nnun, nɣ as tullm, hann ṛbbi iga amassan n kra tswingimm
+11 Aywan zzigzn abkkaḍ nnsn, awa ad imzi Ṛbbi ayt tmẓla
+12 Hann ɣwilli ttikṣuḍnin Ṛbbi nnsn ɣ untal, illa asn usaruf d tɣrad ggutnin
+13 Awa, ɣilad adrat i wawal nnun, nɣ as tullm, hann Ṛbbi iga amassan n kra tswingimm
 14 Maxx is ur issn mad iskr? Sul ntta iga amssulɣu amussn
 15 Ntta lli awn iskr akal issanun t, issanun t, aywa mmudduyat s tsggiwin nns, taywam ar tcttam ɣ tikki nns, hann iɣ d tffaɣm ɣ ismḍal, dars ad nn tram
 16 Is ur tkṣuḍm ɣwalli s tnnam illa ɣ ignna ad srun isnnstm akal? Siɣ ad srwn ittmduday?
-17 Nɣ d is ur tkṣuḍm ɣwalli s tnnam illa ɣ ignna ad kʷn isgl s umẓrar (umẓṛaṛ)? Inna ṛbbi: hann rad sul tssnm manik rad kʷn mrrtɣ? 
+17 Nɣ d is ur tkṣuḍm ɣwalli s tnnam illa ɣ ignna ad kʷn isgl s umẓrar (umẓṛaṛ)? Inna Ṛbbi: hann rad sul tssnm manik rad kʷn mrrtɣ? 
 18 Tagallit ur ad sskikksn ɣwilli tn zwarnin, awa manik srsn tga tkṛẓi inu?
 19 Maxx is ur ad ttannin igḍaḍ ɣ iggi nnsn ar fssrn ifarrayn nnsn? Ar tn smunan ur tn yumẓ ɣ ignna bla amallay, hann ntta iga amannay n kra illan
 2 nɣ d mad iga ɣwad lli s tnnam gan inmyallaln ran ad kʷn id nniln bla amallay? Hann ur llin imnabaln a ɣar ɣ tkndawt
-21 Nɣ d mad iga ɣwad lli awn yakkan iɣ yumẓ ṛbbi ayada nns? Macc hann zzugazn ukan sul ɣ unḥimar ditun
+21 Nɣ d mad iga ɣwad lli awn yakkan iɣ yumẓ Ṛbbi ayada nns? Macc hann zzugazn ukan sul ɣ unḥimar ditun
 22 Maxx is ingadda ɣwalli ittidun f udm nns yawi tikni, d ɣwalli ibiddn ar ittmnad imun d uɣaras yuɣdn? 
-23 Ini: hann ṛbbi ntta ad kʷn iskrn, yaywa iskr awn assfld, d iẓṛi, d ulawn, macc idrus ad t ttalɣm
+23 Ini: hann Ṛbbi ntta ad kʷn iskrn, yaywa iskr awn assfld, d iẓṛi, d ulawn, macc idrus ad t ttalɣm
 24 Ini: ntta a kʷn igran ɣ iggi n wakal, hann dars a ɣ rad nn tmunm
 25 Ar ttinin: awa, managu rad yili ɣikad iɣ tgam imuɣʷẓann? 
-26 Ini: hann ur tlli tussna bla ɣ dar ṛbbi, hann ad akkʷ giɣ nkki d umssiwd amssfru
+26 Ini: hann ur tlli tussna bla ɣ dar Ṛbbi, hann ad akkʷ giɣ nkki d umssiwd amssfru
 27 Is ukan ẓṛan tammara taẓ d, s sggann udmawn n ɣwilli nblnin, s asn ittunna: ɣwad ad igan ɣaylli s tt inn tkkam ar t ttɣawalm?
-28 Ini: is tssnm iɣ iyi isrfufun ṛbbi nkki diti illan? Nɣ aɣ ismulla? Ma rad ijjnjm imnabaln ɣ tmmara tamagzaẓt (tamagẓaẓt)? 
+28 Ini: is tssnm iɣ iyi isrfufun Ṛbbi nkki diti illan? Nɣ aɣ ismulla? Ma rad ijjnjm imnabaln ɣ tmmara tamagzaẓt (tamagẓaẓt)? 
 29 Ini: hann ntta ad igan amallay, nkkni nfls srs, ntta a mu nga tawrit nnɣ ɣ ufus nns, hann rad sul tssnm manwanna illan ɣ tillas llasnin
 3 ini: is tssnm iɣ gguzn waman nnun s tsila, matta ɣwann iran ad awn d yawi aman nginin? 
 
 68
 [Tazzit (aɣanib)]
-S yism n ṛbbi amallay amsmullu
-1 **nnun**: ṛbbi ka ad issn mad srs iwatts, iggulla ṛbbi s **nun** d tazzit (aɣanib): **lqalam**, d kra srs ttaran
-2 Amki tgit a amazan anafal, s tnafut lli ak ifka ṛbbi nnk
+S yism n Ṛbbi amallay amsmullu
+1 **nnun**: Ṛbbi ka ad issn mad srs iwatts, iggulla Ṛbbi s **nun** d tazzit (aɣanib): **lqalam**, d kra srs ttaran
+2 Amki tgit a amazan anafal, s tnafut lli ak ifka Ṛbbi nnk
 3 Hann llant ak tɣrad ur ttubaynin
 4 Hann kyyi llant fllak timitar fulkinin
 5 Hann rad tẓṛt kyyi, ɣiklli rad ẓṛin nttni
 6 Man wanna gigun igan anafal
-7 Hann ṛbbi nnk issn ɣwalli ifrɣn f uɣaras nns, ɣiklli issn mad dis imunn
+7 Hann Ṛbbi nnk issn ɣwalli ifrɣn f uɣaras nns, ɣiklli issn mad dis imunn
 8 Hann ad ur tsgdt i imsskirkksn
 9 Han ran gik ad fllasn tsifsist, aywan ula nttni sifsisn fllak, s tuḍḍṛt kyyi ula nttni
 1 hann ad ur tsgdt i kra igan imgilli f mad igan inzgi ula mad igan abnnan, sul ig amttulku, acku ur yili atig
 11 Hann iga aqjjam: ar yaddra middn s gar, ɣiklli tabalist gr middn
 12 Ig amttugi n wafulki, sul imun gis kra igan gar
 13 Iga zun d afunas, ɣ kraygat tasga, sul d uggar n ɣikann aḥḥram, ur ittussan babas?
-14 Ifka as ṛbbi ayada d tarwa, sul yagʷi **lislam**?
-15 Inna ṛbbi: iɣ ad fllas ttuɣrin aylan nnɣ, inna: ɣayad iga a ɣar umin n imzwura
-16 Inna ṛbbi: rad as nskr gar tamatart ɣ iggi n uɣnzur nns ma s ittussin
-17 Inna ṛbbi hann nmrrt ayt **makka**, ɣiklli nmrrt ayt turtit, aylliɣ ggullan a sar t mgrn ɣ tiylgi
-18 Macc ur nnin iɣ ira ṛbbi
-19 Issutl as yan umssutl ɣ dar ṛbbi nnk ṭṭaṣn nit sul, zɛma isɣr t ṛbbi, isngiri tn d tiyyafut nns
+14 Ifka as Ṛbbi ayada d tarwa, sul yagʷi **lislam**?
+15 Inna Ṛbbi: iɣ ad fllas ttuɣrin aylan nnɣ, inna: ɣayad iga a ɣar umin n imzwura
+16 Inna Ṛbbi: rad as nskr gar tamatart ɣ iggi n uɣnzur nns ma s ittussin
+17 Inna Ṛbbi hann nmrrt ayt **makka**, ɣiklli nmrrt ayt turtit, aylliɣ ggullan a sar t mgrn ɣ tiylgi
+18 Macc ur nnin iɣ ira Ṛbbi
+19 Issutl as yan umssutl ɣ dar Ṛbbi nnk ṭṭaṣn nit sul, zɛma isɣr t Ṛbbi, isngiri tn d tiyyafut nns
 2 s tga zun d asaɣur isggann
 21 Is ukan ifaw uzal, ar yaqqra kra gis i kra
 22 Ar ttinin nkrat zikk s tmgra nnun iɣ rad tmgrm?
@@ -143,13 +143,13 @@ S yism n ṛbbi amallay amsmullu
 25 Nkrn taylgi s tazzla, nnan nẓḍaṛ ad tt (a [S]tt) nmgr
 26 Is tt ukan ẓṛan tjdr nnan: hann nḍḍṛ aɣaras srs
 27 Nɣ d ula nkkni nga imẓlaḍ?
-28 Inna ɣwalli gisn iswingimn: maxx ur awn nniɣ aywa, ttrat ṛbbi ad awn issurf?
-29 Aywan nnan: tumayt i ṛbbi nnɣ, hann nkkni nkka tt inn nga inẓḍamn
+28 Inna ɣwalli gisn iswingimn: maxx ur awn nniɣ aywa, ttrat Ṛbbi ad awn issurf?
+29 Aywan nnan: tumayt i Ṛbbi nnɣ, hann nkkni nkka tt inn nga inẓḍamn
 3 yaywa kra gisn ar ittmnad ɣ kra, ar ttmzawarn
-31 Nnan: aḥḥ n iɣnan nnɣ, nkkni nkka tt inn nzri awttu graɣ d ṛbbi
-32 Bar ṛbbi nnɣ ad aɣ t isnfl s mad tt (ma [S]tt) yufn, hann nkkni nẓuẓḍ a ɣar ɣ ṛbbi nnɣ
+31 Nnan: aḥḥ n iɣnan nnɣ, nkkni nkka tt inn nzri awttu graɣ d Ṛbbi
+32 Bar Ṛbbi nnɣ ad aɣ t isnfl s mad tt (ma [S]tt) yufn, hann nkkni nẓuẓḍ a ɣar ɣ Ṛbbi nnɣ
 33 Ɣikann d tmmara, macc tammara n tmggarut tggut, mtad is gan wid ssnnin
-34 Hann ɣwilli kṣuḍnin ṛbbi, llant asn ɣ dar ṛbbi nnsn turtitin n tnafut: **jannat nnaɛim**
+34 Hann ɣwilli kṣuḍnin Ṛbbi, llant asn ɣ dar Ṛbbi nnsn turtitin n tnafut: **jannat nnaɛim**
 35 Maxx is rad nsgiddi **imuslmn** d iknnafn?
 36 Ma kʷn yaɣn, manik s tɣalm?
 37 Nɣ d is darun kra n udlis ar gis taqqram?
@@ -163,36 +163,36 @@ S yism n ṛbbi amallay amsmullu
 45 Sul rad tn sgruɣ, acku takndawt inu tdus
 46 Maxx is ad tn tsaqsat ɣ tɣrad? Sul nttni usin azaẓu (aẓaẓu*?) n tfgurt?
 47 Nɣ d is darsn adlis intln ar gis aqqran? 
-48 Aywa, ẓiḍṛ i izrf n ṛbbi nnk, hann ar ur tgt zun d bu uslm, aylliɣ iɣra i ṛbbi macc iga amɣilf
-49 Mtad is t id ur tnnil tmllawt zɣ dar ṛbbi nns, a sar nn iḍṛ ɣ taɣart sul ig mẓẓi
-5 macc istit ṛbbi nns yaywa iskr gis yan ɣ ɣwilli rwanin
+48 Aywa, ẓiḍṛ i izrf n Ṛbbi nnk, hann ar ur tgt zun d bu uslm, aylliɣ iɣra i Ṛbbi macc iga amɣilf
+49 Mtad is t id ur tnnil tmllawt zɣ dar Ṛbbi nns, a sar nn iḍṛ ɣ taɣart sul ig mẓẓi
+5 macc istit Ṛbbi nns yaywa iskr gis yan ɣ ɣwilli rwanin
 51 Ha nn ɛlayn akkʷ jdrn ɣwilli nblnin s iẓllugn nnsn, aylliɣ ssfldn i **lqʷṛan** aywan ar ttinin: hann iga anafal
 52 Ntta ur igi bla asskti i kra illan
 
 69
 [Taɣrɣart-3]
-S yism n ṛbbi amallay amsmullu
+S yism n Ṛbbi amallay amsmullu
 1 Taɣrɣart lli d iqqann, lliɣ rad yaggʷ kra ɣ skrn tikrkas
-2 Aḥḥ manik tga tɣrɣart ann iɣ d tugga!? Hann isrfufn n ṛbbi kra tt isskirksn
+2 Aḥḥ manik tga tɣrɣart ann iɣ d tugga!? Hann isrfufn n Ṛbbi kra tt isskirksn
 3 Man wanna rad ak iml taɣrɣart ann lli d iqqann?
 4 Hann **tamud**d **ɛad** sskirkksn taɣrɣart nns rad tili
 5 Amma **tamud** hann rfufunn s tɣuyyit
 6 Amma **ɛad** bann rfufunn s kigan n waḍu isɣuyyin
-7 Igr t fllasn ṛbbi sa waḍan, d tam ussan zdinin, s ar ttannit middn ḍṛan gis zun d igjwan n igujjaf mmarnin
+7 Igr t fllasn Ṛbbi sa waḍan, d tam ussan zdinin, s ar ttannit middn ḍṛan gis zun d igjwan n igujjaf mmarnin
 8 Awa, is asn jju tẓlit agaluz?
 9 Yucka d **firɛawn** d mad t izwarn, d ayt iɣrman s ubkkaḍ
-1 aywan mmzrin d umazan n ṛbbi nnsn, ɣikann a x tn yumẓ yan wammaẓ yussn
+1 aywan mmzrin d umazan n Ṛbbi nnsn, ɣikann a x tn yumẓ yan wammaẓ yussn
 11 Hann aylliɣ attuyn waman, nusi kn (kʷn) f igi (iggi) n tanawt
 12 Fad ad awn gis nskr asskti, ad t ḥsun imzgan (imzzaɣ) ssflidnin
 13 Hann iɣ ittuṣwaḍ ɣ isk yan uṣwaḍ
 14 Siɣ ittyasay wakal d idrarn nmiqqirn gratsn, aywan qrssin s yat tkklit
 15 Hann akud ann (kudann) tlkm tɣrɣart
 16 S istɣ ignna acku akud ann (kudann) ilmḍ
-17 S bddn (biddn) inirn ɣ tsggiwin (tsigiwin) n ignwan, aywan asn ttam gisn adabu n ṛbbi nnk ɣ wass ann (ɣass ann) f iggi (igi) n umgṛaḍ (umgraḍ) nnsn
+17 S bddn (biddn) inirn ɣ tsggiwin (tsigiwin) n ignwan, aywan asn ttam gisn adabu n Ṛbbi nnk ɣ wass ann (ɣass ann) f iggi (igi) n umgṛaḍ (umgraḍ) nnsn
 18 Ɣ wass ann (ɣass ann) a rad tgim ddrst, fad ad tḥsum, ur ad gigun intl mqqar d umuya (amya) ɣ ɣaylli tskrm
-19 Inna ṛbbi: hann wanna mu ittufka udlis nns ɣ ufus nns afasi ar ittini: aywa amẓat ɣrat adlis inu ifulkin
+19 Inna Ṛbbi: hann wanna mu ittufka udlis nns ɣ ufus nns afasi ar ittini: aywa amẓat ɣrat adlis inu ifulkin
 2 hann nkki kkiɣ tt inn ɣ tudrt inu, ssnɣ is rad ttusqsiɣ
-21 Inna ṛbbi: ɣwad, hann illa ɣ waddad ifjjijn
+21 Inna Ṛbbi: ɣwad, hann illa ɣ waddad ifjjijn
 22 Ɣ turtit yattuyn
 23 Aẓway n tẓṛmin (tẓrmin) nns yaẓ d afus bla takrrayt
 24 Ar asn ittyawnna (ittunni): aywa ar cttayat ar tssam, hann urɣud awn s ɣaylli tzzrim ɣ ussan zrinin ɣ tudrt
@@ -204,33 +204,33 @@ S yism n ṛbbi amallay amsmullu
 3 kudnna ad ittunna: aywa, amẓat t, krfat t
 31 Tawim t tgrm (tluḥm) t inn ɣ uẓiẓn
 32 Aywa, ṛẓiyat (rẓiyat) t ɣ ssfud n uzzal, tiɣzi nns, illa gis sa id mraw (samraw niɣ d kṛaḍ wagnarn d mraw) n iɣil
-33 Hann ikka tt inn ur iflis s ṛbbi mqqurn
+33 Hann ikka tt inn ur iflis s Ṛbbi mqqurn
 34 Ɣiklli ur ad ikkat takrrayt f umttcu n imẓlaḍ
 35 Hann ɣ wass ad (ɣass ad) ur dars ɣ ɣid amddakkl
 36 Ula tirmt bla ɣ uṛṣḍ (urṣḍ) lli ingin ɣ ayt urwass
 37 Ur ad t ictta bla imnabaln
-38 Inna ṛbbi: ad ggalɣ s mad ttmnadm
+38 Inna Ṛbbi: ad ggalɣ s mad ttmnadm
 39 Ula mad ur ttmnadm
 4 amki iga **lqʷṛan** ad bla tinnit n umazan iṛwan (irwan)
 41 Hann ur igi urarn n umarir, macc idrus ad tflsm
 42 Ula iga awal n ugzzan, macc idrus ad tkttim
-43 Hann ad iga d uguz zɣ dar ṛbbi n kra illan
+43 Hann ad iga d uguz zɣ dar Ṛbbi n kra illan
 44 Hann mtad is fllaɣ iskr kra n tkrkas
 45 A sar t nsrfufn s tdusi nnɣ
 46 Sul nbbi as aẓaṛ (aẓar)n ul
 47 Mqqar d yan gigun ur iẓḍaṛ (iẓḍar) ad fllas irar
-48 Hann **lqʷṛan** iga asskti n ɣwilli kṣuḍnin ṛbbi
+48 Hann **lqʷṛan** iga asskti n ɣwilli kṣuḍnin Ṛbbi
 49 Hann nkkni nnsn is gigun llan imsskirkksn
 5 hann iga tamgṛaẓt (tamgraẓt) i imnabaln
 51 Hann iga inzgi ɣ ur tlli turda
-52 Aywa, mmuy s yism n ṛbbi nnk amqqran
+52 Aywa, mmuy s yism n Ṛbbi nnk amqqran
 
 70
 [Tiskʷfal]
-S yism n ṛbbi amallay amsmullu
+S yism n Ṛbbi amallay amsmullu
 1  Hann nmmtr yan immtri ad d tgguz tmmara ur intiln
 2 F imnabaln, tammara ann ur illi mad iẓḍaṛn ad tt fllasn irar
-3 Tammara ann tgguz d ɣ dar ṛbbi n ignwan
+3 Tammara ann tgguz d ɣ dar Ṛbbi n ignwan
 4 Ar dars aqqlayn inirn d imann: **jibril** ɣ wass tga tɣzi nns smmus id mraw (smmumraw nɣ d sin wagnarn d mraw) n igim n usggʷas
 5 Awa, aywa ẓẓiḍṛ, sul aẓẓiḍṛ ifulkin
 6 Hann nttni ɣaln tammara is nn taggug?
@@ -254,20 +254,20 @@ S yism n ṛbbi amallay amsmullu
 24 D willi mu tlla takuti ittussann ɣ wayada nnsn
 25 I immtri d walli ur iṭṭafn
 26 D willi zziɣuẓinnin ass n ufra
-27 D willi kṣuḍnin tammara n ṛbbi nnsn
-28 Acku tammara n ṛbbi nnsn ttukṣaḍ
+27 D willi kṣuḍnin tammara n Ṛbbi nnsn
+28 Acku tammara n Ṛbbi nnsn ttukṣaḍ
 29 D willi ḥḍanin ikbatn nnsn
 3 bla f tmɣarin nnsn, d ttuyiwin (ttuwyiwyin*?) nnsn, hann winn ur tturgamn
 31 Wanna iran uggar n ɣikann hann iga ɣ inẓḍamn
 32 D willi ḥḍanin tiɣilaf nnsn d tsuɣunt nnsn
 33 D willi akkanin tuga nnsn
 34 D willi f ur ad tzray tẓallit nnsn
-35 Winn: kra gan issmɣur tn ṛbbi ɣ turtitin
+35 Winn: kra gan issmɣur tn Ṛbbi ɣ turtitin
 36 Maxx mad yaɣn willi nblnin ar d srk ttaggʷan
 37 Aywan gin tirubba ɣ tsga tafasit nnk d tẓlmaḍt?
 38 Awa, is yattun kra igan afgan gisn ad ikcm turtit n tnafut?
 39 Awa, hann uhu, acku nskr tn ɣ ɣaylli nnsn?
-4 inna ṛbbi: ad ggalɣ s ṛbbi n uɣllay d untal, zɛma walli iskrn ignwan d wakal, a nkkni ar iẓḍaṛ (nẓẓḍaṛ*?)
+4 inna Ṛbbi: ad ggalɣ s Ṛbbi n uɣllay d untal, zɛma walli iskrn ignwan d wakal, a nkkni ar iẓḍaṛ (nẓẓḍaṛ*?)
 41 Ad tn nssnfl s mad tn yufn, hann ur illi mad inran f ɣikann
 42 Ajji tn ad rwwin ɣaman ur nn tamn diɣ nmaqqarn d wass nnsn lli srsn ittqqln?
 43 Ass lli ɣ rad d ttffaɣn ɣ ismḍal nnsn s tazzla, zun d iɣ mɛabarn s tsallaft ibddn? Nɣ d ɣilli ran? 
@@ -275,80 +275,80 @@ S yism n ṛbbi amallay amsmullu
 
 71
 [Nuḥ]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: hann nkkni nuzn nn **nuḥ** s tamtti nns, f ad issiwd tamtti nns maḥdd ur ta tn id tucki tmmara tamagẓaẓt
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: hann nkkni nuzn nn **nuḥ** s tamtti nns, f ad issiwd tamtti nns maḥdd ur ta tn id tucki tmmara tamagẓaẓt
 2 Inna **nuḥ**: wa tamtti inu, hann giɣ d srun (srwn) amssiwd amssfru
-3 Aywa, ssumdat i ṛbbi, tikṣuḍm t, tsgdm as
-4 Fad ad awn issurf ɣ ibkkaḍn nnun, issggru kʷn ar azmz lli ittussann, hann azmz n ṛbbi iɣ d yucka ur ad sul ittgru iɣ tgam wid ssnnin?
-5 Inna ṛbbi: wa ṛbbi inu: hann nkki ɣriɣ i tmtti inu ɣ yiḍ d uzal
+3 Aywa, ssumdat i Ṛbbi, tikṣuḍm t, tsgdm as
+4 Fad ad awn issurf ɣ ibkkaḍn nnun, issggru kʷn ar azmz lli ittussann, hann azmz n Ṛbbi iɣ d yucka ur ad sul ittgru iɣ tgam wid ssnnin?
+5 Inna Ṛbbi: wa Ṛbbi inu: hann nkki ɣriɣ i tmtti inu ɣ yiḍ d uzal
 6 Macc tiɣri inu, ur asn tssugt bla tarwula?
 7 Hann nkki akud nna asn ukan ɣriɣ, f ad asn tssurft, s aywan ar tggan iḍuḍan ɣ imzgan nnsn, ḥbun ixfawn nnsn s tmlsit nnsn, aywan qqarn f ɣikann snnumɣurn bahra?
 8 Ɣiklli ulɣ awal inu aylliɣ asn ɣriɣ, fad ad ssfldn
 9 Hann nkkni ssugiɣ asn d awal inu f ad as ssfldn, ɣiklli srsn sawlɣ awal idran bahra, gr iyi disn
-1 nniɣ asn: aywa, ttrat, i ṛbbi nnun, ad awn issurf, hann ntta iga amssaruf
+1 nniɣ asn: aywa, ttrat, i Ṛbbi nnun, ad awn issurf, hann ntta iga amssaruf
 11 Ar awn d ittazan anẓaṛ iggutn ɣ ignna
 12 Ar awn yakka ayada, d tarwa, ar awn iskar tibḥarin*, ɣiklli awn issngi isaffn
-13 Maxx aylliɣ ur ad tssimɣurm ṛbbi?
+13 Maxx aylliɣ ur ad tssimɣurm Ṛbbi?
 14 Sul iskr kʷn yad kra s kra: zɛma zɣ taḍḍit ar afgan
 15 Maxx is ur ad ttmnidm, manik s iskr sa ignwan gan taduliwin?
 16 Yaywa iskr gisn ayyur ar ismrɣa, ɣiklli iskr tafukt ar tsufu
-17 Hann ṛbbi ad kʷn issmɣin ɣ wakal zun d imɣi
+17 Hann Ṛbbi ad kʷn issmɣin ɣ wakal zun d imɣi
 18 Ɣiklli rad kʷn srs irar, yaywa issfɣ kʷn id daɣ yan ufuɣ yaḍnin yaḍnin?
-19 Hann ṛbbi ifsr awn akal
+19 Hann Ṛbbi ifsr awn akal
 2 fad ad gis ttmunm d iɣarasn lli ganin izilaln
-21 Inna **nuḥ**: wa ṛbbi inu: hann nttni mzarin diti, aywan ḍfuṛn walli mu ur ad issugt wayada nns d tarwa nns abla abnnan
+21 Inna **nuḥ**: wa Ṛbbi inu: hann nttni mzarin diti, aywan ḍfuṛn walli mu ur ad issugt wayada nns d tarwa nns abla abnnan
 22 Hann sskundn takndawt mqqurn
-23 Nnan: hann ad ur tbḍum d id ṛbbi (ṛbbin) nnun, d ad ur tflm **wud** d **suwwaɛ** d **yaɣut** d **yaɛuq** d **nasr**
+23 Nnan: hann ad ur tbḍum d id Ṛbbi (Ṛbbin) nnun, d ad ur tflm **wud** d **suwwaɛ** d **yaɣut** d **yaɛuq** d **nasr**
 24 Hann suḍḍṛn yad srsn bahra, ɣiklli ur ad ssigutn i inẓḍamn a ɣar tillas
-25 Hann ibkkaḍn nnsn a ɣ ddmn, s kcmn s lɛfit ggammin kra n turfiwin i ixfawn nnsn bla ṛbbi
-26 Inna **nuḥ** wa ṛbbi inu: hann riɣ gik ad ur tajjt mqqar d yan ɣ imnabaln, ɣ iggi n wakal
+25 Hann ibkkaḍn nnsn a ɣ ddmn, s kcmn s lɛfit ggammin kra n turfiwin i ixfawn nnsn bla Ṛbbi
+26 Inna **nuḥ** wa Ṛbbi inu: hann riɣ gik ad ur tajjt mqqar d yan ɣ imnabaln, ɣ iggi n wakal
 27 Hann iɣ tn tujjit, rad uḍḍṛn ismgan nnk, ɣiklli ur rad arun bla anfruɣ amnabal
-28 Wa ṛbbi inu: riɣ ad iyi tssurft nkki d imarawn inu, d kra ikcmn s tgmmi inu, ig anaflas, ɣikann d inaflasn, d tnaflasin, d ad ur tssugt i inẓḍamn bla tarfafant
+28 Wa Ṛbbi inu: riɣ ad iyi tssurft nkki d imarawn inu, d kra ikcmn s tgmmi inu, ig anaflas, ɣikann d inaflasn, d tnaflasin, d ad ur tssugt i inẓḍamn bla tarfafant
 
 72
 [Amdun]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: ittuzan iyi d: is tssfld yat tribbut ɣ umdun, nnan: hann nkkni nssfld i **lqʷṛan** issusmn
-2 Ar immal mad ifulkin, naywa nfls srs, hann ur sar rad nskr i ṛbbi nɣ amadraw
-3 Hann tattuy tummɣri n ṛbbi nnɣ, ur dars tamddakklt ula arraw
-4 Hann is ka ttinin imṣuḍn nnɣ azkkr f ṛbbi
-5 Hann nkkni nɣal is ur sar rad inna ufgan d umdun tikrkas f ṛbbi?
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: ittuzan iyi d: is tssfld yat tribbut ɣ umdun, nnan: hann nkkni nssfld i **lqʷṛan** issusmn
+2 Ar immal mad ifulkin, naywa nfls srs, hann ur sar rad nskr i Ṛbbi nɣ amadraw
+3 Hann tattuy tummɣri n Ṛbbi nnɣ, ur dars tamddakklt ula arraw
+4 Hann is ka ttinin imṣuḍn nnɣ azkkr f Ṛbbi
+5 Hann nkkni nɣal is ur sar rad inna ufgan d umdun tikrkas f Ṛbbi?
 6 Hann kkan tt inn irgazn ɣ ufgan ar tlɣasn s irgazn ɣ umdun, imil rnun asn asxnuns
-7 Hann nttni ɣaln ɣiklli tɣalm is ur rad d sar issudr ṛbbi mqqar d yan iɣ immut?
+7 Hann nttni ɣaln ɣiklli tɣalm is ur rad d sar issudr Ṛbbi mqqar d yan iɣ immut?
 8 Inna umdun: hann nkkni nɣli aylliɣ naẓ ignna, macc nufa t inn iktar s imḥḍan dusnin d imrruyn
 9 Hann nkkni nkka tt inn ar gis nttskkuyyus ɣ man nn yaẓn issfld, macc ɣilad wanna issflidn ar nn ittafa amrruy imdi as
-1 hann nkkni ur nssin is d uẓluḍ, a rad yut kra illan f iggi n wakal? Nɣ d is srsn ira ṛbbi nnsn mad ifulkin?
+1 hann nkkni ur nssin is d uẓluḍ, a rad yut kra illan f iggi n wakal? Nɣ d is srsn ira Ṛbbi nnsn mad ifulkin?
 11 Hann nkkni llan gignɣ wid rwanin, ɣiklli gignɣ llan mad tn ur igin, acku nga tirubba bḍanin
-12 Hann nkkni nssn is ur rad sar nkk f ṛbbi ɣ iggi n wakal, ɣiklli ur rad t sar nssṛmi iɣ as nrwul
-13 Hann nkkni lliɣ nssfld i **lqʷṛan** naywa nfls srs, acku wanna iflsn s ṛbbi nns, hann ur sar ikṣuḍ amnnurf, ula asxnuns
+12 Hann nkkni nssn is ur rad sar nkk f Ṛbbi ɣ iggi n wakal, ɣiklli ur rad t sar nssṛmi iɣ as nrwul
+13 Hann nkkni lliɣ nssfld i **lqʷṛan** naywa nfls srs, acku wanna iflsn s Ṛbbi nns, hann ur sar ikṣuḍ amnnurf, ula asxnuns
 14 Hann illan gignɣ mad igan **imuslmn** ɣiklli gignɣ imla mad igan inẓḍamn, ɣwilli ganin **imuslmn** hann gʷran (gran) afulki
 15 Amma ɣwilli ganin inẓḍamn, hann gan ikccuḍn n urwass
-16 Hann mtad is umẓn aɣaras n ṛbbi, a sar tn nsswa s waman ggutnin
-17 Fad ad tn srsn narm, hann wanna yugin awal n ṛbbi nns, rad t nsiki f tmmara iggutn
-18 Hann timzgidiwin gant tinn ṛbbi, hann ad gisnt ur taqqram i bla i ṛbbi
-19 Hann lliɣ ibidd ismg n ṛbbi, yaywa ar as yaqqra, alayn (ɛlayn) ad fllas gudin imdunn
-2 ini: hann a mu ak aqqraɣ d ṛbbi inu, hann ur as skirɣ amadraw ɣ mqqar d yan
+16 Hann mtad is umẓn aɣaras n Ṛbbi, a sar tn nsswa s waman ggutnin
+17 Fad ad tn srsn narm, hann wanna yugin awal n Ṛbbi nns, rad t nsiki f tmmara iggutn
+18 Hann timzgidiwin gant tinn Ṛbbi, hann ad gisnt ur taqqram i bla i Ṛbbi
+19 Hann lliɣ ibidd ismg n Ṛbbi, yaywa ar as yaqqra, alayn (ɛlayn) ad fllas gudin imdunn
+2 ini: hann a mu ak aqqraɣ d Ṛbbi inu, hann ur as skirɣ amadraw ɣ mqqar d yan
 21  Ini: hann nkki ur awn ssugirɣ amya ɣ tawaɣit ula tanafut
-22 Ini: hann ur sar rad iyi ikks ɣ ufus n ṛbbi mqqar d yan, ula rad sar afɣ mani s ad ttanfɣ bla s dars
-23 Bla asslkm zɣ dar ṛbbi d tbratin nns, hann wanna imzarayn d ṛbbi d umazan nns, hann tqqan t id lafiyt (lɛfit) n urwass rad bdda gis zdɣn
+22 Ini: hann ur sar rad iyi ikks ɣ ufus n Ṛbbi mqqar d yan, ula rad sar afɣ mani s ad ttanfɣ bla s dars
+23 Bla asslkm zɣ dar Ṛbbi d tbratin nns, hann wanna imzarayn d Ṛbbi d umazan nns, hann tqqan t id lafiyt (lɛfit) n urwass rad bdda gis zdɣn
 24 Ard iɣ ẓṛan ɣaylli s ad tn nssiwid, akud ann rad ssnn, man wanna mu tga tannilt nns ajɛniḍ, d ma mu idrus ugdud nns?
-25 Ini: hann ur ssinɣ is d yaẓ ɣaylli s akʷn (akn) nssiwid? Nɣ d is rad awn t inn issaggug ṛbbi inu?
+25 Ini: hann ur ssinɣ is d yaẓ ɣaylli s akʷn (akn) nssiwid? Nɣ d is rad awn t inn issaggug Ṛbbi inu?
 26 Ṛbbi ad igan amassan n untal, hann ur ad immal antal nns i mqqar d yan
-27 Bla wanna f iga adgi ɣ imazann, ɣwann ar dis yismun (ismuna) ṛbbi ma tt iḥḍḍun ɣ kraygat tasga ard isslkm tabrat n ṛbbi
-28 Fad ad sslkmn tibratin n ṛbbi nnsn, hann issn ɣikann gisn, acku issutl d i kra darsn illan, ɣiklli issn kra illan, yan s yan
+27 Bla wanna f iga adgi ɣ imazann, ɣwann ar dis yismun (ismuna) Ṛbbi ma tt iḥḍḍun ɣ kraygat tasga ard isslkm tabrat n Ṛbbi
+28 Fad ad sslkmn tibratin n Ṛbbi nnsn, hann issn ɣikann gisn, acku issutl d i kra darsn illan, ɣiklli issn kra illan, yan s yan
 
 73
 [Amsmuttl]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: wa amsmuttl, zama (zɛma) ɣwalli idln s tmlsit nns, ad t igan d umazan n ṛbbi
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: wa amsmuttl, zama (zɛma) ɣwalli idln s tmlsit nns, ad t igan d umazan n Ṛbbi
 2 Aywa nikr ar ittẓalla ɣ yiḍ kra iga bla imikk gis
 3 Zun d azgn n yiḍ, nɣ gis tkkist imikk?
 4 Nɣ as trnut? Taywat tssusrt **lqʷṛan** ad yimin
 5 Hann rad nn fllak nzzugz awal iẓẓayn, ad t igan d **lqʷṛan**
 6 Awa, hann tankra ɣ yiḍ s tẓallit nttat ad issilgʷiɣn ul, d ar tsfalkay tiɣri
 7 Hann azal illa ak gis uzmz iɣzzifn i tɣawsiwin
-8 Aiwa, bdr ism n ṛbbi nnk, tettut mad t ur igin
-9 Ntta ad igan ṛbbi n uɣllay ula antal, ur illi kra n ṛbbi bla ntta, aywa g tawrit nnk ɣ ufus n ṛbbi
+8 Aiwa, bdr ism n Ṛbbi nnk, tettut mad t ur igin
+9 Ntta ad igan Ṛbbi n uɣllay ula antal, ur illi kra n Ṛbbi bla ntta, aywa g tawrit nnk ɣ ufus n Ṛbbi
 1 aywa, ẓẓiḍṛ f mad ttinin, tbḍut disn, tiṭṭit ifulkin
 11 Awa, ajj iyi srsn ad tn mrrtɣ, zɛma imsskirkksn ɣwilli fjjijnin, hann ẓḍaṛɣ asn, tsalut asn imikk
 12 Hann llan darnɣ iskrafn d lafiyt (lɛfit), ma s ad tn nttmrrat
@@ -357,20 +357,20 @@ S yism n ṛbbi amallay amsmullu
 15 Hann nkkni, nuzn awn nn amazan, iga fllawn inigi zun d ɣiklli nuzn i **firɛawn** amazan
 16 Macc immzri **firɛawn** d umazan, naywa namẓ t yan wammaẓ idusn
 17 Manik s rad tnjmm? Iɣ tnblm ɣ yan wass ar tskar tuwda nns ɣ tazzanin iwssarn?
-18 Mqqar d ignna istɣ s tuwda n wass ann? Hann ɣaylli s awn yyusy (yusy*) ṛbbi ittuskar?
-19 Hann xtid gant asskti, wanna iran ad imun d uɣaras nns s dar ṛbbi nns
-2 hann ṛbbi nnk issn kyyi (kiyyi) is ad ttiwzt  s tẓallit, ɣ snat tikkal cḥanin n kṛaḍ ɣ yiḍ d uzgn nns, d wiss kṛaḍ nns, kyyi (kiyyi) d yat tribbut tlla dik, hann ṛbbi ad ismsasan iḍ (ɣiyiḍ) d wass, issn is ur ad t sar tssiḍnm, ɣikann a f awn issurf, aywa ɣrat imikk ɣ **lqʷṛan** acku issn is rad gigun ilin imuḍan, d wiyyaḍ lli ttmuddunin s tmizar, ar siggiln tulluɣt n ṛbbi, d wiyyaḍ ar ttmmnɣan f uɣaras n ṛbbi, awa ɣrat a ɣar imikk gis, aywa ara ttẓllayat, ar takkam takuti, tṛḍlm i ṛbbi aṛṭṭal ifulkin, hann kra tzwarm i ixfawn nnun ɣ ufulki rad t inn tafim ɣ dar ṛbbi, iga asaruf, hann ṛbbi iga amssaruf amsmullu
+18 Mqqar d ignna istɣ s tuwda n wass ann? Hann ɣaylli s awn yyusy (yusy*) Ṛbbi ittuskar?
+19 Hann xtid gant asskti, wanna iran ad imun d uɣaras nns s dar Ṛbbi nns
+2 hann Ṛbbi nnk issn kyyi (kiyyi) is ad ttiwzt  s tẓallit, ɣ snat tikkal cḥanin n kṛaḍ ɣ yiḍ d uzgn nns, d wiss kṛaḍ nns, kyyi (kiyyi) d yat tribbut tlla dik, hann Ṛbbi ad ismsasan iḍ (ɣiyiḍ) d wass, issn is ur ad t sar tssiḍnm, ɣikann a f awn issurf, aywa ɣrat imikk ɣ **lqʷṛan** acku issn is rad gigun ilin imuḍan, d wiyyaḍ lli ttmuddunin s tmizar, ar siggiln tulluɣt n Ṛbbi, d wiyyaḍ ar ttmmnɣan f uɣaras n Ṛbbi, awa ɣrat a ɣar imikk gis, aywa ara ttẓllayat, ar takkam takuti, tṛḍlm i Ṛbbi aṛṭṭal ifulkin, hann kra tzwarm i ixfawn nnun ɣ ufulki rad t inn tafim ɣ dar Ṛbbi, iga asaruf, hann Ṛbbi iga amssaruf amsmullu
 
 74
 [Amdlaw]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: wa a amdlaw, zɛma ɣwalli idln s tmlsit, aylliɣ d fllas tgguz tbrat n ṛbbi, ad t igan d umazan n ṛbbi: **muḥammad** {taẓallit n ṛbbi fllas}
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: wa a amdlaw, zɛma ɣwalli idln s tmlsit, aylliɣ d fllas tgguz tbrat n Ṛbbi, ad t igan d umazan n Ṛbbi: **muḥammad** {taẓallit n Ṛbbi fllas}
 2 Inna as: aywa nikr ssiwd ayt **makka**
-3 Tssimɣurt ṛbbi nnk f ɣaylli ɣ as skrn amadraw
-4 Tsɣust ul nnk, d timlsit nnk, d grak d ṛbbi nnk
-5 Tzugt f id ṛbbi (ṛbbin) nnsn
+3 Tssimɣurt Ṛbbi nnk f ɣaylli ɣ as skrn amadraw
+4 Tsɣust ul nnk, d timlsit nnk, d grak d Ṛbbi nnk
+5 Tzugt f id Ṛbbi (Ṛbbin) nnsn
 6 Hann ad ur takkat, kra n tikki f ad tamẓt uggar
-7 Aywa, ẓiḍṛ i ṛbbi nnk, f ɣaylli nn fllak igguzn
+7 Aywa, ẓiḍṛ i Ṛbbi nnk, f ɣaylli nn fllak igguzn
 8 Hann iɣ ittuṣwaḍ ɣ isk uṣwaḍ wiss sin
 9 Hann akud ann ad igan ass amakṛaẓ (amakraẓ)
 1 f imnabaln ur gis tafsasayt
@@ -380,27 +380,27 @@ S yism n ṛbbi amallay amsmullu
 14 Sul ssigutɣ as bahra ɣ wayada, d tudrt, d tarwa
 15 Sul ira ad as ssuktɣ?
 16 Awa, hann uhu, acku ntta yugi aylan nnɣ*
-17 Inna ṛbbi: hann rad t sxnunsɣ s tmmara, ad bdda gis izdɣ
+17 Inna Ṛbbi: hann rad t sxnunsɣ s tmmara, ad bdda gis izdɣ
 18 Hann iswingm ɣ **lqʷṛan** sul idds
-19 Ad t irgm ṛbbi manik s idds?
-2 ɣiklli itturgam daɣ ɣ dar ṛbbi manik s idds?
+19 Ad t irgm Ṛbbi manik s idds?
+2 ɣiklli itturgam daɣ ɣ dar Ṛbbi manik s idds?
 21 Yaywa imnad ɣ udmawn n ayt dars
 22 Ɣiklli ikrs udm nns: yaywa iskmmc ignzi nns
-23 Yaywa yanf i uɣaras n ṛbbi isnnumɣr
-24 Inna ṛbbi: ur igi **lqʷṛan** ad a ɣar iḥrgi ittunnan
+23 Yaywa yanf i uɣaras n Ṛbbi isnnumɣr
+24 Inna Ṛbbi: ur igi **lqʷṛan** ad a ɣar iḥrgi ittunnan
 25 D ur igi bla awal n ufgan
-26 Inna ṛbbi: hann ɣwad rad t mḍlɣ ɣ tmẓla
+26 Inna Ṛbbi: hann ɣwad rad t mḍlɣ ɣ tmẓla
 27 Hiyy (hiyya) mtad is tssnt tamẓla ann!? Hann tugr kra irɣan
 28 Wanna ɣ trɣa ar t tjddr, ur ad gis tffal amya
 29 Ar tzlaf ilm
 3 tamẓla ann ḍufn tt tẓa d mraw n wanḍaf
-31 Hann ur nskir ɣ imḥḍan n lafiyt (lɛfit) bla ɣ inirn, d ur nskir unck ann  gisn abla ad gin tamrwayt i ɣwilli nblnin, fad ad ssnn ɣwilli mu ittufka udlis is iɣʷẓan umazan, d ad idusn ɣwilli flsnin f usgd nnsn, d ad ur ssurdun ɣwilli mu uttufka udlis, nttni d inaflasn, fad ad ttinin ɣwilli mu tlla tmaḍunt ɣ ulawn nnsn, nttni d imnabaln: ma s ira ṛbbi ad t iml ɣ umrwas ad? Zun d ɣikann a s  ittuḍḍaṛ ṛbbi wanna ira, ɣiklli ismun (ismuna) d iɣaras wanna ira, hann ur issin izmmaln n ṛbbi nnk bla ntta, hann lafiyt (lɛfit) ann, ur tgi bla asskti i middn
-32 Inna ṛbbi: ad ggalɣ s wayyur
+31 Hann ur nskir ɣ imḥḍan n lafiyt (lɛfit) bla ɣ inirn, d ur nskir unck ann  gisn abla ad gin tamrwayt i ɣwilli nblnin, fad ad ssnn ɣwilli mu ittufka udlis is iɣʷẓan umazan, d ad idusn ɣwilli flsnin f usgd nnsn, d ad ur ssurdun ɣwilli mu uttufka udlis, nttni d inaflasn, fad ad ttinin ɣwilli mu tlla tmaḍunt ɣ ulawn nnsn, nttni d imnabaln: ma s ira Ṛbbi ad t iml ɣ umrwas ad? Zun d ɣikann a s  ittuḍḍaṛ Ṛbbi wanna ira, ɣiklli ismun (ismuna) d iɣaras wanna ira, hann ur issin izmmaln n Ṛbbi nnk bla ntta, hann lafiyt (lɛfit) ann, ur tgi bla asskti i middn
+32 Inna Ṛbbi: ad ggalɣ s wayyur
 33 D yiḍ iɣ yaɣul
 34 D taylgi iɣ d tɣli (tɣʷli)
 35 Abla arwass ann ad igan yat ɣ tagatin mqqurnin
 36 Tga tawda i ufgan
-37 Ɣikann i wanna gigun iran ad imun d uɣaras n ṛbbi, nɣ as yunf,
+37 Ɣikann i wanna gigun iran ad imun d uɣaras n Ṛbbi, nɣ as yunf,
 38 Kraygat iman rad ittyimiẓ s mad iskr ɣ urwass
 39 Bla ayt iffus, zɛma, inaflasn
 4 hann nttni llan ɣ turtit ar ttmsqsin gratsn 
@@ -412,19 +412,19 @@ S yism n ṛbbi amallay amsmullu
 46 D nkka tt inn nsskirkkis ass n ufra
 47 Aylliɣ d srnɣ tucka tmttant (**lmut**)
 48 Akud nna ur asn tssugir talaɣat n imalɣadn amya
-49 Maxx mad tn yaɣn, aylliɣ unfn i usskti n ṛbbi?
+49 Maxx mad tn yaɣn, aylliɣ unfn i usskti n Ṛbbi?
 5 iɣ asn ittubdar usskti gan zun d udadn iɣ diwn
 51 Sul in rwln (rwuln) ɣ izm
 52 Is akkʷ ira kraygat afgan gisn ad fllas gguzn warratn fsrnin?
 53 Maxx, is ur kṣuḍn tamggarut?
 54 Ɛad, hann **lqʷṛan** iga asskti
 55 Wanna iran ar t yaqqra
-56 Hann ur ad t tbdrm bla iɣ ira ṛbbi, ntta ad isskfan ad ittukṣaḍ, ɣiklli yakka assurf
+56 Hann ur ad t tbdrm bla iɣ ira Ṛbbi, ntta ad isskfan ad ittukṣaḍ, ɣiklli yakka assurf
 
 75
 [Taɣrɣart-2]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: ad ggalɣ s wass n tɣrɣart
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: ad ggalɣ s wass n tɣrɣart
 2 D ad ggalɣ s iman lli ttugṛaẓn ɣ mad skrn a sar d  tnkrm ɣ ismḍal nnun
 3 Is d is iɣal ufgan is ur sar rad nsmun ixsan nns iɣ iga akal?
 4 Ɛad, hann nẓḍaṛ ad nsgiddi iḍuḍan nns
@@ -434,51 +434,51 @@ S yism n ṛbbi amallay amsmullu
 8 Siɣ iskkan (isggan*?) wayyur?
 9 S tmmaqqar (tnmaqqar) tafukt d wayyur?
 1 akud ann ar ittini ufgan mani s rad njmɣ?
-11 Inna as ṛbbi uhu, hann ur illi mani s rad tnjmt
-12 Hann anmuqqar ɣ dar ṛbbi nnk ɣ wass ann ad tḥsut
+11 Inna as Ṛbbi uhu, hann ur illi mani s rad tnjmt
+12 Hann anmuqqar ɣ dar Ṛbbi nnk ɣ wass ann ad tḥsut
 13 Ar ittuɣri f ufgan ɣ wass ann kra izwar, ula kra issugʷra (isugra)
 14 Hann afgan ad iṣsfawn ixf nns, zɛma iga inigi f kra iskr
 15 Waxxa, issntal ar diɣ iṛmi ur issugir amya
-16 Inna ṛbbi i imazan nns: ad ur tɣawalt s ils nnk aḥssu n **lqʷṛan** urta fllak ittuɣri
+16 Inna Ṛbbi i imazan nns: ad ur tɣawalt s ils nnk aḥssu n **lqʷṛan** urta fllak ittuɣri
 17 Hann nusy ak ad t nsmun ɣ idmarn nnk, sul nssḥsu ak t, zama (zɛma) ad yifsis f ils nnk
-18 Inna as ṛbbi, iɣ t fllak nɣra, s tɣri n **jibril** aywa ssfld i tɣri nns
+18 Inna as Ṛbbi, iɣ t fllak nɣra, s tɣri n **jibril** aywa ssfld i tɣri nns
 19 Ɣiklli ak nusy ad ak t nssfru
 2 nɣ d is tmyarm xtalli d yaẓn, zɛma tudrt n **ddunit**?
 21 Taywam tflm tamggarut, ur ad as tskarm kra?
 22 Hann udmawn akud ann, ɣ wass n tɣrɣart ar sufun
-23 Sul ar ttmnadn ɣ ṛbbi nnsn, s ɣiklli d dis yuckan
+23 Sul ar ttmnadn ɣ Ṛbbi nnsn, s ɣiklli d dis yuckan
 24 Ɣiklli llan udmawn yaḍnin akud ann sggann krsn
 25 Acku ssnn is rad rfufnn
 26 Awa, iɣ d lkmn iman n ufgan taqqayt nns
 27 S ittunna (ittyawnna) ɣ tama nns manza bu isafarn?
 28 Siɣ issn umaḍun is d tiṭṭit ayann?
 29 S immuttl uḍaṛ nns d wayyaḍ
-3 kra illan akud ann ira nn dar ṛbbi nnk
+3 kra illan akud ann ira nn dar Ṛbbi nnk
 31 Hann afgan ur ifki tikki, ur iẓẓulla
-32 Macc isskirkks **lqʷṛan** yanf i uɣaras n ṛbbi
+32 Macc isskirkks **lqʷṛan** yanf i uɣaras n Ṛbbi
 33 Yaywa umnabal ad iddu s dar ayt dars ar ittbnɣal?
 34 Ittunna (ittyawnna) as: ha nn tucka d dik tagat, sul tga ak?
 35 Acku tga ak akkʷ tut
 36 Awa, is iɣal ufgan ad iɣama bla asqsi?
 37 Maxx is tt inn ur ikki iga abrɣuy ɣ ḥlulu lli nn iffin?
-38 Yaywa ig taḍḍit, s t iskr ṛbbi igadda
+38 Yaywa ig taḍḍit, s t iskr Ṛbbi igadda
 39 S gis iskr sin wanawn: awtm d twtmt
 4 maxx is ur igi ɣwalli iskrn ɣikann, wad iẓḍaṛn ad issudr ɣwilli mmutnin
 
 76
 [Afgan]
-S yism n ṛbbi amallay amsmullu
+S yism n Ṛbbi amallay amsmullu
 1 Hann izri yad kra n uzmz n wannaz f ufgan lli s tt inn ikkan ur ili atig
-2 Inna ṛbbi: hann nkkni nskr afgan ɣ ubrɣuy irɛin, fad ad t narm, naywa nskr as assfld d iẓṛi
+2 Inna Ṛbbi: hann nkkni nskr afgan ɣ ubrɣuy irɛin, fad ad t narm, naywa nskr as assfld d iẓṛi
 3 Hann nmla as abrid, f ad ig anaflas, nɣ amnabal?
 4 Hann nsmmutg i imnabaln iskraf, d tayqarin d tmẓla
 5 Hann ɣwilli rwanin ar ssan ɣ yan ufcku tissi immimn
-6 Ad t igan d yan uɣbalu ar gis ssan ismgan n ṛbbi, aywan ssngin t s aynna ran
+6 Ad t igan d yan uɣbalu ar gis ssan ismgan n Ṛbbi, aywan ssngin t s aynna ran
 7 Ɣwinn ar jjnjumn aynna s usyin ɣiklli ttikṣuḍn, yan wass lli mu ingi uẓuḍ nns
 8 D ar akkan tirmt i umẓluḍ waxxa t zuẓḍn (ẓuẓḍn), ɣikann d igigil, d wad ittyamaẓn
-9 Sul ar ttinin: hann ar awn nakka tirmt f udm n ṛbbi, hann ur gigun nri tiɣrad, ula tulɣitin
-1 hann nkkni, nkṣuḍ a ɣar ṛbbi nnɣ ɣ yan wass ikrsn yussn
-11 Ɣikann a f tn yara ṛbbi f uẓuḍ n wass ann, ifk asn asmrqa n udm d tnummrt
+9 Sul ar ttinin: hann ar awn nakka tirmt f udm n Ṛbbi, hann ur gigun nri tiɣrad, ula tulɣitin
+1 hann nkkni, nkṣuḍ a ɣar Ṛbbi nnɣ ɣ yan wass ikrsn yussn
+11 Ɣikann a f tn yara Ṛbbi f uẓuḍ n wass ann, ifk asn asmrqa n udm d tnummrt
 12 Ɣiklli asn ifka tiɣrad nnsn aylliɣ zziḍṛn, ad tnt igan, d ukccum s turtit, sul ig umṭṭalsu timlsit nnsn
 13 Aywan ẓẓaln gis f isuma, ur ad gisn qrukn i tafukt, ula asmmiḍ (aṣmmiḍ)
 14 Sul agʷln d fllasn iskkiḍn n turtit ann, iknu d fllasn uẓway nns, sul s ɣiklli t ran
@@ -488,42 +488,42 @@ S yism n ṛbbi amallay amsmullu
 18 Ad t igan d yan uɣbalu gis, ittussan s tamimt
 19 Ar asn tssutuln wazzann ganin imɣlal, iɣ tn tannit tɣalt tn is gan amɣwan inna zwan
 2 iɣ tannit ɣ ɣinn, hann ar ttmnadt tanafit, d tkldit tabarawt
-21 Lsan timlsit n umṭṭalsu azigzaw (azgzaw), d usmrɣay, ɣiklli ugln tannalin n uẓṛf (nnqʷrt), sul ar asn isswa ṛbbi nnsn s anẓiṛ izddign
-22 Inna asn ṛbbi: hann ɣwad iga awn tiɣrad, acku askkir nnun ifulki
+21 Lsan timlsit n umṭṭalsu azigzaw (azgzaw), d usmrɣay, ɣiklli ugln tannalin n uẓṛf (nnqʷrt), sul ar asn isswa Ṛbbi nnsn s anẓiṛ izddign
+22 Inna asn Ṛbbi: hann ɣwad iga awn tiɣrad, acku askkir nnun ifulki
 23 Hann nkkni nzzugz nn fllak **lqʷṛan** imikk s imikk
-24 Awa, ẓiḍṛ i uzrf n ṛbbi nnk, hann ad ur tsgdt i ubkkaḍ gisn ula amnabal
-25 Aywa, bdr ism n ṛbbi nnk ɣ taylgi d tadugat
+24 Awa, ẓiḍṛ i uzrf n Ṛbbi nnk, hann ad ur tsgdt i ubkkaḍ gisn ula amnabal
+25 Aywa, bdr ism n Ṛbbi nnk ɣ taylgi d tadugat
 26  Taywat tguntut (tgʷntut*?) as ɣ yiḍ, tmmuyt as ɣ yiḍ iɣzzifn
 27 Hann ɣwid ar ttirin tamzruyt, aywan ttun yan wass iẓẓayn lli tn id iqqann
 28 Nkkni nskr tn, nssidus askkir nnsn, iɣ nra rad tn nsnfl s mad tn irwasn
-29 Hann xtad tga assukti (asskʷti) i wanna iran ad imun d iɣaras n ṛbbi nns
-3 hann ur ad ttirim bla iɣ ira ṛbbi, hann ṛbbi iga amssan amusnaw
+29 Hann xtad tga assukti (asskʷti) i wanna iran ad imun d iɣaras n Ṛbbi nns
+3 hann ur ad ttirim bla iɣ ira Ṛbbi, hann Ṛbbi iga amssan amusnaw
 31 Ar isskcum wanna ira s tmllawt nns, zɛma turtit nns, ɣiklli ismmutg i inẓḍamn tammar tamagzaẓt (tamagẓaẓt)
 
 77
 [Tinṭṭfuṛin]
-S yism n ṛbbi amallay amsmullu
+S yism n Ṛbbi amallay amsmullu
 1 Ad ggalɣ s yismḍal inṭṭfuṛn: iɣ iṭṭfaṛ kra gisn kra
 2 D tijjaj lli usinin idaliwn
 3 D ismḍan lli aṭṭanin idaliwn ɣ ignna
-4 D inirn lli iṭṭanin mad ira ṛbbi f imazann nns
-5 D ɣwilli d zuzguznin tabrat n ṛbbi
+4 D inirn lli iṭṭanin mad ira Ṛbbi f imazann nns
+5 D ɣwilli d zuzguznin tabrat n Ṛbbi
 6 Tgitit* asaruf, nɣ tawda
-7 A ɣwalli s awn yusy ṛbbi ar illa, zun d ass n tɣrɣart, d wass n ussḥsu
-8 Inna ṛbbi: hann iɣ gan itran idrɣan?
+7 A ɣwalli s awn yusy Ṛbbi ar illa, zun d ass n tɣrɣart, d wass n ussḥsu
+8 Inna Ṛbbi: hann iɣ gan itran idrɣan?
 9 D iɣ istɣ ignna?
 1 d iɣ nnstmn idrarn?
-11 D iɣ ismun ṛbbi imazann ɣ yan wass?
-12 Aḥḥ matta ass ann lli mu tn isskʷgra (issgra) ṛbbi?
+11 D iɣ ismun Ṛbbi imazann ɣ yan wass?
+12 Aḥḥ matta ass ann lli mu tn isskʷgra (issgra) Ṛbbi?
 13 Ad t igan d wass n tiṭṭit gr middn?
 14 Hiyya mtad is tssnt mad igan ass n tiṭṭit?
 15 Arwass akud ann i imskirkksn
-16 Inna ṛbbi: maxx is ur nsrfufn imzwura?
+16 Inna Ṛbbi: maxx is ur nsrfufn imzwura?
 17 Naywa nsṭṭfuṛ (nsḍfuṛ) asn imgura?
 18 Zun d ɣikann ad nskar i iknnafn?
 19 Arwass akud ann i imskirkksn 
-2 inna ṛbbi: maxx is kʷn ur nskir ɣ gar aman?
-21 Inna ṛbbi: naywa ngin nn aman ann ɣ uzdduɣ ittuḥḍan
+2 inna Ṛbbi: maxx is kʷn ur nskir ɣ gar aman?
+21 Inna Ṛbbi: naywa ngin nn aman ann ɣ uzdduɣ ittuḥḍan
 22 Ar azmz ittussann, zɛma azmz n tlalit
 23 Hann nsgadda t, a xxayt? Nkkni lli sgaddanin?
 24 Arwass akud ann i imskirkksn 
@@ -540,15 +540,15 @@ S yism n ṛbbi amallay amsmullu
 35 Ɣwad ad igan ass lli ɣ ur ad sawaln
 36 Ula ar asn ittussuray fad ad ssurfn
 37 Arwass akud ann i imskirkksn 
-38 Inna ṛbbi: hann ɣwad ad igan ass n tiṭṭit, nsmun kʷn, kʷnni d imzwura
+38 Inna Ṛbbi: hann ɣwad ad igan ass n tiṭṭit, nsmun kʷn, kʷnni d imzwura
 39 Iɣ darun, kra n tkndawt? Aywa, kndat iyi?
 4 arwass akud ann i imskirkksn 
-41 Hann imkṣaḍ n ṛbbi, llan ɣ isukla d iɣbula
+41 Hann imkṣaḍ n Ṛbbi, llan ɣ isukla d iɣbula
 42 Ɣiklli asn llan tgmmutin ɣ kraygat anaw
 43 Ar asn ittunna (ittyawnna) aywa, ccat ar tssam, hann irɣud awn, s ɣaylli s tt inn tkkam ar t tskarm
-44 Inna ṛbbi: hann nkkʷni ɣikann ass ad nfrra i imawayn
+44 Inna Ṛbbi: hann nkkʷni ɣikann ass ad nfrra i imawayn
 45 Arwass akud ann i imskirkksn 
-46 Ɣiklli inna ṛbbi i imskirkksn: aywa, ccat tfjjijm imikk n uzmz, hann kʷnni tgam iknnafn, tram arwass
+46 Ɣiklli inna Ṛbbi i imskirkksn: aywa, ccat tfjjijm imikk n uzmz, hann kʷnni tgam iknnafn, tram arwass
 47 Arwass akud ann i imskirkksn 
 48 Iɣ asn ittunna aywa sḥunnrat ur ad sḥunnarn: zɛma ur ad tẓallan 
 49 Arwass akud ann i imskirkksn 
@@ -556,13 +556,13 @@ S yism n ṛbbi amallay amsmullu
 
 78
 [Anɣmis]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: ɣf mit a ɣf ad ttmsqsan imnabaln gratsn
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: ɣf mit a ɣf ad ttmsqsan imnabaln gratsn
 2 Is d ɣf unɣmis axatar? Zɛma ass n tɣrɣart? 
 3 Walli ɣf mzrayn mddn is rad yili? Nɣ d uhu? 
-4 Inna ṛbbi: awa, ɛad, hann rad sul ssnn mad tn id iqqann? 
-5 Ɣiklli rad daɣ ssnn, acku ar gisn ittgalla ṛbbi? 
-6 Inna ṛbbi: maxx is ur nskir ɣ wakal asksl n tzduɣt? 
+4 Inna Ṛbbi: awa, ɛad, hann rad sul ssnn mad tn id iqqann? 
+5 Ɣiklli rad daɣ ssnn, acku ar gisn ittgalla Ṛbbi? 
+6 Inna Ṛbbi: maxx is ur nskir ɣ wakal asksl n tzduɣt? 
 7 Ɣik lli nskr ɣ idrarn tigusin? 
 8 Naywa nskr kʷn tgam iwtman d tuwtmin? 
 9 Nskr ɣ yiṭṭṣ nnun asunfu? 
@@ -584,28 +584,28 @@ S yism n ṛbbi amallay amsmullu
 25 Macc ar gis ssan mad iflufan d urṣḍ n ayt urwass
 26 Ɣik ann ad iga asn tiɣrad lli d disn yuckan
 27 Acku kkan tt inn ɣaln is ur rad ttusqsin? 
-28 Inna ṛbbi ɣik lli sskarkksn timitar nnɣ, zɛma **lqʷṛan**, acku gan imsskir kksn bahra
+28 Inna Ṛbbi ɣik lli sskarkksn timitar nnɣ, zɛma **lqʷṛan**, acku gan imsskir kksn bahra
 29 Ha nn kra ittuskarn nura t s tirra g udlis ittuḥḍan
 3 ittunna asn: aywa mḍiyat tiɣrad nnun? Ha nn ur sar rad awn nssugt bla tammara xf tayyaḍ
-31 Amma imkṣaḍ n ṛbbi ha nn illa asn umrkid
+31 Amma imkṣaḍ n Ṛbbi ha nn illa asn umrkid
 32 Ad t igan d tbḥarin d waḍil, d mad t irwasn
 33 D trbatin gaddanin lanin tuqatin
 34 *****
 35 D waṭṭaṣ n unẓiṛ iktarn: aman n waḍil
-36 Ɣik ann iga tiɣrad zɣ dar ṛbbi nnk,  ɣik lli iga tikki iggutn
-37 Ha nn ntta ad igan ṛbbi n ignwan d wakal, d kra illan ɣ gratsn, ntta ad igan amallay, ur iẓḍaṛ mqqar d yan ad srs isawl, acku kṣuḍn t
+36 Ɣik ann iga tiɣrad zɣ dar Ṛbbi nnk,  ɣik lli iga tikki iggutn
+37 Ha nn ntta ad igan Ṛbbi n ignwan d wakal, d kra illan ɣ gratsn, ntta ad igan amallay, ur iẓḍaṛ mqqar d yan ad srs isawl, acku kṣuḍn t
 38 Ɣ wass lli ɣ rad ibidd **jibril** d inirn gin ddrst ur isawaln bla s turayt n umallay sul ar ittini taɣuẓni
-39 Ha nn ɣ wass ann ad igan ass inzgi i wanna iran ad imun d uɣaras n ṛbbi nns
-4 inna ṛbbi: ha nn nkkʷni nssiwd kʷn s yat tmmara d yaẓn, g wass lli ɣ rad ittmnid ufgan kra iskr, ɣ wass ann ar ittini umnabal: mtadd is hlli giɣ akal? Ad d ur nkrɣ ɣ usmḍl? 
+39 Ha nn ɣ wass ann ad igan ass inzgi i wanna iran ad imun d uɣaras n Ṛbbi nns
+4 inna Ṛbbi: ha nn nkkʷni nssiwd kʷn s yat tmmara d yaẓn, g wass lli ɣ rad ittmnid ufgan kra iskr, ɣ wass ann ar ittini umnabal: mtadd is hlli giɣ akal? Ad d ur nkrɣ ɣ usmḍl? 
 
 79
 [Imssukaf]
-S yism n ṛbbi amallay amsmullu
+S yism n Ṛbbi amallay amsmullu
 1 Ad ggalɣ s inirn lli issukufn iman n imnabaln s tdusi
 2 D inirn lli ssfnin iman n inaflasn s lḥin
 3 D inirn lli d tgguznin g ignna
-4 D inirn imzwura n iman s turtit n ṛbbi
-5 D inirn lli sslkumnin mad ira ṛbbi
+4 D inirn imzwura n iman s turtit n Ṛbbi
+5 D inirn lli sslkumnin mad ira Ṛbbi
 6 Ad sar d tnkrm g ismḍal nnun, g wass lli g rad tamẓ trgigat iggutn kra illan
 7 Ad tt tettḍfaṛ trgigatfyaḍnin uggar nns
 8 Akud ann rad ttrgigin ulawn s tuwda
@@ -613,22 +613,22 @@ S yism n ṛbbi amallay amsmullu
 1 aywan ar ttinin: maxx is rad daɣ nurri s tmzwarut?
 11 Iɣ yad nga ixsan rkmnin?
 12 Nnan iɣ daɣ nurri, ha nn ɣik ann ay igan tarwwayt tarfafant
-13 Inna ṛbbi: awa, ha nn ɣik ann ur igi bla yat tɣuyyit
+13 Inna Ṛbbi: awa, ha nn ɣik ann ur igi bla yat tɣuyyit
 14 Siɣ nut llang iggi n wakal
 15 Maxx is k id ur yucki unɣmis n **musa**? 
-16 Illiɣ as iɣra ṛbbi nns g wasif n **ṭuwa** afuẓaṛ?
+16 Illiɣ as iɣra Ṛbbi nns g wasif n **ṭuwa** afuẓaṛ?
 17 Inna as: aywa ddu s **firɛawn**, ha nn izri awttu
-18 Ini as: is gik illa mad ittyurrayn s uɣaras n ṛbbi? 
-19 Aywa mlɣ ak ṛbbi nnk fad ad t tikṣuḍt? 
+18 Ini as: is gik illa mad ittyurrayn s uɣaras n Ṛbbi? 
+19 Aywa mlɣ ak Ṛbbi nnk fad ad t tikṣuḍt? 
 2 yaywa iml as tamatart mqqurn
 21 ****
-22 Macc **firɛawn** isskirkkis **musa** ɣik lli immzri uɣaras n ṛbbi
+22 Macc **firɛawn** isskirkkis **musa** ɣik lli immzri uɣaras n Ṛbbi
 23 Yaywa ismun imḥragn isawl
-24 Inna: ha nn nkki ay igan ṛbbi nnun amattuy
-25 Yaywa ṛbbi isrfufn t s tmmara n tmggarut, ula tamzwarut, isrfufn t s udum, ay lliɣ inna: nkki ad igan ṛbbi nnun yattuyn? Tamzwarut, ay lliɣ inna: ha nn ur awn ssinɣ kra n ṛbbi bla nkki? 
-26 Ha nn ɣik ann illa gis uswingm i wanna ikṣuḍn ṛbbi
-27 Inna ṛbbi: awa, is d askkir nnun a g tggut tmmara? Nɣ d ignna lli isski aɣ tggut? 
-28 Sul ṛbbi isattuy taduli nns isgiddi t
+24 Inna: ha nn nkki ay igan Ṛbbi nnun amattuy
+25 Yaywa Ṛbbi isrfufn t s tmmara n tmggarut, ula tamzwarut, isrfufn t s udum, ay lliɣ inna: nkki ad igan Ṛbbi nnun yattuyn? Tamzwarut, ay lliɣ inna: ha nn ur awn ssinɣ kra n Ṛbbi bla nkki? 
+26 Ha nn ɣik ann illa gis uswingm i wanna ikṣuḍn Ṛbbi
+27 Inna Ṛbbi: awa, is d askkir nnun a g tggut tmmara? Nɣ d ignna lli isski aɣ tggut? 
+28 Sul Ṛbbi isattuy taduli nns isgiddi t
 29 Yaywa isisgin yiḍ nns, ɣik lli isisfiw ass nns, s uɣllay n tafukt
 3 ɣik lli ifsr akal ḍaṛat ɣik ann
 31 Yaywa issfaɣ d gis aman nns, d tga nns d mad tirwasn
@@ -640,42 +640,42 @@ S yism n ṛbbi amallay amsmullu
 37 Akud ann, ha nn wanna inbln
 38 Yayw issuf tudrt n **ddunit** ad
 39 Ha nn tazdɣt nns g urwass
-4 amma wanna ikṣuḍn abddad gr ifassn n ṛbbi nns? Yaywa igraɛ ixf nns xf tayri nns
+4 amma wanna ikṣuḍn abddad gr ifassn n Ṛbbi nns? Yaywa igraɛ ixf nns xf tayri nns
 41 Ha nn turtit ay igan tazdɣt nns
 42 Ha nn ar k saqsan g ilkkumn? Managu rad ilin? 
 43 Maxx mani srk tkka tussna nnsn kiyyi? 
-44 Ha nn ṛbbi nnk ka ad dar illa uzmz nns
+44 Ha nn Ṛbbi nnk ka ad dar illa uzmz nns
 45 Ha nn ad akkʷ tgid kyyi d ussiwd n wanna ikṣuḍn
 46 Ha nn ass nna t ttmnadn, gan zun d iɣ ur kkin g ismḍal nnsn a ɣar yat tdugga, nɣ yat tiyylgi
 
 80
 [Takrsi]
-S yism n ṛbbi amallay amsmullu
-1 Ha nn ikrs umazan n ṛbbi ignzi nns yaywa yanf
+S yism n Ṛbbi amallay amsmullu
+1 Ha nn ikrs umazan n Ṛbbi ignzi nns yaywa yanf
 2 Acku yucka d s dars ubukaḍ, ar t isaqsa
-3 Inna as ṛbbi: maxx ma s tssnd abukaḍ ad, ha nn ur nn yaggug ad ig wad iɣusn s ɣay lli rad as tmld? 
+3 Inna as Ṛbbi: maxx ma s tssnd abukaḍ ad, ha nn ur nn yaggug ad ig wad iɣusn s ɣay lli rad as tmld? 
 4 Nɣ iswingim s as irwa ma s as tnnid
 5 Amma ɣwalli iṭṭafn ayada iggutn
 6 Taywat kyyi tawid tt gis tfld abukaḍ
 7 Ha nn ur fllak illi ad ifls
 8 Amma ɣwalli k id yuckan s tazzla
-9 Sul ntta ikṣuḍ ṛbbi nns
+9 Sul ntta ikṣuḍ Ṛbbi nns
 1 taywat kyyi tnxxld t
 11 Maxx? Aylliɣ tskrd ɣik ann? Ha nn xtad tga assukti
 12 Wanna iran issn srs
-13 Ha nn ɣik ann illa g warratn g dar ṛbbi 
+13 Ha nn ɣik ann illa g warratn g dar Ṛbbi 
 14 Ɣik lli attuyn ɣusn
 15 Ttyaran s ifassn n inirn
 16 Ganin imsgdn isnammarn
-17 Ad irgm ṛbbi afgan, matta ɣik ann d inbl? 
-18 Maxx ma g t iskr ṛbbi? 
+17 Ad irgm Ṛbbi afgan, matta ɣik ann d inbl? 
+18 Maxx ma g t iskr Ṛbbi? 
 19 Ha nn iskr t g ubrɣuy yara tudrt nns
 2 yaywa issanun as tussna n tudrt nns
 21 Ɣik lli t tnɣa imḍl t, ur t yujji zun d taywalin
 22 Akud nna ira issfaɣ d id g usmḍl nns
-23 Aṭṛs urta ak iskir mas as inna ṛbbi nns? 
+23 Aṭṛs urta ak iskir mas as inna Ṛbbi nns? 
 24 Ha nn illa f ufgan ad iswingm g umtcu nns? 
-25 Inna ṛbbi: ha nn nqqid aman g yidil s gan anẓaṛ
+25 Inna Ṛbbi: ha nn nqqid aman g yidil s gan anẓaṛ
 26 Naywa nsfrssi akal iga tistɣin s tuga
 27 Naywa nsmɣi d gis imndi, zun d irdn, d tmẓin
 28 D waḍil i ufgan, d usaɣur i taywalin
@@ -688,7 +688,7 @@ S yism n ṛbbi amallay amsmullu
 35 D innas,  d babas
 36 D tmɣart nns d tarwa nns
 37 G wass ann, kraygat yan akud ann yiwi tt a ɣar g ixf nns
-38 Inna ṛbbi g wass ann: llan g inn udmawn sufunin
+38 Inna Ṛbbi g wass ann: llan g inn udmawn sufunin
 39 Sul ar tḍṣan ar sddutn, acku llan g turtit
 4 ɣik ann d udmawn yaḍnin akud ann idl tn ugḍṛuṛ
 41 Tḥba tn tsugni
@@ -696,8 +696,8 @@ S yism n ṛbbi amallay amsmullu
 
 81
 [Amuttl]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: iɣ tmmuttl tafukt, tns tifawt nns?
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: iɣ tmmuttl tafukt, tns tifawt nns?
 2 D iɣ lluzzan itran
 3 D iɣ akufn idrarn ɣ udɣar nnsn
 4 D tramin iɣ ttunnxalnt, waxxa lant atig? 
@@ -709,56 +709,56 @@ S yism n ṛbbi amallay amsmullu
 1 d iɣ ttufsamn warratn, n kra iskr ufgan
 11 D iɣ immatti ignna ɣ udɣar nns? 
 12 D iɣ tfdaddi tmẓla n urwass
-13 D iɣ d taẓ turtit n ṛbbi s dar inaflasn
+13 D iɣ d taẓ turtit n Ṛbbi s dar inaflasn
 14 Akud ann kraygat yan issn mad iskr ɣ tudrt nns? 
-15 Inna ṛbbi: ad ggalɣ s itran iɣ iwrrin
+15 Inna Ṛbbi: ad ggalɣ s itran iɣ iwrrin
 16 Lli igan itran iɣ ntln
 17 D yiḍ iɣ d izzugaz s tillas nns nɣ iwrri
 18 D taylgi iɣ tfaw
 19 Amki iga **lqʷṛan** bla tinnit n umazan iṛwan, ad t igan d **jibril**
-2 iga amadwas iṛwan ɣ dar ṛbbi
-21 Ittusgad ɣ dar ṛbbi: ɣik lli ijjnjum kra d yiwi
-22 Amki iga umddakkʷl nnun amṣuḍ, zɛma **muḥammad**: {taẓallit n ṛbbi fllas}
+2 iga amadwas iṛwan ɣ dar Ṛbbi
+21 Ittusgad ɣ dar Ṛbbi: ɣik lli ijjnjum kra d yiwi
+22 Amki iga umddakkʷl nnun amṣuḍ, zɛma **muḥammad**: {taẓallit n Ṛbbi fllas}
 23 Tagallit ar iẓṛṛa umazan **jibril** ɣ uflla ifawn
-24 Ha nn **muḥammad** {taẓallit n ṛbbi fllas} ur ay issntal amya ɣ **lqʷṛan**
+24 Ha nn **muḥammad** {taẓallit n Ṛbbi fllas} ur ay issntal amya ɣ **lqʷṛan**
 25 Ɣik lli ur igi **lqʷṛan** ttinnit n iblis itturgamn
 26 Awa, mani s rad anfn iswingimn nnsn fln **lqʷṛan**? 
 27 Ha nn ntta ur igi bla assukti i kra illan
-28 Ɣik ann d wanna gigun iran ad imun d uɣaras n ṛbbi
-29 Ha nn ur rad tirim kra, bla iɣ ira ṛbbi, lli igan ṛbbi n kra illan
+28 Ɣik ann d wanna gigun iran ad imun d uɣaras n Ṛbbi
+29 Ha nn ur rad tirim kra, bla iɣ ira Ṛbbi, lli igan Ṛbbi n kra illan
 
 82
 [Afruri]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: iɣ iqrssi ignna
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: iɣ iqrssi ignna
 2 D iɣ lluzzan itran
 3 D iɣ mmrksn igrwaln
 4 D iɣ ttuɣazn ismḍal
 5 Kud ann kraygat iman, issn mad izzwar, ula mad issuggra
-6 Inna ṛbbi: wa afgan: ma k iskndn xf ṛbbi nnk lli ak yakkan kra trit
+6 Inna Ṛbbi: wa afgan: ma k iskndn xf Ṛbbi nnk lli ak yakkan kra trit
 7 Ɣwa lli k iskrn isgiddi k s usqul, isfalki anaw nnk
 8 Ɣik lli k issrwas d wanaw nna ira? 
 9 Maxx aylliɣ tnnam ur illi wass n ussḥsu? 
 1 ha nn ar fllawn ttaran inirn lli kn ḍufnin
 11 Gan izrkkatn ar ttaran, inna umazan: tahallayat ɣ inirn ad, s mad ifulkin
 12 Ha nn ar ttssn kra tskrm
-13 Inna ṛbbi: ha nn ɣwi lli rwanin llan ɣ tnafut
+13 Inna Ṛbbi: ha nn ɣwi lli rwanin llan ɣ tnafut
 14 Ɣik lli llan ɣwi lli nblnin ɣ uẓiẓn
 15 Ar gis kkmḍn ɣ wass n ussḥsu
 16 Ha nn nttni ur sar rad d gis ffuɣn
 17 Hiyya mtadd is tssnt mad igan ass n ussḥsu: zɛma taɣrɣart!? 
 18 Hiyya mtadd is tssnt daɣ mad igan ass n ussḥsu acku gis tammara!? 
-19 Ad t igan, d wass lli ɣ ur issugir mqqar d yan, ayma i wayyaḍ, acku awal ɣ wass ann iga win ṛbbi
+19 Ad t igan, d wass lli ɣ ur issugir mqqar d yan, ayma i wayyaḍ, acku awal ɣ wass ann iga win Ṛbbi
 
 83
 [Imssfnaẓ]
-S yism n ṛbbi amallay amsmullu
-1 Anna iluḥ ṛbbi imssnaẓ ɣ urwass
+S yism n Ṛbbi amallay amsmullu
+1 Anna iluḥ Ṛbbi imssnaẓ ɣ urwass
 2 Ɣwilli ssigutnin taɛbbart nnɣ ṛḍln ɣ dar middn
 3 Macc nttni asn ṛḍln nɣ asn stln ar asn tkkisn
 4 Maxx isr ssinn ɣwinn is rad d sul nkrn ɣ usmḍl nnsn? 
 5 Ɣ yan wass imqqurn
-6 Ad t igan d wass lli ɣ rad biddn mddn gr ifassn n ṛbbi n kra illan
+6 Ad t igan d wass lli ɣ rad biddn mddn gr ifassn n Ṛbbi n kra illan
 7 Ɛad, ha nn adlis n infraɣ illa ɣ tkrẓi
 8 Hiyya mtadd is tssnt manik tga tkrẓi ann
 9 Iga t udlis ittyaran
@@ -767,123 +767,123 @@ S yism n ṛbbi amallay amsmullu
 12 Ha nn ur ad t isskirkks bla wanna igan anẓḍam anabkaḍ
 13 Iɣ fllas ttuɣran ad aylan nnɣ, zɛma **lqʷṛan** inna ɣayad iga umin n imzwura
 14 Maxx? Aṭrs*(aṭṛṣ) idl ɣaylli s tt inn kkan ar t skarn, ulawn nnsn? 
-15 Ɛad? Ha nn iga untal grasn d ṛbbi nns akud ann
+15 Ɛad? Ha nn iga untal grasn d Ṛbbi nns akud ann
 16 A wa, ha nn rad kkmḍn s tmẓla ɣ urwass
 17 Sul ittunna asn: ha nn ɣwad, a s tt inn tkkam tskrm gis tikrkas? 
-18 Ɛad, ha nn adlis n ɣwilli rwanin isattuy t ṛbbi
+18 Ɛad, ha nn adlis n ɣwilli rwanin isattuy t Ṛbbi
 19 Hiyya mtadd is tssnt manik tga tsattuyt ann!? 
 2 ad tt igan d udlis ittyaran
 21 Inagan nns gan tn ɣwilli aẓnin ɣ inirn
 22 Ha nn ɣwilli rwanin llan ɣ tnafut, zɛma turtit
-23 Gunin xf isuma, aywan ad ttmnadn mad asn ifka ṛbbi
+23 Gunin xf isuma, aywan ad ttmnadn mad asn ifka Ṛbbi
 24 Iɣ ad gisn ttmnadt ar tẓṛṛat ɣ udmawn nns tamatart n tnafut d ufulki nns
 25 Ar ssan inẓiṛn isqaqn iḥḍan ɣ ufcku nns
-26 Asagur nnsn iga tujjut, zun d ɣik ann ad igan ma xf ad ttmḥikirn ayt ṛbbi
+26 Asagur nnsn iga tujjut, zun d ɣik ann ad igan ma xf ad ttmḥikirn ayt Ṛbbi
 27 Asrks n unẓiṛ ann ɣ **tasnim** zɛma wad istin bahra
 28 Ad t igan d uɣbalu lli ɣ ad ssan ɣwilli t aẓnin
-29 Inna ṛbbi: ha nn ɣwalli ganin iknnafn, zun d **abu jahl** kkan tt inn ar tḍṣṣan ɣ ɣwilli flsnin, zun d **bilal** {ad fllas iṛḍu ṛbbi}
+29 Inna Ṛbbi: ha nn ɣwalli ganin iknnafn, zun d **abu jahl** kkan tt inn ar tḍṣṣan ɣ ɣwilli flsnin, zun d **bilal** {ad fllas iṛḍu Ṛbbi}
 3 kkan tt inn iɣ fllasn zrin, ar gisn tḍṣṣan, ar sbnqacn tiṭṭ? 
 31 Iɣ iwrrin s dar ayt darsn, aywan fjjijn s mad skrn
-32 Iɣ tn ẓṛan, nnan: ha nn ɣwid gan imuḍḍaṛ, lliɣ ḍfaṛn **muḥammad**{taẓallit n ṛbbi fllas}
-33 Inna ṛbbi: ha nn ur d ttuzanniknnafn ad, gan imḥḍan xf inaflasn? Maxx aylliɣ tn ḍufn? 
-34 Inna ṛbbi: ha nn ɣwilli flsnin ɣ wass ad, zɛma ass n tɣrɣart ar tḍṣṣan ɣ ɣwilli nblnin
+32 Iɣ tn ẓṛan, nnan: ha nn ɣwid gan imuḍḍaṛ, lliɣ ḍfaṛn **muḥammad**{taẓallit n Ṛbbi fllas}
+33 Inna Ṛbbi: ha nn ur d ttuzanniknnafn ad, gan imḥḍan xf inaflasn? Maxx aylliɣ tn ḍufn? 
+34 Inna Ṛbbi: ha nn ɣwilli flsnin ɣ wass ad, zɛma ass n tɣrɣart ar tḍṣṣan ɣ ɣwilli nblnin
 35 Sul skkusn xf isuma ɣ turtit ar ttmnadn imnabaln llan ɣ tmmara
 36 Awa, is umẓn imnabaln atig n ɣaylli s tt inn kkan ar t skarn? Nɣ d uhu? Ɛad ha nn ttyamaẓn
 
 84
 [Tastɣi]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: iɣ istɣ ignna?
-2 Yaywa isgd i ṛbbi nns s ɣiklli fllas illan ɣ wass n tɣrɣart, ɣ wass ann a rad yaf ufgan kra iskr ɣ tudrt
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: iɣ istɣ ignna?
+2 Yaywa isgd i Ṛbbi nns s ɣiklli fllas illan ɣ wass n tɣrɣart, ɣ wass ann a rad yaf ufgan kra iskr ɣ tudrt
 3 D iɣ ifsr wakal igadda, ur sul gis arudan ula adrar?
 4 Yaywa igr (iluḥ) d kra gis imḍln ifl t ɣ iggi nns
-5 Yaywa isgd i ṛbbi nns s ɣiklli fllas illan ɣ wass n tɣrɣart, ɣ wass ann a rad yaf ufgan kra iskr ɣ tudrt
-6 Inna ṛbbi: wa afgan hann, ar tskart kra n twuri? Hann nttat a s rad tnmiqqirt d ṛbbi nnk, mknna tga?
-7 Inna ṛbbi: hann wanna mu ittufka udlis nns ɣ ufasi nns 
+5 Yaywa isgd i Ṛbbi nns s ɣiklli fllas illan ɣ wass n tɣrɣart, ɣ wass ann a rad yaf ufgan kra iskr ɣ tudrt
+6 Inna Ṛbbi: wa afgan hann, ar tskart kra n twuri? Hann nttat a s rad tnmiqqirt d Ṛbbi nnk, mknna tga?
+7 Inna Ṛbbi: hann wanna mu ittufka udlis nns ɣ ufasi nns 
 8 Hann rad ittusqsi kra n usqsi ifssusn
 9 Yaywa yurri s ayt dars ɣ turtit iga iga wad irwan
 1 amma ɣwalli mu ittufka udlis nns, ɣ ḍaṛat n tadawt nns, ad t igan d umnabal
 11 Hann rad iqqi taɣuyyit, ar ittini: wakk wakk rfufnɣ
 12 Sul ikcm s tmẓla ar gis ikkmḍ
 13 Acku ikka tt inn ifjjij ɣ gr ayt dars, ur nn itam?
-14 Hann iɣal is ur sar rad d yurri s dar ṛbbi nns?
-15 Awa, ɛad, acku ṛbbi nns, issn is rad dars yurri
-16 Inna ṛbbi: ad ggalɣ s tmdllst, zɛma taẓuɣi n tafukt iɣ rad tntl
+14 Hann iɣal is ur sar rad d yurri s dar Ṛbbi nns?
+15 Awa, ɛad, acku Ṛbbi nns, issn is rad dars yurri
+16 Inna Ṛbbi: ad ggalɣ s tmdllst, zɛma taẓuɣi n tafukt iɣ rad tntl
 17 D yiḍ d kra ismun
 18 D wayyur iɣ iga tiziri
 19 Ad sar tzrim ɣ tmmara, yat trwas tayyaḍ, ɣ tɣrɣart
-2 maxx aylliɣ ur flsn s ṛbbi? Mad tn igraɛn?
-21 Maxx iɣ fllasn ittuɣra **lqʷṛan** ur ad ttiwrrayt s uɣaras n ṛbbi? Aywan flsn srs?
+2 maxx aylliɣ ur flsn s Ṛbbi? Mad tn igraɛn?
+21 Maxx iɣ fllasn ittuɣra **lqʷṛan** ur ad ttiwrrayt s uɣaras n Ṛbbi? Aywan flsn srs?
 22 Ha nn ɣwilli inblnin nnan tudrt ḍaṛat n usmḍl tikrkas
-23 Hann ṛbbi iga amassan s kra ḥḍan ɣ ulawn nnsn
+23 Hann Ṛbbi iga amassan s kra ḥḍan ɣ ulawn nnsn
 24 Awa, sddut tn s tmmara tamagzaẓt
 25 Macc ɣwilli flsnin aywan skrn mad ifulkin, hann ɣwinn llant asn, tɣrad, ur sar ttubaynt
 
 85
 [Itran]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: ad ggalɣ s ignna lli ɣ llan itran
-2 D wass lli s yusy ṛbbi, nnan iga t wass n tɣrɣart?
-3 D wass inigi, nnan iga t wass n uṣiḍyaṣ (**ljamɛ**) d wass lli f gan inagan, nnan iga t wass n **ɛaṛafa** macc ṛbbi ka ad issnn
-4 Inna ṛbbi: ggulliɣ ar tturgamn ayt usaru
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: ad ggalɣ s ignna lli ɣ llan itran
+2 D wass lli s yusy Ṛbbi, nnan iga t wass n tɣrɣart?
+3 D wass inigi, nnan iga t wass n uṣiḍyaṣ (**ljamɛ**) d wass lli f gan inagan, nnan iga t wass n **ɛaṛafa** macc Ṛbbi ka ad issnn
+4 Inna Ṛbbi: ggulliɣ ar tturgamn ayt usaru
 5 Ad t igan d lafiyt (lɛfit) lli gis irɣan
 6 Aywan skkusn ɣ tma (tama) nns ar t tettmnadn
 7 Sul gin inagan f mad skarn i inaflasn
-8 Ha nn yr tn mrrtn bla f illiɣ flsn s ṛbbi lli igan anddabu amttugaḍay
-9 Lli mu tga tgldit n ignwan d wakal tinns, hann ṛbbi iga amannay n kra illan
-1 bann ɣwilli srfufunnin inaflasn, d tnaflasin, ɣaman ur d iwrrin s uɣaras n ṛbbi, ha nn tlla asn tmmara n tmẓla, ɣiklli asn tlla tmmara n ukmmuḍ
+8 Ha nn yr tn mrrtn bla f illiɣ flsn s Ṛbbi lli igan anddabu amttugaḍay
+9 Lli mu tga tgldit n ignwan d wakal tinns, hann Ṛbbi iga amannay n kra illan
+1 bann ɣwilli srfufunnin inaflasn, d tnaflasin, ɣaman ur d iwrrin s uɣaras n Ṛbbi, ha nn tlla asn tmmara n tmẓla, ɣiklli asn tlla tmmara n ukmmuḍ
 11 Amma ɣwilli flsnin aywan skrn mad ifulkin, hann llant asn turtitin lli mu ngin isaffn ɣ ddawat nnsnt, ɣikann ad igan amrkid anmɣur
-12 Hann tayti n ṛbbi nnk tga tassast f imnabaln
+12 Hann tayti n Ṛbbi nnk tga tassast f imnabaln
 13 Hann ntta ar iskar afgan inɣi t, yaywa issudr t id
 14 Ntta ad igan amssaruf amiri
 15 Dars yulɣn
 16 Ar iskar kra ira
-17 Ntta ṛbbi: is k id yucka unɣmis n izmmaln?
+17 Ntta Ṛbbi: is k id yucka unɣmis n izmmaln?
 18 Ad t igan d **firɛawn** d **tamud** lli nsrfufn
 19 Nɣ d ɣwilli nblnin llan ɣ turda?
-2 awa, hann ṛbbi issutl asn d ɣ kraygat tasga
+2 awa, hann Ṛbbi issutl asn d ɣ kraygat tasga
 21 Hann tabrat ad tga **lqʷṛan** issusmn
-22 Ittyara ɣ dar ṛbbi s ɣmklli d dis yuckan?
+22 Ittyara ɣ dar Ṛbbi s ɣmklli d dis yuckan?
 
 86
 [Itri]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi ad ggalɣ s ignna, d itri lli d yaqqlayn ɣ yiḍ
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi ad ggalɣ s ignna, d itri lli d yaqqlayn ɣ yiḍ
 2 Hiyya mtad is tssnt mad igan itri ann?
 3 Ad t igan d itri acmarray
 4 A kra illan ar fllas illa wanḍaf, ar ittara mad iskr?
 5 Awa, ad iswingm ufgan ɣ ma ɣ ittuskar?
 6 Hann ittuskar ɣ waman nɣlnin?
 7 Ar d tffaɣn ɣ gr iẓḍi n tadawt d tisggiwin
-8 Hann ṛbbi iẓḍaṛ ad t issudr iɣ yad immut
+8 Hann Ṛbbi iẓḍaṛ ad t issudr iɣ yad immut
 9 Ɣ wass lli ɣ rad d yaggʷ kra intln
 1 ɣ wass ann ur tlli kra n tdusi ɣ dar ufgan, ula kra n umnnil, mad fllas ittrarn tammara
-11 Inna ṛbbi: ad ggalɣ s idil lliɣ illa unẓaṛ
+11 Inna Ṛbbi: ad ggalɣ s idil lliɣ illa unẓaṛ
 12 D wakal lli issmɣayn tuga ɣ istɣan nns
 13 Ar iga **lqʷṛan** ad wad irwan, acku ar yaṭṭa gr inzgi d ubnnal
 14 Hann ur igi taclawcit ula taḍṣa
 15 Hann nttni ar skndawn takndawt nnsn i umazan
-16 Inna ṛbbi: ɣikann d nkkni, hann ar skndawɣ takndawt inu ur ad as frkn, ar diɣ ttyamaẓn
-17 Inna ṛbbi i umazan nns: awa, sawlu i imnabaln, tajjt tn yan imikk?
+16 Inna Ṛbbi: ɣikann d nkkni, hann ar skndawɣ takndawt inu ur ad as frkn, ar diɣ ttyamaẓn
+17 Inna Ṛbbi i umazan nns: awa, sawlu i imnabaln, tajjt tn yan imikk?
 
 87
 [Tattuyt]
-S yism n ṛbbi amallay amsmullu
-1 Aywa mmuy i ism n ṛbbi nnk amattuy
+S yism n Ṛbbi amallay amsmullu
+1 Aywa mmuy i ism n Ṛbbi nnk amattuy
 2 Ɣwalli iskrn kra illan yaywa isgadda t
 3 D ɣwalli iskrn ismgan nns, yaywa iswatts kra iga t yan i ma mu iga
 4 D ɣwalli d issmɣin tuga, g kra iga t anaw
 5 Yaywa iskr gis takawt irkmn iqqurn
-6 Ntta ṛbbi: ha nn rad ak nssɣr **lquran** a **muḥammad** {taẓallit n ṛbbi fllas} ur ad t tettut
-7 Bla aynna gis ira ṛbbi, ad ak t istu*, ha nn ntta issn mad d yuggan*, ula mad iḥḍan, iɣ tullt imi nnk ula iɣ as tudrt ɣ tɣri
+6 Ntta Ṛbbi: ha nn rad ak nssɣr **lquran** a **muḥammad** {taẓallit n Ṛbbi fllas} ur ad t tettut
+7 Bla aynna gis ira Ṛbbi, ad ak t istu*, ha nn ntta issn mad d yuggan*, ula mad iḥḍan, iɣ tullt imi nnk ula iɣ as tudrt ɣ tɣri
 8 Ha nn rad k nsmun d ubrid ifawn, ad t igan d **islam**
 9 Awa, aywa sskti i middn, iɣ asn irwa usskti?
-1 ha nn rad gis iswingm wanna ikṣuḍn ṛbbi
+1 ha nn rad gis iswingm wanna ikṣuḍn Ṛbbi
 11 Macc rad as yanf wanna igan wacc
 12 Ɣwalli rad ikkmḍ s tmẓla tafdaddayt
 13 Sul ira ad gis ixsi, ula rad isul
-14 Ha nn injm yad wanna issɣusn ixf nns gr as d ṛbbi iɣ ifls
-15 Yaywa ibdr ism n ṛbbi nns ar ittẓẓalla smmust tiẓilla
+14 Ha nn injm yad wanna issɣusn ixf nns gr as d Ṛbbi iɣ ifls
+15 Yaywa ibdr ism n Ṛbbi nns ar ittẓẓalla smmust tiẓilla
 16 Nɣ d ar tssufm tudrt n **ddunit** xf tmggarut?
 17 Awa, ha nn tamggarut tuf awn, sul tɣama bdda
 18 Ha nn ɣik ad illa ɣ warratn imzwura
@@ -891,7 +891,7 @@ S yism n ṛbbi amallay amsmullu
 
 88
 [Taduli]
-S yism n ṛbbi amallay amsmullu
+S yism n Ṛbbi amallay amsmullu
 1 Is k id yucka inɣmis n tduli? Zɛma taɣrɣart
 2 Udmawn n middn akud ann nnugrn,  acku kra skrn yuḍḍṛ
 3 Acku kigan ad skrn sul mrrtn g wass n tɣrɣart
@@ -899,88 +899,88 @@ S yism n ṛbbi amallay amsmullu
 5 Ar ssan g uɣbalu n uẓiẓn
 6 Ur asn illi umtcu bla g umudrus
 7 Ur ad isijji ula ar ittkks laẓ
-8 Inna ṛbbi: macc ha nn udmawn yaḍnin g wass n tɣrɣart fulkin fjjijn
+8 Inna Ṛbbi: macc ha nn udmawn yaḍnin g wass n tɣrɣart fulkin fjjijn
 9 Acku issusm tn ɣaylli skrn, g tudrt
-1 ntta ṛbbi: ha nn ɣwi nn llan g turtit yattuyn
+1 ntta Ṛbbi: ha nn ɣwi nn llan g turtit yattuyn
 11 Ur ad gis ssfladn i uzrdig
 12 Illa gis uɣbalu ingin
 13 Llant gis tissiwin attuynin
 14 D izukan ttrsnin i wanna iran ad isu
 15 D isumutn drsnin
 16 D iḥnbln fsrnin
-17 Ntta ṛbbi: maxx is ur ad ttmnadn iṛaman manik s ttuskarn?
+17 Ntta Ṛbbi: maxx is ur ad ttmnadn iṛaman manik s ttuskarn?
 18 D ignna manik s yattuy?
 19 D idrarn manik s biddn?
 2 d wakal manik s ittufsar?
-21 Ntta ṛbbi i umazan nns: aywa, sskʷti i middn, mad ak d ittuzann,  ha nn ad akkʷ tgid kyyin d umssukti
+21 Ntta Ṛbbi i umazan nns: aywa, sskʷti i middn, mad ak d ittuzann,  ha nn ad akkʷ tgid kyyin d umssukti
 22 Ha nn ur fllasn tgid amakṛaḍ, ula bzzizz
 23 Macc wanna iwrrin inbl, ifl lislam
-24 Ha nn rad t imrrd ṛbbi tammara iggutn
-25 Inna ṛbbi: ha nn rad urrin s darnɣ
+24 Ha nn rad t imrrd Ṛbbi tammara iggutn
+25 Inna Ṛbbi: ha nn rad urrin s darnɣ
 26 Ha nn iqqan d ad tn nssḥsu, kra iga t yan d mad iskr? 
 
 89
 [Taylgi]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: ad ggalɣ s tiylgit? Illa mad innan: ass n tfaska
-2 D mraw n waḍann lli isimɣur ṛbbi
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: ad ggalɣ s tiylgit? Illa mad innan: ass n tfaska
+2 D mraw n waḍann lli isimɣur Ṛbbi
 3 D tawngin d qayc: illa mad innan: ass n ɛaṛafa d yiḍ n wass n tfaska?
 4 D yiḍ iɣ aad izray? Nɣ d iɣ d yucka?
-5 Inna ṛbbi: awa, is iga ɣik ann tagallit g dar ayt unlli?
-6 Is ur tssind mad iskr ṛbbi nnk i ɛad?
+5 Inna Ṛbbi: awa, is iga ɣik ann tagallit g dar ayt unlli?
+6 Is ur tssind mad iskr Ṛbbi nnk i ɛad?
 7 Ad t igan d iram bu ibrgmmitn? Nɣ d ixamn?
 8 Ɣwilli mu ur ittuskar wanaw nnsn ɣ tmazirt akud ann?
 9 D **tamud** lli bbinin asulil g wasif
 1 d **firɛawn** bu tgusin, nɣ d iwrirn: **lahṛam**
 11 Ɣwlli ẓḍmnin g tmazirt
 12 Aywan ssugtn gis aɣazad
-13 Yaywa ṛbbi nnk yut tn s uzfl d tmmara
-14 Ha nn ṛbbi nnk imdi asn? Rad tn imrrt
-15 Ha nn afgan iɣ t yurm ṛbbi nns, yaywa issimɣur t, isnnufu t, akud ann ar ittini: isnnufa iyi ṛbbi inu
-16 Amma iɣ t yurm, yaywa issikṛiẓ  fllas tikki nns, akud ann ar ittini: isnugr iyi ṛbbi inu
+13 Yaywa Ṛbbi nnk yut tn s uzfl d tmmara
+14 Ha nn Ṛbbi nnk imdi asn? Rad tn imrrt
+15 Ha nn afgan iɣ t yurm Ṛbbi nns, yaywa issimɣur t, isnnufu t, akud ann ar ittini: isnnufa iyi Ṛbbi inu
+16 Amma iɣ t yurm, yaywa issikṛiẓ  fllas tikki nns, akud ann ar ittini: isnugr iyi Ṛbbi inu
 17 Awa, ha nn uhu, ha nn is ur ad takkam tikki i igigil
 18 D ur ad tssurrsm xf tikki n umẓluḍ
 19 Ɣik lli tccttam tikisit mk nna tga
 2 d ar ttirim ayda s yat tayri iggutn
 21 Waxxa, ha nn iɣ imdudi wakal yaywa imzi bahra
-22 S d tucka trnnawt n ṛbbi nnk, gin inirn ddrst yat g tama n tayyaḍ, fad ad ibḍu gr middn
+22 S d tucka trnnawt n Ṛbbi nnk, gin inirn ddrst yat g tama n tayyaḍ, fad ad ibḍu gr middn
 23 S d tngi lafiyt n urwass, ɣ ass ann: akud ann ar ad iswingim ufgan, macc mad as issugr uswingm?
 24 Yayw ar ittini: ma tad is ka zzwarɣ i tudrt inu mad ifulkin?
-25 Inna ṛbbi: akud ann ur rad t imrrd mqqar d yan, zun d ɣik lli rad t mrrtɣ njki
+25 Inna Ṛbbi: akud ann ur rad t imrrd mqqar d yan, zun d ɣik lli rad t mrrtɣ njki
 26 Ɣik lli ur rad t ikrf mqqar d yan, zun d ɣik lli rad t krfɣ nkki?
-27 Amma ayt ṛbbi: ha nn ar asn nttini: wa iman ganin imnnirn sn
-28 Tsfulkid gr am d ṛbbi, ad km issfulki ṛbbi
+27 Amma ayt Ṛbbi: ha nn ar asn nttini: wa iman ganin imnnirn sn
+28 Tsfulkid gr am d Ṛbbi, ad km issfulki Ṛbbi
 29 S as ittunna: aywa, kcm gr ismgan inu
 3 zdɣ g turtit inu 
 
 90
 [Tamazirt]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: ad ggalɣ s tmazirt ad, zɛma **makka**
-2 Sul kyyin izzri ak ṛbbi kra tskard g tmazirt ad, zɛma **makka**
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: ad ggalɣ s tmazirt ad, zɛma **makka**
+2 Sul kyyin izzri ak Ṛbbi kra tskard g tmazirt ad, zɛma **makka**
 3 D umaraw, d kra yuru, illa mad innan **adam** d tarwa nns?
 4 Tagallit ar yad nskr afgan g tmmara, acku immaɣ dis g tmzwarut ula tamggarut,
-5 Is d is iɣal, ur sar rad as iẓḍiṛ mqqar d yan? Ha nn ṛbbi iẓḍaṛ as
+5 Is d is iɣal, ur sar rad as iẓḍiṛ mqqar d yan? Ha nn Ṛbbi iẓḍaṛ as
 6 Yaywa ar ittini: srfufn aɣ kigan d wayada
-7 Is iɣal is t ur iẓṛi yan? Ula mad as iskr? Ha nn ṛbbi iẓṛa t, issn mad iṭṭaf ula mad as iskr
-8 Inna ṛbbi: maxx is as ur nskir snat walln, ar srsnt ittmnad?
+7 Is iɣal is t ur iẓṛi yan? Ula mad as iskr? Ha nn Ṛbbi iẓṛa t, issn mad iṭṭaf ula mad as iskr
+8 Inna Ṛbbi: maxx is as ur nskir snat walln, ar srsnt ittmnad?
 9 D ils ar srs isawl? D sin wanfurn mad isfalkayn udm nns?
 1 ɣik lli as nmla sin iɣarasn: aɣaras n ufulki, d uɣaras n uẓuḍ,
-11 Inna ṛbbi: ha nn mtadd is ka imun d uɣaras lli rad t ijjnjm? G tmmara n usawn ann?
+11 Inna Ṛbbi: ha nn mtadd is ka imun d uɣaras lli rad t ijjnjm? G tmmara n usawn ann?
 12 Hyya mtadd is tssnd manik iga usawn?
-13 Inna ṛbbi: azray n usawn ann iga t, ad tsdfid yan ismg, nɣ tawayya
+13 Inna Ṛbbi: azray n usawn ann iga t, ad tsdfid yan ismg, nɣ tawayya
 14 Nɣ tfkid tirmd g yan wass illuẓn
 15 I yan igigil lli igan g tuwja nnk
 16 Nɣ amẓluḍ igan ajɛniḍ
 17 Sul iga g ɣwilli flsnin aywan giddin xf uẓẓiḍṛ, ɣik lli gaddan xf tmllawt
-18 Inna ṛbbi: ha nn ɣwilli g llant timitar ad, ɣwi nn ad igan ayt iqus
+18 Inna Ṛbbi: ha nn ɣwilli g llant timitar ad, ɣwi nn ad igan ayt iqus
 19 Amma ɣwilli nblnin aywan sskirkksn aylan nnɣ, ha nn ɣwinn ad igan ayt iẓẓlmḍ, zɛma ayt urwass
 2 ha nn turgaln g ugns n lafiyt
 
 91
 [Tafukt]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi ad ggalɣ s tafukt d uznẓaṛ nns
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi ad ggalɣ s tafukt d uznẓaṛ nns
 2 D wayyur iɣ t id iṭṭfaṛ
 3 D wass iɣ t id issugga
 4 D yiḍ iɣ t idl
@@ -988,153 +988,153 @@ S yism n ṛbbi amallay amsmullu
 6 D wakal, d ma tt ifsmn
 7 D iman, d ma tt isastwan
 8 Iml as aɣaras ifrɣn d wad yuɣdn
-9 Ar ijjnjm ṛbbi wad isɣusn ixf nns
+9 Ar ijjnjm Ṛbbi wad isɣusn ixf nns
 1 ɣik lli issukl ɣwalli t inxxln
 11 Ha nn tsskir gis **tamud** amazan nnsn, s uẓḍam nnsn
 12 Illiɣ ayttazzal wacc nnsn, iskr ɣaylli xf d msacka?
-13 Inna asn umazan n ṛbbi: ad t igan d **ṣalḥ** ha nn ad ur tslim taṛamt n ṛbbi d tissi nns g wass nns?
-14 Macc sskirkksn t, aywṛn nɣin taṛamt, ɣik ann a xf tn isrfufnṛbbi nnsn s ubkkaḍ nnsn, yaywa isgun fllasn tammara, ur gisn injm mqqar d yan
-15 Acku ṛbbi ur ikṣuḍ, ma rad d iggru i ɣik ann? Nɣ d ɣwa lli inɣan taṛamt, ur nn itam ma rad iggru? 
+13 Inna asn umazan n Ṛbbi: ad t igan d **ṣalḥ** ha nn ad ur tslim taṛamt n Ṛbbi d tissi nns g wass nns?
+14 Macc sskirkksn t, aywṛn nɣin taṛamt, ɣik ann a xf tn isrfufnṚbbi nnsn s ubkkaḍ nnsn, yaywa isgun fllasn tammara, ur gisn injm mqqar d yan
+15 Acku Ṛbbi ur ikṣuḍ, ma rad d iggru i ɣik ann? Nɣ d ɣwa lli inɣan taṛamt, ur nn itam ma rad iggru? 
 
 92
 [Iḍ]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi ad ggalɣ s yiḍ iɣ idl kra illan
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi ad ggalɣ s yiḍ iɣ idl kra illan
 2 D wass iɣ d yugga s tifawt nns
 3 D ɣwalli iskrn awtm d tawtmt, zun d **adam** d **ḥawwa**
 4 A tawwuri nnun lli tskrm, ar tftts, gis mad ifulkin, ɣik lli gis mad ur ifulkin
-5 Ha nn wanna yakkan tin ṛbbi, yaywa ikṣuḍ ṛbbi
-6 Yaywa ifls s ṛbbi, issn is tlla turtit n ṛbbi
+5 Ha nn wanna yakkan tin Ṛbbi, yaywa ikṣuḍ Ṛbbi
+6 Yaywa ifls s Ṛbbi, issn is tlla turtit n Ṛbbi
 7 Ɣwann rad t nsmun d uɣaras ifulkin
-8 Amma ɣwalli t yussn iɣal is ur ilkim xf ṛbbi?
-9 Yaywa isskirkkis tawrrayt s dar ṛbbi
+8 Amma ɣwalli t yussn iɣal is ur ilkim xf Ṛbbi?
+9 Yaywa isskirkkis tawrrayt s dar Ṛbbi
 1 ha nn rad t nssiki aɣaras n tassast
 11 Ha nn ur ad fllas yasi wayada nns amya iɣ irfufun
 12 Ha nn asaɣul iga win nnɣ
-13 Ɣik lli tga tmggarut, ula tamzwarut tin ṛbbi
-14 Inna ṛbbi: ha nn ssiwdɣ kʷn s lafiyt ifdaddin
+13 Ɣik lli tga tmggarut, ula tamzwarut tin Ṛbbi
+14 Inna Ṛbbi: ha nn ssiwdɣ kʷn s lafiyt ifdaddin
 15 Lafiyt ann ur ad srs ikkmḍ bla wacc
 16 Ɣwalli isskirkksn amazan yaywa inbl
-17 Ɣik lli rad as yanf ɣwalli ikṣuḍn ṛbbi
+17 Ɣik lli rad as yanf ɣwalli ikṣuḍn Ṛbbi
 18 Ɣwalli yakkan ayada nns xf ad isɣus ixf nns d wayada nns
 19 Sul ur iri kra n tnafut g dar yan s mad yakka
-2 bla udm n ṛbbi lli yattuyn
-21 Ha nn rad sul ilkm mad ira, g dar ṛbbi 
+2 bla udm n Ṛbbi lli yattuyn
+21 Ha nn rad sul ilkm mad ira, g dar Ṛbbi 
 
 93
 [Zikk n wass (tufat)]
-S yism n ṛbbi amallay amsmullu
+S yism n Ṛbbi amallay amsmullu
 1 Ad ggalɣ s zikk n uzal
 2 D yiḍ iɣ idl
-3 Amki k ifl ṛbbi nnk, a **muḥammad** {taẓallit n ṛbbi fllas} ula issikḍ k
+3 Amki k ifl Ṛbbi nnk, a **muḥammad** {taẓallit n Ṛbbi fllas} ula issikḍ k
 4 Ha nn tamggarut, tuf ak tamzwarut
-5 Ha nn rad ak ifk ṛbbi nnk ard iɣ tnnid igda
-6 Maxx is t inn ur tkkid tgid igigil? Yaywa ṛbbi iḍuf k? Izwir ak, sg mẓẓiy ar mqqur, aylliɣ tsslkmd tabrat
+5 Ha nn rad ak ifk Ṛbbi nnk ard iɣ tnnid igda
+6 Maxx is t inn ur tkkid tgid igigil? Yaywa Ṛbbi iḍuf k? Izwir ak, sg mẓẓiy ar mqqur, aylliɣ tsslkmd tabrat
 7 Ɣik lli tt inn tkkid tuḍḍṛd, ismun k d uɣaras
 8 Ɣik lli tgid amẓluḍ ifk ak mad ur ittsmadn
 9 Awa, ha nn ad ur trnud igigil
 1 ula tẓẓid d immtri, acku ur iṭṭaf ayada
-11 Amma tanafut n ṛbbi nnk, aywa sawl fllas ar t taddrad 
+11 Amma tanafut n Ṛbbi nnk, aywa sawl fllas ar t taddrad 
 
 94
 [Ammuzzu]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi i umazan nns: maxx is ak ur nsmmuzi admr nnk ur gis kra n tkrẓi? Nktur t s tmllawt
-2 Inna as ṛbbi: naywa nsitti fllak abkkaḍ nnk, zɛma ur sul fllak illi mqqar d amya, g mad izwarn, ula mad iggʷran
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi i umazan nns: maxx is ak ur nsmmuzi admr nnk ur gis kra n tkrẓi? Nktur t s tmllawt
+2 Inna as Ṛbbi: naywa nsitti fllak abkkaḍ nnk, zɛma ur sul fllak illi mqqar d amya, g mad izwarn, ula mad iggʷran
 3 Lli iẓẓayn xf tadawt nnk, zɛma  mad tusid
-4 Inna as ṛbbi: nsattuy ak abdar nnk, d watig nnk, kra g ttubdarɣ, ha nn ttubdard gis kyyin
-5 Inna ṛbbi: ha nn kra iga t tikṛẓi tlla dis tafsast, acku tafsast tga bdda xf tkṛẓi
-6 Ha nn tikṛẓi tlla dis tafsast ɣik lli s inna ṛbbi
-7 Inna ṛbbi: iɣ tfrid taẓallit nnk, nɣ d taɣawsa n ddunit aywa sṭṭufuṛ as, ma rad ak irwu grak d ṛbbi nnk
-8 Tsmun tn tayri nnk g ufus n ṛbbi nnk 
+4 Inna as Ṛbbi: nsattuy ak abdar nnk, d watig nnk, kra g ttubdarɣ, ha nn ttubdard gis kyyin
+5 Inna Ṛbbi: ha nn kra iga t tikṛẓi tlla dis tafsast, acku tafsast tga bdda xf tkṛẓi
+6 Ha nn tikṛẓi tlla dis tafsast ɣik lli s inna Ṛbbi
+7 Inna Ṛbbi: iɣ tfrid taẓallit nnk, nɣ d taɣawsa n ddunit aywa sṭṭufuṛ as, ma rad ak irwu grak d Ṛbbi nnk
+8 Tsmun tn tayri nnk g ufus n Ṛbbi nnk 
 
 95
 [Tazart]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbii ad ggalɣ s **ttin** d **zzaytun** illa mad innan: tazart d uzmmur lli cttan middn? Illa mad innan: idrarn g tmazirt n **lquds**? Zun d **ṭṭuṛ sinin** ad t igan d udrar lli g isawl ṛbbi s **musa** d tamazirt n **makka** zɛma iggul ṛbbi s tmizar lli g d yuzn imazann nns (macc ṛbbi ka ad issnn)
+S yism n Ṛbbi amallay amsmullu
+1 Inna ṛbii ad ggalɣ s **ttin** d **zzaytun** illa mad innan: tazart d uzmmur lli cttan middn? Illa mad innan: idrarn g tmazirt n **lquds**? Zun d **ṭṭuṛ sinin** ad t igan d udrar lli g isawl Ṛbbi s **musa** d tamazirt n **makka** zɛma iggul Ṛbbi s tmizar lli g d yuzn imazann nns (macc Ṛbbi ka ad issnn)
 2 D udrar n **sinin**
-3 D tmazirt ad: lli igdl ṛbbi g kra ittukṣaḍn: **makka** lli g d yuzn ṛbbi **muḥammad** {taẓallit n ṛbbi fllas}
-4 Inna ṛbbi: tagallit ar nskr afgan nsastw t bahra
+3 D tmazirt ad: lli igdl Ṛbbi g kra ittukṣaḍn: **makka** lli g d yuzn Ṛbbi **muḥammad** {taẓallit n Ṛbbi fllas}
+4 Inna Ṛbbi: tagallit ar nskr afgan nsastw t bahra
 5 Naywa nssiwrri t id s gar tigira, zɛma arwass. Illa mad innan ad yussr bahra
-6 Bla ɣwilli flsnin sskrn mad ifulkin. Ɣwi nn, llat* asn tɣrad ur tbbinin g dar ṛbbi
-7 Inna ṛbbi: wa afgan: ma kigan d umsskirkkis aylliɣ tɣald is ur rad yili ussḥsu g wass n tɣrɣart?
-8 Maxx is ur igi ṛbbi wad iẓḍaṛn ad issḥsu u usumu? 
+6 Bla ɣwilli flsnin sskrn mad ifulkin. Ɣwi nn, llat* asn tɣrad ur tbbinin g dar Ṛbbi
+7 Inna Ṛbbi: wa afgan: ma kigan d umsskirkkis aylliɣ tɣald is ur rad yili ussḥsu g wass n tɣrɣart?
+8 Maxx is ur igi Ṛbbi wad iẓḍaṛn ad issḥsu u usumu? 
 
 96
 [Tuwṭṭat]
-S yism n ṛbbi amallay amsmullu
-1 Inna jibril: i sidna* **muḥmmad** {taẓallit n ṛbbi fllas} aywa ɣr s yism n ṛbbi nnk, lli iskrn kra illan
+S yism n Ṛbbi amallay amsmullu
+1 Inna jibril: i sidna* **muḥmmad** {taẓallit n Ṛbbi fllas} aywa ɣr s yism n Ṛbbi nnk, lli iskrn kra illan
 2 Iskr afgan g tuwṭṭat n idammn
-3 Aywa ɣr, ɣik lli tɣrid tamzwarut, ha nn ṛbbi nnk yuf kra yakkan
+3 Aywa ɣr, ɣik lli tɣrid tamzwarut, ha nn Ṛbbi nnk yuf kra yakkan
 4 Ɣwalli immaln i ufgan s tirra n tazzit, nɣ d aɣnbub: **lqalam**?
 5 Imla i ufgan ɣaylli ur issin
 6 Ɛad, ha nn afgan ar izray awttu? Iɣal is idus?
-7 Iɣal ixf nns is izza xf ṛbbi nns, s mad iṭṭaf?
-8 Awa, ha nn tawrrayt nnk a afgan tra nn dar ṛbbi nnk?
+7 Iɣal ixf nns is izza xf Ṛbbi nns, s mad iṭṭaf?
+8 Awa, ha nn tawrrayt nnk a afgan tra nn dar Ṛbbi nnk?
 9 Awa, ini iyi: manik nn srk iga ɣwalli issugin mad ifulkin? Ad t igan, d **abu jahl**: anttay n umazan
-1 issugi i ismg n ṛbbi ad t igan d umazan ad ittẓalla?
-11 Ini iyi: is ur imun ismg d uɣaras n ṛbbi?
-12 Nɣ ad immal tikṣṣaḍ n ṛbbi?
-13 Ini iyi, iɣ isskarkks yaywa yanf i uɣaras n ṛbbi
-14 Maxx is ur issin ṛbbi nns? Is issn kra iskr?
+1 issugi i ismg n Ṛbbi ad t igan d umazan ad ittẓalla?
+11 Ini iyi: is ur imun ismg d uɣaras n Ṛbbi?
+12 Nɣ ad immal tikṣṣaḍ n Ṛbbi?
+13 Ini iyi, iɣ isskarkks yaywa yanf i uɣaras n Ṛbbi
+14 Maxx is ur issin Ṛbbi nns? Is issn kra iskr?
 15 Maxx? Tagallit iɣ tt ur igda g mad iskar, a sar t njjikr s twunza nns ɣ iggi n lafiyt
 16 Ad tt igan d twunza n **abu jahl** lli iskarn tamsskirkkist tg tanabakaḍt
-17 Inna ṛbbi: ini as ad iɣr i ayt dars lli s inna iṭṭaf tn
-18 Inna ṛbbi: iɣ asn iɣra, ha nn rad nɣr i inirn n urwass ad t zbin
-19 Uhu, ha nn ad as ur tsgdd, macc aywa ar ttẓallad ar tskard ma k izzaẓn s ṛbbi nnk 
+17 Inna Ṛbbi: ini as ad iɣr i ayt dars lli s inna iṭṭaf tn
+18 Inna Ṛbbi: iɣ asn iɣra, ha nn rad nɣr i inirn n urwass ad t zbin
+19 Uhu, ha nn ad as ur tsgdd, macc aywa ar ttẓallad ar tskard ma k izzaẓn s Ṛbbi nnk 
 
 97
 [Asutg]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: ha nn nzzugz nn **lquṛan** g iyiḍ n usutg: **lqadr**
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: ha nn nzzugz nn **lquṛan** g iyiḍ n usutg: **lqadr**
 2 Hyya matad is tssnd manik iga yiḍ n usutg?
 3 Iḍ n usutg yuf ifḍ n wayyur
-4 Ar d gis tgguzn inirn d **jibril** s turayt n ṛbbi nnsn g kra irad ittuskir
+4 Ar d gis tgguzn inirn d **jibril** s turayt n Ṛbbi nnsn g kra irad ittuskir
 5 G yiḍ ann iga ak afulki ar aɣllay n tiyylgi 
 
 98
 [Umlan]
-S yism n ṛbbi amallay amsmullu
+S yism n Ṛbbi amallay amsmullu
 1 Ur gin ɣwilli nblnin g ayt udlis, d imnabaln wid nfassaynin aylliɣ tn id yucka umlan: ad t igan d **lquṛan** nɣ d amazan
-2 Ntta ad yuzn ṛbbi issaqqra arratn ɣusnin, ad tn igan d **lquṛan**
+2 Ntta ad yuzn Ṛbbi issaqqra arratn ɣusnin, ad tn igan d **lquṛan**
 3 Llan gisn aylan fawnin
 4 Ha nn ur bḍin ɣwilli mu ittufka udlis, bla ḍaṛat n mad asn d yucka umlan: zɛma **lquṛan** d umazan
-5 Ha nn ur asn ittunni bla ad ssumdn s ṛbbi, aywan zddign as asgd, munn d uɣaras n ṛbbi ar ttẓallan, ar akkan takuti, acku ɣik ann ad igan asgd yuɣdn
-6 Ha nn ɣwilli nblnin ɣ ayt udlis, d ɣwilli skrnin amadraw n ṛbbi, kcmn arwass, zdɣn bdda gis. Ɣwinn ad igan uẓuḍ n ufgan
+5 Ha nn ur asn ittunni bla ad ssumdn s Ṛbbi, aywan zddign as asgd, munn d uɣaras n Ṛbbi ar ttẓallan, ar akkan takuti, acku ɣik ann ad igan asgd yuɣdn
+6 Ha nn ɣwilli nblnin ɣ ayt udlis, d ɣwilli skrnin amadraw n Ṛbbi, kcmn arwass, zdɣn bdda gis. Ɣwinn ad igan uẓuḍ n ufgan
 7 Amma ɣwilli flsnin aywan skrn mad ifulkin, ɣwilli nn nttnin ad igan tufut n ufgan
-8 Inna ṛbbi: tiɣrad nnsn g dar ṛbbi nnsn g wass n tɣrɣart, gant tnt turtitin n **ɛadn** lli mu ngin isaffn g ddawat nnsnt, aywan zdɣn bdda gisnt, ha nn ɣwinn isdgi fllasn ṛbbi, ɣik lli fllasn sdgin ula nttni, f ɣaylli asn ifka, inna ṛbbi ha nn ɣik ann ila i wanna ikṣuḍn ṛbbi nns 
+8 Inna Ṛbbi: tiɣrad nnsn g dar Ṛbbi nnsn g wass n tɣrɣart, gant tnt turtitin n **ɛadn** lli mu ngin isaffn g ddawat nnsnt, aywan zdɣn bdda gisnt, ha nn ɣwinn isdgi fllasn Ṛbbi, ɣik lli fllasn sdgin ula nttni, f ɣaylli asn ifka, inna Ṛbbi ha nn ɣik ann ila i wanna ikṣuḍn Ṛbbi nns 
 
 99
 [Amdudi]
-S yism n ṛbbi amallay amsmullu
+S yism n Ṛbbi amallay amsmullu
 1 Iɣ imdudi wakal g izddar, amdudi nns iggutn?
 2 Siɣ d issufɣ wakal kra gis imḍln
 3 Akud ann inna ufgan: mad yaɣn akal?
 4 Akud ann ad iga wakal inigi ar immal kra ittuskarn g iggi nns
-5 Acku ṛbbi nnk ad d srs yuznn
+5 Acku Ṛbbi nnk ad d srs yuznn
 6 Akud ann rad d iwrrin middn g unrar n ufra, aɣwan bḍun gin anawn, fad ad ẓṛin ɣaylli skrn
 7 Wanna iskrn uncc n ublɣuc g ufulki yafi t
 8 Wanna iskrn uncc n ublɣuc g uẓuḍ yafi t 
 
 100
 [Iyysan]
-S yism n ṛbbi amallay amsmullu
-1 Iggulla ṛbbi s iyysan iɣ ad ttzzaln xf uɣaras n ṛbbi aywan asḥarrayn, illa mad innan: iṛaman
+S yism n Ṛbbi amallay amsmullu
+1 Iggulla Ṛbbi s iyysan iɣ ad ttzzaln xf uɣaras n Ṛbbi aywan asḥarrayn, illa mad innan: iṛaman
 2 D iyysan iɣ ssnkrn imrruyn s tsaliywin nnsn
 3 D imḥarkan g taylgi, nɣ ddan s yimiɣ
 4 Aywan ssnkrn agḍṛuṛ g usays n imiɣ, nɣ d **lḥijj**?
 5 Siɣ lkmn tuẓẓumt nnsn kra gan
-6 Ar iga ufgan wad inbln s mad as ifka ṛbbi nns?
-7 Ha nn ntta: zɛma ṛbbi, nɣ d afgan iga inigi f ɣik ann?
+6 Ar iga ufgan wad inbln s mad as ifka Ṛbbi nns?
+7 Ha nn ntta: zɛma Ṛbbi, nɣ d afgan iga inigi f ɣik ann?
 8 Ɣik lli bahra ira ayad? Nɣ d iɣ t iṭṭaf ikums fllas
-9 Inna ṛbbi: maxx is ur issin iɣ iqaɣ mad illan g usmḍal?
+9 Inna Ṛbbi: maxx is ur issin iɣ iqaɣ mad illan g usmḍal?
 1 yagi d mad iḥḍan g ulawn?
-11 Ha nn ṛbbi nnsn akud ann ifaw kra skarn, yaywa ifru as, kra iga t yan d mad iskr 
+11 Ha nn Ṛbbi nnsn akud ann ifaw kra skarn, yaywa ifru as, kra iga t yan d mad iskr 
 
 101
 [Taɣrɣart-1]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: aḥḥ g tkṣṣaḍ n tɣrɣart?
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: aḥḥ g tkṣṣaḍ n tɣrɣart?
 2 Matta taɣrɣart ann? Acku ar tssiwid
 3 Hyya? Mtadd is tssnd manik tga tɣrɣart ann?
 4 Ad tt igan d wass lli g rad gin middn zun d wawḍid iluzzan
@@ -1148,121 +1148,121 @@ S yism n ṛbbi amallay amsmullu
 
 102
 [Asggudi]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: ha nn tstu awn tugt n ɣaylli tsmunm g tudrt n **ddunit** zun d ayda d warraw
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: ha nn tstu awn tugt n ɣaylli tsmunm g tudrt n **ddunit** zun d ayda d warraw
 2 Aylliɣ ttumḍalm ula kʷnni g usmḍal
 3 Maxx? Ha nn rad sul tssnm?
 4 Ɣik lli rad sul tssnm, mad srwn ittqqln?
 5 Ɛad? Mtadd is tssnm tussna isqaqn? Ur rad akkʷ tflm tamggarut?
-6 Iggulla ṛbbi ad sar tẓṛam arwass?
+6 Iggulla Ṛbbi ad sar tẓṛam arwass?
 7 Rad tẓṛim s ixf nns ur intiln?
-8 Akud ann rad ttusqsim g kra awan ifka ṛbbi? Zun d tadusi n ussfld, d iẓṛi, u wul, d mad ifka ṛbbi i ufgan? 
+8 Akud ann rad ttusqsim g kra awan ifka Ṛbbi? Zun d tadusi n ussfld, d iẓṛi, u wul, d mad ifka Ṛbbi i ufgan? 
 
 103
 [Annaz]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: ad ggalɣ s wannaz, zɛma azmz lli ɣ ad ittmussu ufgan
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: ad ggalɣ s wannaz, zɛma azmz lli ɣ ad ittmussu ufgan
 2 A afgan ar izla, ɣik lli illa g trfafant
 3 Bla ɣwilli flsnin aywan skrn mad ifulkin, sul mkiddin xf inzgi, ɣik lli gaddan xf uẓẓiḍṛ 
 
 104
 [Aqjjam]
-S yism n ṛbbi amallay amsmullu
+S yism n Ṛbbi amallay amsmullu
 1 Arwass i kra igan aqjjam asagbar, ɣwilli isawaln g middn
 2 Ad t igan d ɣwalli ismunn ayada iḥḍut i uzmz
 3 Iɣal is ayada nns rad t ijjnjm g tmttant (**lmut**)
 4 Awa, ha nn uhu? Tagallit asar nn iḍṛ g urwanss
 5 Hiyya?
 6 Mtadd is tssnd mad igan arwass ann?
-7 Ad t igan d lafiyt n ṛbbi lli ifdaddin
+7 Ad t igan d lafiyt n Ṛbbi lli ifdaddin
 8 Xtalli nn izzlfn ulawn, ar tn tjddr?
 9 Llan gis, sul trgl fllasn
 1 sul g icumac uɣdnin? Nɣ d iskraf ẓẓaynin? 
 
 105
 [Ilw]
-S yism n ṛbbi amallay amsmullu 
-1 Is ur tssind mad iskr ṛbbis nnk i ayt alw?
+S yism n Ṛbbi amallay amsmullu 
+1 Is ur tssind mad iskr Ṛbbis nnk i ayt alw?
 2 Maxx is ur iskir g tkndawt nnsn tarfafant
 3 Yaywa yagn asn d tirubbṛ n igḍaḍ?
 4 Aywan ar tn kkatn s iẓṛan n walus
-5 Aylliɣ gisn skrn zun d talibut irrutn, nnan asuggas ann a g ilul umazan z ṛbbi? Taẓallit n ṛbbi fllas 
+5 Aylliɣ gisn skrn zun d talibut irrutn, nnan asuggas ann a g ilul umazan z Ṛbbi? Taẓallit n Ṛbbi fllas 
 
 106
 [Qurayc]
-S yism n ṛbbi amallay amsmullu
+S yism n Ṛbbi amallay amsmullu
 1 Tasusmt i tmyurt n **qurayc**
 2 Tamyurt nnsn iga t, umuddu g tgrst, d umuddu g unbdu: **ccita wa ṣṣayf** 
-3 Ha nn illa fllasn ad ssumdn ṛbbi n **lkaɛba** yad
+3 Ha nn illa fllasn ad ssumdn Ṛbbi n **lkaɛba** yad
 4 Ɣwalli tn ijjnjmn s umtcu g laẓ, ɣik lli tn iḥḍa g tkṣṣaḍ 
 
 107
 [Afcku]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: is tssnd a muḥammad {taẓallit n ṛbbi fllas} ɣwalli isskirkkisn ass n usḥssu? Zɛma ass n tɣrɣart
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: is tssnd a muḥammad {taẓallit n Ṛbbi fllas} ɣwalli isskirkkisn ass n usḥssu? Zɛma ass n tɣrɣart
 2 Ad t igan d ɣwalli d isgnunnin igigil, inxxl t f wayada nns
 3 Ɣik lli ur issiws n umtcu n umẓluḍ
-4 Inna ṛbbi: arwass i imẓẓallan izballaɣn,
-5 Ad tn igan d ɣwilli ttunin taẓallit nnsn? Illa mad innan ɣwilli tt sgrunin, nɣ d ur rad gis swingimn, nɣ d ɣwalli srs ur iwattsn udm n ṛbbi?
+4 Inna Ṛbbi: arwass i imẓẓallan izballaɣn,
+5 Ad tn igan d ɣwilli ttunin taẓallit nnsn? Illa mad innan ɣwilli tt sgrunin, nɣ d ur rad gis swingimn, nɣ d ɣwalli srs ur iwattsn udm n Ṛbbi?
 6 Ɣwalli tfcarnin xf middn, ad tn ẓṛin?
 7 Ɣik lli ur ar ṛṭṭln afcku, nɣ d ur akkan takuti 
 
 108
 [Tugt]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi: ha nn nfk yak a muḥammad {taẓallit n ṛbbi fllas} kigan, zun d **lquṛan** nɣ d yan wasif g dar ṛbbi nnk,  nɣ d talaɣatt g  wass n tɣrɣart
-2 Aywa ẓẓal i ṛbbi nnk taẓallit n umud (**lɛid**) tɣrsd i tixsi nnk
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi: ha nn nfk yak a muḥammad {taẓallit n Ṛbbi fllas} kigan, zun d **lquṛan** nɣ d yan wasif g dar Ṛbbi nnk,  nɣ d talaɣatt g  wass n tɣrɣart
+2 Aywa ẓẓal i Ṛbbi nnk taẓallit n umud (**lɛid**) tɣrsd i tixsi nnk
 3 Ha nn ɣawlli k ur irin ad ittubbayn (ittuman) 
 
 109
 [Imnabaln]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi i umazan nns: aywa, bḍu, disn, ini asn: wa imnabaln
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi i umazan nns: aywa, bḍu, disn, ini asn: wa imnabaln
 2 Ha nn nkkin ur rad ssumdɣ s ɣaylli s tssumdm, zɛma iduman nnun? 
-3 Ɣik ann d kʷnnin, ur ad tssumdm s ma ssumdɣ nkkin, ad t igan d ṛbbi
+3 Ɣik ann d kʷnnin, ur ad tssumdm s ma ssumdɣ nkkin, ad t igan d Ṛbbi
 4 Ula nkkin,  ha nn ur ad ssumdɣ s ɣaylli s tssumdm kʷnnin
 5 Ɣik ann d kʷnnin,  ha nn ur ad tssumdm s ma s ssumdɣ nkkin
 6 Ha nn tṭṭafm asgd nnun,  ad t igan d unabal, ɣik lli ṭṭafɣ nkkin asgd inu,  ad t igan d **lislam** 
 
 110
 [Tannilt]
-S yism n ṛbbi amallay amsmullu
-1 Iɣ d tucka tannilt n ṛbbi nnk a amazan? D tnuṛẓumt n **makka** lli kizzugn?
-2 Siɣ tannit middn ar kccmn s usgd n ṛbbi gan d srs ikabarn? Ad t igan d **lislam**
-3 Inna ad ṛbbi: akud ann aɣwa mmuy i ṛbbi nnk s tamayt nns,  ha nn iga ɣik ann tamatart, is radtaḍufd, taywat tettr i ṛbbi nnk, asaruf, ha nn ntta iga amssaruf 
+S yism n Ṛbbi amallay amsmullu
+1 Iɣ d tucka tannilt n Ṛbbi nnk a amazan? D tnuṛẓumt n **makka** lli kizzugn?
+2 Siɣ tannit middn ar kccmn s usgd n Ṛbbi gan d srs ikabarn? Ad t igan d **lislam**
+3 Inna ad Ṛbbi: akud ann aɣwa mmuy i Ṛbbi nnk s tamayt nns,  ha nn iga ɣik ann tamatart, is radtaḍufd, taywat tettr i Ṛbbi nnk, asaruf, ha nn ntta iga amssaruf 
 
 111
 [Allam]
-S yism n ṛbbi amallay amsmullu
-1 Ad ibbi ṛbbi ifassn n **abu lahab** awa ha nn ttubbayn (**ittuman**) yad, ha nn yut t ṛbbi
+S yism n Ṛbbi amallay amsmullu
+1 Ad ibbi Ṛbbi ifassn n **abu lahab** awa ha nn ttubbayn (**ittuman**) yad, ha nn yut t Ṛbbi
 2 Ur fllas yusy wayada nns amya, ula tarwa nns
 3 Ha nn rad nn iḍṛ g lafiyt mmu tmẓla
-4 Ntta d tmɣart nns, xtalli irban ifrgan s uɣaras n umazan n ṛbbi
+4 Ntta d tmɣart nns, xtalli irban ifrgan s uɣaras n umazan n Ṛbbi
 5 Sul yili g umkṛḍ nns izikr illmn? Nɣ d wi n uzzal? 
 
 112
 [Taɣusi]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi i umazan nns: ini **llah** {**jalla jalaluhu**} ntta ka igan yan, ur illi mad t irwasn
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi i umazan nns: ini **Allah** {**jalla jalaluhu**} ntta ka igan yan, ur illi mad t irwasn
 2 Ntta ka ad izzan f kra illan, ur sar rad t iliḥ
 3 Ur yurw yan, ula yurw t yan.
 4 Ur illi mqqar d kra n yan t irwasn, ula iga as anggu 
 
 113
 [Tifawt]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi i umazan nns: ini: ha nn zugɣ s ṛbbi n uɣlay n tifawt
-2 G uẓuḍ n kra skrn ismgan n ṛbbi? 
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi i umazan nns: ini: ha nn zugɣ s Ṛbbi n uɣlay n tifawt
+2 G uẓuḍ n kra skrn ismgan n Ṛbbi? 
 3 Ɣik ann d uẓuḍ n yiḍ iɣ illas
 4 D uẓuḍ n tḍlmasin iɣ assutufnt g tiyrrisin
 5 D uẓuḍ n umangaẓ iɣ immunẓ 
 
 114
 [Mddn]
-S yism n ṛbbi amallay amsmullu
-1 Inna ṛbbi i umazan nns, ini: ha nn zugɣ s ṛbbi n middn
+S yism n Ṛbbi amallay amsmullu
+1 Inna Ṛbbi i umazan nns, ini: ha nn zugɣ s Ṛbbi n middn
 2 Ad t igan d ugllid n middn
-3 Lli igan ṛbbi n middn
-4 G uẓuḍ n iblis lli iḥḍḍun iɣ ittbdar ṛbbi
-5 Ɣwalli ismirkisn g ulawn n middn iɣ ttun ṛbbi nnsn
-6 Ɣik lli zugɣ s ṛbbi amar uẓuḍ n umdun d middn
+3 Lli igan Ṛbbi n middn
+4 G uẓuḍ n iblis lli iḥḍḍun iɣ ittbdar Ṛbbi
+5 Ɣwalli ismirkisn g ulawn n middn iɣ ttun Ṛbbi nnsn
+6 Ɣik lli zugɣ s Ṛbbi amar uẓuḍ n umdun d middn
