@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zgh" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f7ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            text-align: justify;
+            width: 100%;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0,150,255,0.2);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .surah {
+            padding: 20px;
+            border-bottom: 24px solid #b3e0ff;
+        }
+        .surah-name {
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #0077be;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .bismillah {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #00a86b;
+        }
+        .verse-container {
+            margin-bottom: 10px;
+            padding: 5px;
+             border-bottom: 1px solid #ddd; /* Subtle separator */
+
+        }
+        .arabic-verse {
+            font-size: 22px;
+            line-height: 2.5;
+            color: #222;
+            text-align: right; /* Right-align Arabic text */
+            margin-bottom: 5px; /* Space between Arabic and translation */
+        }
+      .arabic-verse .verse-number{
+        display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #0077be;
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+             margin-right:10px;
+            margin-left: 5px;
+            vertical-align: middle;
+      }
+
+        .amazigh-verse {
+            font-size: 20px;
+            line-height: 1.8;
+            color: #333;
+            margin-left:10px;
+          margin-bottom:5px;
+        }
+      .amazigh-verse .verse-number {
+           display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #0077be;
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+            margin-left: 10px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .header {
+            background-color: #0077be;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 32px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .highlighted {
+            background-color: #ffff00;
+            font-weight: bold;
+        }
+        .surah-separator {
+            height: 2px;
+            background-color: #0077be;
+            margin: 15px 0;
+        }
+        .opening{
+             font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #00a86b;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ</div>
+    <div style="text-align: center; padding: 20px;">
+        The following link has the original book of Quran meanings translation to Amazigh by Jouhadi Lahoussine:
+        <a href="https://www.jouhadilahoussine.com/publications/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%85%D8%B9%D8%A7%D9%86%D9%8A%D9%87-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D8%B2%D9%8A%D8%BA%D9%8A%D8%A9/8Ias6M02wrtAmU4lZYVd">Click here!</a>
+        Or <a href="https://archive.org/details/quran-jouhadi/">Here for a better scanned version</a>
+        <p style="margin-bottom: 10px;">This page features a re-written version in Amazigh script.  Only some Hizbs are available so far. It still needs reviewing to fix any mistakes</p>
+        <p style="margin-bottom: 10px;"><br><span style="color: red;">REMEMBER THAT QURAN TRANSLATIONS ARE MEANT ONLY FOR UNDERSTANDING THE MEANINGS.</span></p>
+    </div>
+    <div class="container" id="quranContent"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    Promise.all([
+        fetch('quran.txt').then(response => response.text()),
+        fetch('quranunicode.txt').then(response => response.text())
+    ])
+    .then(([amazighContent, arabicContent]) => {
+        displayQuran(amazighContent, arabicContent);
+    })
+    .catch(error => {
+        console.error('Error loading Quran files:', error);
+        document.getElementById('quranContent').innerHTML = 
+            `<div style="padding: 20px; color: red; text-align: center;">
+                Error loading Quran content. Please check the console for details.
+            </div>`;
+    });
+});
+
+function displayQuran(amazighContent, arabicContent) {
+    // Parse the content into structured data
+    const amazighData = parseQuranFile(amazighContent);
+    const arabicData = parseQuranFile(arabicContent);
+    
+    let quranHTML = '';
+    
+    // Use Amazigh data as the reference point for which surahs to display
+    for (let i = 0; i < amazighData.length; i++) {
+        const amazighSurah = amazighData[i];
+        // Find matching Arabic surah by number
+        const arabicSurah = arabicData.find(s => s.number === amazighSurah.number) || { title: '', verses: [], opening: '' };
+        
+        quranHTML += `<div class="surah">
+                        <h2 class="surah-name">${arabicSurah.title || 'Surah ' + amazighSurah.number}</h2>
+                        <h3 class="surah-name amazigh-title">${amazighSurah.title || ''}</h3>`;
+        
+        // Add opening (bismillah)
+        if (arabicSurah.opening) {
+            quranHTML += `<p class="opening arabic-opening">${arabicSurah.opening}</p>`;
+        }
+        if (amazighSurah.opening) {
+            quranHTML += `<p class="opening amazigh-opening">${amazighSurah.opening}</p>`;
+        }
+        
+        // Process each verse from the Amazigh content
+        for (let j = 0; j < amazighSurah.verses.length; j++) {
+            const amazighVerse = amazighSurah.verses[j];
+            // Try to find matching Arabic verse
+            const arabicVerse = arabicSurah.verses.find(v => v.number === amazighVerse.number);
+            
+            quranHTML += `<div class="verse-container">`;
+            
+            // Display Arabic verse if available, otherwise show placeholder
+            if (arabicVerse) {
+                quranHTML += `<p class="arabic-verse">${arabicVerse.text} <span class="verse-number">${arabicVerse.number}</span></p>`;
+            } else {
+                quranHTML += `<p class="arabic-verse">Original Arabic not found. <span class="verse-number">${amazighVerse.number}</span></p>`;
+            }
+            
+            // Display Amazigh verse (which we know exists)
+            const highlightedText = highlightWords(amazighVerse.text);
+            quranHTML += `<p class="amazigh-verse"><span class="verse-number">${amazighVerse.number}</span> ${highlightedText}</p>`;
+            
+            quranHTML += `</div>`;
+        }
+        
+        quranHTML += `</div>`;
+    }
+    
+    document.getElementById('quranContent').innerHTML = quranHTML;
+}
+
+function parseQuranFile(content) {
+    const lines = content.split('\n');
+    const surahs = [];
+    let currentSurah = null;
+    let currentVerses = [];
+    let surahOpening = '';
+    
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        
+        // Skip empty lines
+        if (!line) continue;
+        
+        // Check if it's a surah number
+        if (/^\d+$/.test(line)) {
+            // If we have a current surah, save it before starting a new one
+            if (currentSurah) {
+                surahs.push(currentSurah);
+            }
+            
+            const surahNumber = parseInt(line);
+            // Initialize a new surah with just the number
+            currentSurah = {
+                number: surahNumber,
+                title: '',
+                verses: [],
+                opening: ''
+            };
+            surahOpening = '';
+            continue;
+        }
+        
+        // Check if it's a surah title
+        if (line.startsWith('[') && line.endsWith(']') && currentSurah) {
+            // Set the title for the current surah
+            currentSurah.title = line.slice(1, -1);
+            continue;
+        }
+        
+        // Check if it's the opening bismillah (line after title without a number)
+        if (currentSurah && currentSurah.verses.length === 0 && !line.match(/^\d+\s/)) {
+            // Only set the opening if it's not already set
+            if (!currentSurah.opening) {
+                currentSurah.opening = line;
+            } else {
+                // If opening is already set, append this line (could be multi-line opening)
+                currentSurah.opening += ' ' + line;
+            }
+            continue;
+        }
+        
+        // Check if it's a verse (starts with a number followed by space)
+        const verseMatch = line.match(/^(\d+)\s(.*)/);
+        if (verseMatch && currentSurah) {
+            currentSurah.verses.push({
+                number: parseInt(verseMatch[1]),
+                text: verseMatch[2]
+            });
+            continue;
+        }
+    }
+    
+    // Add the last surah if it exists
+    if (currentSurah) {
+        surahs.push(currentSurah);
+    }
+    
+    return surahs;
+}
+
+function highlightWords(text) {
+    return text.replace(/\*\*(.*?)\*\*/g, '<span class="highlighted">$1</span>');
+}
+    </script>
+</body>
+</html>
