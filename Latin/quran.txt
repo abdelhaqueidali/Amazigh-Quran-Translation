@@ -298,7 +298,7 @@ S yism n Ṛbbi amallay amsmullu
 2 fad ad gis ttmunm d iɣarasn lli ganin izilaln
 21 Inna **nuḥ**: wa Ṛbbi inu: hann nttni mzarin diti, aywan ḍfuṛn walli mu ur ad issugt wayada nns d tarwa nns abla abnnan
 22 Hann sskundn takndawt mqqurn
-23 Nnan: hann ad ur tbḍum d id Ṛbbi (Ṛbbin) nnun, d ad ur tflm **wud** d **suwwaɛ** d **yaɣut** d **yaɛuq** d **nasr**
+23 Nnan: hann ad ur tbḍum d id Ṛbbi (ṛbbin) nnun, d ad ur tflm **wud** d **suwwaɛ** d **yaɣut** d **yaɛuq** d **nasr**
 24 Hann suḍḍṛn yad srsn bahra, ɣiklli ur ad ssigutn i inẓḍamn a ɣar tillas
 25 Hann ibkkaḍn nnsn a ɣ ddmn, s kcmn s lɛfit ggammin kra n turfiwin i ixfawn nnsn bla Ṛbbi
 26 Inna **nuḥ** wa Ṛbbi inu: hann riɣ gik ad ur tajjt mqqar d yan ɣ imnabaln, ɣ iggi n wakal
@@ -368,7 +368,7 @@ S yism n Ṛbbi amallay amsmullu
 2 Inna as: aywa nikr ssiwd ayt **makka**
 3 Tssimɣurt Ṛbbi nnk f ɣaylli ɣ as skrn amadraw
 4 Tsɣust ul nnk, d timlsit nnk, d grak d Ṛbbi nnk
-5 Tzugt f id Ṛbbi (Ṛbbin) nnsn
+5 Tzugt f id Ṛbbi (ṛbbin) nnsn
 6 Hann ad ur takkat, kra n tikki f ad tamẓt uggar
 7 Aywa, ẓiḍṛ i Ṛbbi nnk, f ɣaylli nn fllak igguzn
 8 Hann iɣ ittuṣwaḍ ɣ isk uṣwaḍ wiss sin
@@ -993,7 +993,7 @@ S yism n Ṛbbi amallay amsmullu
 11 Ha nn tsskir gis **tamud** amazan nnsn, s uẓḍam nnsn
 12 Illiɣ ayttazzal wacc nnsn, iskr ɣaylli xf d msacka?
 13 Inna asn umazan n Ṛbbi: ad t igan d **ṣalḥ** ha nn ad ur tslim taṛamt n Ṛbbi d tissi nns g wass nns?
-14 Macc sskirkksn t, aywṛn nɣin taṛamt, ɣik ann a xf tn isrfufnṚbbi nnsn s ubkkaḍ nnsn, yaywa isgun fllasn tammara, ur gisn injm mqqar d yan
+14 Macc sskirkksn t, aywṛn nɣin taṛamt, ɣik ann a xf tn isrfufnṛbbi nnsn s ubkkaḍ nnsn, yaywa isgun fllasn tammara, ur gisn injm mqqar d yan
 15 Acku Ṛbbi ur ikṣuḍ, ma rad d iggru i ɣik ann? Nɣ d ɣwa lli inɣan taṛamt, ur nn itam ma rad iggru? 
 
 92
@@ -1182,7 +1182,7 @@ S yism n Ṛbbi amallay amsmullu
 105
 [Ilw]
 S yism n Ṛbbi amallay amsmullu 
-1 Is ur tssind mad iskr Ṛbbis nnk i ayt alw?
+1 Is ur tssind mad iskr ṛbbis nnk i ayt alw?
 2 Maxx is ur iskir g tkndawt nnsn tarfafant
 3 Yaywa yagn asn d tirubbṛ n igḍaḍ?
 4 Aywan ar tn kkatn s iẓṛan n walus
