@@ -159,14 +159,15 @@ function displayQuran(amazighContent, arabicContent) {
         const amazighSurah = amazighData.find(s => s.number === arabicSurah.number) || { title: '', verses: [], opening: '' };
         
         quranHTML += `<div class="surah">
-                        <h2 class="surah-name">${arabicSurah.title || 'Surah ' + arabicSurah.number}</h2>`;
+                        <h2 class="surah-name">${arabicSurah.title || 'Surah ' + arabicSurah.number}</h2>
+                        <h3 class="surah-name amazigh-title">${amazighSurah.title || ''}</h3>`;
         
         // Add opening (bismillah)
         if (arabicSurah.opening) {
-            quranHTML += `<p class="opening">${arabicSurah.opening}</p>`;
+            quranHTML += `<p class="opening arabic-opening">${arabicSurah.opening}</p>`;
         }
         if (amazighSurah.opening) {
-            quranHTML += `<p class="opening">${amazighSurah.opening}</p>`;
+            quranHTML += `<p class="opening amazigh-opening">${amazighSurah.opening}</p>`;
         }
         
         // Process each verse
@@ -208,42 +209,40 @@ function parseQuranFile(content) {
         if (!line) continue;
         
         // Check if it's a surah number
-        if (/^\d+$/.test(line) && !currentSurah) {
-            const surahNumber = parseInt(line);
-            // Wait for the title in the next line(s)
-            for (let j = i + 1; j < lines.length; j++) {
-                const nextLine = lines[j].trim();
-                if (nextLine.startsWith('[') && nextLine.endsWith(']')) {
-                    currentSurah = {
-                        number: surahNumber,
-                        title: nextLine.slice(1, -1),
-                        verses: [],
-                        opening: ''
-                    };
-                    i = j; // Skip to this line
-                    break;
-                }
+        if (/^\d+$/.test(line)) {
+            // If we have a current surah, save it before starting a new one
+            if (currentSurah) {
+                surahs.push(currentSurah);
             }
+            
+            const surahNumber = parseInt(line);
+            // Initialize a new surah with just the number
+            currentSurah = {
+                number: surahNumber,
+                title: '',
+                verses: [],
+                opening: ''
+            };
+            surahOpening = '';
             continue;
         }
         
         // Check if it's a surah title
-        if (line.startsWith('[') && line.endsWith(']')) {
-            // If we find a title without a number, create a new surah
-            if (!currentSurah) {
-                currentSurah = {
-                    number: surahs.length + 1,
-                    title: line.slice(1, -1),
-                    verses: [],
-                    opening: ''
-                };
-            }
+        if (line.startsWith('[') && line.endsWith(']') && currentSurah) {
+            // Set the title for the current surah
+            currentSurah.title = line.slice(1, -1);
             continue;
         }
         
         // Check if it's the opening bismillah (line after title without a number)
         if (currentSurah && currentSurah.verses.length === 0 && !line.match(/^\d+\s/)) {
-            currentSurah.opening = line;
+            // Only set the opening if it's not already set
+            if (!currentSurah.opening) {
+                currentSurah.opening = line;
+            } else {
+                // If opening is already set, append this line (could be multi-line opening)
+                currentSurah.opening += ' ' + line;
+            }
             continue;
         }
         
@@ -254,27 +253,7 @@ function parseQuranFile(content) {
                 number: parseInt(verseMatch[1]),
                 text: verseMatch[2]
             });
-            
-            // If we reach verse with number 1, consider previous content as opening
-            if (parseInt(verseMatch[1]) === 1 && surahOpening && !currentSurah.opening) {
-                currentSurah.opening = surahOpening;
-                surahOpening = '';
-            }
-            
             continue;
-        }
-        
-        // If we have a surah but this line doesn't match other patterns, 
-        // it might be part of the opening text
-        if (currentSurah && currentSurah.verses.length === 0) {
-            surahOpening += (surahOpening ? ' ' : '') + line;
-        }
-        
-        // If we've parsed all verses and encounter a new surah number, add current surah to array
-        if (currentSurah && /^\d+$/.test(line)) {
-            surahs.push(currentSurah);
-            currentSurah = null;
-            surahOpening = '';
         }
     }
     
