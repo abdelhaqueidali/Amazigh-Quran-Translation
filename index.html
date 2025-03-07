@@ -7,7 +7,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tifinagh&display=swap" rel="stylesheet">
     <style>
+        .noto-sans-tifinagh-regular {
+  font-family: "Noto Sans Tifinagh", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
         .amiri-regular {
   font-family: "Amiri", serif;
   font-weight: 400;
@@ -214,7 +221,7 @@ function displayQuran(amazighContent, arabicContent) {
             
             // Display Amazigh verse (which we know exists)
             const highlightedText = highlightWords(amazighVerse.text);
-            quranHTML += `<p class="amazigh-verse"><span class="verse-number">${amazighVerse.number}</span> ${highlightedText}</p>`;
+            quranHTML += `<span class="noto-sans-tifinagh-regular"><p class="amazigh-verse"><span class="verse-number">${amazighVerse.number}</span> ${highlightedText}</p></span>`;
             
             quranHTML += `</div>`;
         }
