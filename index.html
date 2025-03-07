@@ -128,156 +128,167 @@
     <div class="container" id="quranContent"></div>
 
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        Promise.all([
-            fetch('quran.txt').then(response => response.text()),
-            fetch('quranunicode.txt').then(response => response.text())
-        ])
-        .then(([amazighContent, arabicContent]) => {
-            displayQuran(amazighContent, arabicContent);
-        })
-        .catch(error => {
-            console.error('Error loading Quran files:', error);
-        });
+        document.addEventListener('DOMContentLoaded', function() {
+    Promise.all([
+        fetch('quran.txt').then(response => response.text()),
+        fetch('quranunicode.txt').then(response => response.text())
+    ])
+    .then(([amazighContent, arabicContent]) => {
+        displayQuran(amazighContent, arabicContent);
+    })
+    .catch(error => {
+        console.error('Error loading Quran files:', error);
+        document.getElementById('quranContent').innerHTML = 
+            `<div style="padding: 20px; color: red; text-align: center;">
+                Error loading Quran content. Please check the console for details.
+            </div>`;
     });
+});
 
-    function displayQuran(amazighContent, arabicContent) {
-        const amazighLines = amazighContent.split('\n');
-        const arabicLines = arabicContent.split('\n');
-
-        let quranHTML = '';
-        let currentSurah = '';
-        let amazighSurahIndex = 0;
-        let arabicSurahIndex = 0;
-
-
-        // Helper function to find the next surah's content.  Handles skipping empty lines.
-        function findNextSurahContent(lines, startIndex) {
-          let index = startIndex;
-          while (index < lines.length) {
-              const line = lines[index].trim();
-                if (line.startsWith('[') && line.endsWith(']')) {
-                   return { content: [], index: index }; // Return immediately when a new surah starts
-               }
-
-              if (line !== '') { // Skip blank lines
-                return { content: lines.slice(startIndex, index), index: index };
-              }
-
-              index++;
-          }
-          return { content: lines.slice(startIndex), index: lines.length };
-
+function displayQuran(amazighContent, arabicContent) {
+    // Parse the content into structured data
+    const amazighData = parseQuranFile(amazighContent);
+    const arabicData = parseQuranFile(arabicContent);
+    
+    let quranHTML = '';
+    
+    // Process each surah
+    for (let i = 0; i < arabicData.length; i++) {
+        const arabicSurah = arabicData[i];
+        // Find matching Amazigh surah by index or number
+        const amazighSurah = amazighData.find(s => s.number === arabicSurah.number) || { title: '', verses: [], opening: '' };
+        
+        quranHTML += `<div class="surah">
+                        <h2 class="surah-name">${arabicSurah.title || 'Surah ' + arabicSurah.number}</h2>`;
+        
+        // Add opening (bismillah)
+        if (arabicSurah.opening) {
+            quranHTML += `<p class="opening">${arabicSurah.opening}</p>`;
         }
-      // Helper function to find the next surah opening content.  Handles skipping empty lines.
-        function findNextSurahOpening(lines, startIndex) {
-          let index = startIndex;
-          while (index < lines.length) {
-              const line = lines[index].trim();
-             if (line.startsWith('[') && line.endsWith(']')) {
-                return { content: [], index: index+1 }; // Return immediately when a new surah starts
-               }
-                if (!isNaN(parseInt(lines[index])))
-                {
-                  return {content:[], index:index+1}
-                }
-              if (line !== '') { // Skip blank lines
-                return { content: lines.slice(startIndex, index), index: index };
-              }
-
-              index++;
-          }
-          return { content: lines.slice(startIndex), index: lines.length };
-
+        if (amazighSurah.opening) {
+            quranHTML += `<p class="opening">${amazighSurah.opening}</p>`;
         }
-
-
-        // Iterate through Arabic Surahs (they are the master structure)
-        while (arabicSurahIndex < arabicLines.length) {
-            let arabicLine = arabicLines[arabicSurahIndex].trim();
-
-            if (arabicLine.startsWith('[') && arabicLine.endsWith(']')) {
-                // Close previous Surah div (if any)
-                if (currentSurah) {
-                    quranHTML += '</div>';
-                }
-
-                currentSurah = arabicLine.slice(1, -1);
-                quranHTML += `<div class="surah"><h2 class="surah-name">${currentSurah}</h2>`;
-
-               const amazighSurahData = findNextSurahContent(amazighLines, amazighSurahIndex );
-               amazighSurahIndex = amazighSurahData.index;
-
-               const arabicOpening = findNextSurahOpening(arabicLines, arabicSurahIndex + 1);
-               const amazighOpening = findNextSurahOpening(amazighLines, amazighSurahIndex+1 );
-               if (arabicOpening.content.length > 0) {
-                    quranHTML += `<p class="opening">${arabicOpening.content.join(' ').trim()}</p>`;
-                }
-              if(amazighOpening.content.length>0){
-                  quranHTML += `<p class="opening">${amazighOpening.content.join(' ').trim()}</p>`;
-                }
-              arabicSurahIndex = arabicOpening.index
-              amazighSurahIndex = amazighOpening.index;
-                continue; // Skip to next line after processing Surah name
+        
+        // Process each verse
+        for (let j = 0; j < arabicSurah.verses.length; j++) {
+            const arabicVerse = arabicSurah.verses[j];
+            // Try to find matching Amazigh verse
+            const amazighVerse = amazighSurah.verses.find(v => v.number === arabicVerse.number);
+            
+            quranHTML += `<div class="verse-container">
+                            <p class="arabic-verse">${arabicVerse.text} <span class="verse-number">${arabicVerse.number}</span></p>`;
+            
+            if (amazighVerse) {
+                const highlightedText = highlightWords(amazighVerse.text);
+                quranHTML += `<p class="amazigh-verse"><span class="verse-number">${amazighVerse.number}</span> ${highlightedText}</p>`;
+            } else {
+                quranHTML += `<p class="amazigh-verse">Translation unavailable.</p>`;
             }
+            
+            quranHTML += `</div>`;
+        }
+        
+        quranHTML += `</div>`;
+    }
+    
+    document.getElementById('quranContent').innerHTML = quranHTML;
+}
 
-
-          else if (!isNaN(parseInt(arabicLine))){
-
-            arabicSurahIndex++;
+function parseQuranFile(content) {
+    const lines = content.split('\n');
+    const surahs = [];
+    let currentSurah = null;
+    let currentVerses = [];
+    let surahOpening = '';
+    
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        
+        // Skip empty lines
+        if (!line) continue;
+        
+        // Check if it's a surah number
+        if (/^\d+$/.test(line) && !currentSurah) {
+            const surahNumber = parseInt(line);
+            // Wait for the title in the next line(s)
+            for (let j = i + 1; j < lines.length; j++) {
+                const nextLine = lines[j].trim();
+                if (nextLine.startsWith('[') && nextLine.endsWith(']')) {
+                    currentSurah = {
+                        number: surahNumber,
+                        title: nextLine.slice(1, -1),
+                        verses: [],
+                        opening: ''
+                    };
+                    i = j; // Skip to this line
+                    break;
+                }
+            }
             continue;
-          }
-            else if (arabicLine) {
-                // Process Arabic verse
-                const [arabicVerseNumber, ...arabicVerseTextParts] = arabicLine.split(' ');
-                const arabicVerseText = arabicVerseTextParts.join(' ').trim();
-
-               quranHTML += `<div class="verse-container">
-                                <p class="arabic-verse">${arabicVerseText} <span class="verse-number">${arabicVerseNumber}</span></p>`;
-
-                // Find corresponding Amazigh verse.  This is the crucial part.
-              let amazighVerseLine = "";
-              if(amazighSurahIndex<amazighLines.length){
-
-                 amazighVerseLine = amazighLines[amazighSurahIndex].trim();
-              }
-              else{
-                amazighVerseLine=""
-              }
-
-                if (amazighVerseLine && !isNaN(parseInt(amazighVerseLine.split(' ')[0]))) {
-
-                    const [amazighVerseNumber, ...amazighVerseTextParts] = amazighVerseLine.split(' ');
-                    const amazighVerseText = amazighVerseTextParts.join(' ').trim();
-                    const highlightedAmazighText = highlightWords(amazighVerseText);
-
-
-                    quranHTML += `<p class="amazigh-verse"><span class="verse-number">${amazighVerseNumber}</span> ${highlightedAmazighText} </p></div>`;
-                    amazighSurahIndex++; // Only increment if we used an Amazigh verse
-                } else {
-
-                    quranHTML += `<p class="amazigh-verse">Translation unavailable.</p></div>`;
-                      //Don't increment index here. Try to find next valid line the next iteration
-
-                }
-              arabicSurahIndex++;
-
+        }
+        
+        // Check if it's a surah title
+        if (line.startsWith('[') && line.endsWith(']')) {
+            // If we find a title without a number, create a new surah
+            if (!currentSurah) {
+                currentSurah = {
+                    number: surahs.length + 1,
+                    title: line.slice(1, -1),
+                    verses: [],
+                    opening: ''
+                };
             }
-
-          else{
-              arabicSurahIndex++; //Skip empty line
-          }
+            continue;
         }
-
-        if (currentSurah) {
-            quranHTML += '</div>'; // Close the last Surah div
+        
+        // Check if it's the opening bismillah (line after title without a number)
+        if (currentSurah && currentSurah.verses.length === 0 && !line.match(/^\d+\s/)) {
+            currentSurah.opening = line;
+            continue;
         }
-        document.getElementById('quranContent').innerHTML = quranHTML;
+        
+        // Check if it's a verse (starts with a number followed by space)
+        const verseMatch = line.match(/^(\d+)\s(.*)/);
+        if (verseMatch && currentSurah) {
+            currentSurah.verses.push({
+                number: parseInt(verseMatch[1]),
+                text: verseMatch[2]
+            });
+            
+            // If we reach verse with number 1, consider previous content as opening
+            if (parseInt(verseMatch[1]) === 1 && surahOpening && !currentSurah.opening) {
+                currentSurah.opening = surahOpening;
+                surahOpening = '';
+            }
+            
+            continue;
+        }
+        
+        // If we have a surah but this line doesn't match other patterns, 
+        // it might be part of the opening text
+        if (currentSurah && currentSurah.verses.length === 0) {
+            surahOpening += (surahOpening ? ' ' : '') + line;
+        }
+        
+        // If we've parsed all verses and encounter a new surah number, add current surah to array
+        if (currentSurah && /^\d+$/.test(line)) {
+            surahs.push(currentSurah);
+            currentSurah = null;
+            surahOpening = '';
+        }
     }
+    
+    // Add the last surah if it exists
+    if (currentSurah) {
+        surahs.push(currentSurah);
+    }
+    
+    return surahs;
+}
 
-    function highlightWords(text) {
-        return text.replace(/\*\*(.*?)\*\*/g, '<span class="highlighted">$1</span>');
-    }
+function highlightWords(text) {
+    return text.replace(/\*\*(.*?)\*\*/g, '<span class="highlighted">$1</span>');
+}
     </script>
 </body>
 </html>
