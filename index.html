@@ -85,11 +85,15 @@
             font-size: 22px;
             line-height: 2.5;
             color: #222;
-            text-align: right; /* Right-align Arabic text */
-            margin-bottom: 5px; /* Space between Arabic and translation */
+            margin-bottom: 5px; /* Keep spacing */
+            position: relative; /* Important for absolute positioning */
+            padding-right: 40px; /*  Make space for the number */
+            text-align: right; /* Back to right alignment */
+            margin: 0; /* Remove other margins */
         }
-      .arabic-verse .verse-number{
-        display: inline-block;
+
+        .arabic-verse .verse-number {
+            display: inline-block; /* Keep inline-block for proper sizing */
             width: 30px;
             height: 30px;
             border-radius: 50%;
@@ -97,19 +101,22 @@
             color: #fff;
             text-align: center;
             line-height: 30px;
-             margin-right:10px;
-            margin-left: 5px;
             vertical-align: middle;
-      }
+            position: absolute; /*  Absolute positioning */
+            right: 0;          /* Position at the very right */
+            top: 0;              /* Align to the top */
 
-        .amazigh-verse {
+        }
+
+      .amazigh-verse { /*keep as previous modification*/
             font-size: 20px;
             line-height: 1.8;
             color: #333;
-            margin-left:10px;
-          margin-bottom:5px;
+            display: flex;
+            flex-direction: row;
+            margin:0;
         }
-      .amazigh-verse .verse-number {
+      .amazigh-verse .verse-number { /*keep as previous modification*/
            display: inline-block;
             width: 30px;
             height: 30px;
@@ -118,8 +125,6 @@
             color: #fff;
             text-align: center;
             line-height: 30px;
-            margin-left: 10px;
-            margin-right: 5px;
             vertical-align: middle;
         }
 
