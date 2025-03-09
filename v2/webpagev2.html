@@ -488,30 +488,14 @@
             document.getElementById('nextSurahBtn').disabled = (currentIndex >= surahList.length - 1);
         }
 
-        function toggleSurahList(show) {
-    const listContainer = document.getElementById('surahListContainer');
-    const showListBtn = document.getElementById('showListBtn');
-    
-    // Check if the list is currently visible
-    const isVisible = listContainer.style.display === 'block';
-    
-    if (show === undefined) {
-        // Toggle visibility based on current state
-        if (isVisible) {
-            // If currently visible, hide it
-            listContainer.style.display = 'none';
-            showListBtn.textContent = 'Show Surah List';
-        } else {
-            // If currently hidden, show it
-            listContainer.style.display = 'block';
-            showListBtn.textContent = 'Hide Surah List';
+                function toggleSurahList() {  // Removed the optional 'show' parameter
+            const listContainer = document.getElementById('surahListContainer');
+            if (listContainer.style.display === 'none' || listContainer.style.display === '') {
+                listContainer.style.display = 'block';
+            } else {
+                listContainer.style.display = 'none';
+            }
         }
-    } else {
-        // Set to specific state
-        listContainer.style.display = show ? 'block' : 'none';
-        showListBtn.textContent = show ? 'Hide Surah List' : 'Show Surah List';
-    }
-}
     </script>
 </body>
 </html>
