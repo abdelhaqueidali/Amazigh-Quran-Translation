@@ -1,1 +1,504 @@
 
+<!DOCTYPE html>
+<html lang="zgh" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tifinagh&display=swap" rel="stylesheet">
+    <style>
+        .noto-sans-tifinagh-regular {
+            font-family: "Noto Sans Tifinagh", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .amiri-regular {
+            font-family: "Amiri", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .amiri-bold {
+            font-family: "Amiri", serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .amiri-regular-italic {
+            font-family: "Amiri", serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .amiri-bold-italic {
+            font-family: "Amiri", serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f7ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            text-align: justify;
+            width: 100%;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0,150,255,0.2);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .surah {
+            padding: 20px;
+            border-bottom: 24px solid #b3e0ff;
+        }
+
+        .surah-name {
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #0077be;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .bismillah {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #00a86b;
+        }
+
+        .verse-container {
+            margin-bottom: 10px;
+            padding: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .arabic-verse {
+            font-size: 22px;
+            line-height: 2.5;
+            color: #222;
+            text-align: right; /* Right-align Arabic text */
+            margin-bottom: 5px; /* Space between Arabic and translation */
+        }
+
+        .arabic-verse .verse-number {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #0077be;
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 10px;
+            margin-left: 5px;
+            vertical-align: middle;
+        }
+
+        .amazigh-verse {
+            font-size: 20px;
+            line-height: 1.8;
+            color: #333;
+            margin-left: 10px;
+            margin-bottom: 5px;
+        }
+
+        .amazigh-verse .verse-number {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #0077be;
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+            margin-left: 10px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .header {
+            background-color: #0077be;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 32px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .highlighted {
+            background-color: #ffff00;
+            font-weight: bold;
+        }
+
+        .surah-separator {
+            height: 2px;
+            background-color: #0077be;
+            margin: 15px 0;
+        }
+
+        .opening {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #00a86b;
+        }
+
+        /* Navigation styles */
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        .nav-button {
+            background-color: #0077be;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-button:hover {
+            background-color: #005d91;
+        }
+
+        .nav-button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+
+        /* Surah list styles */
+        .surah-list-container {
+            width: 100%;
+            max-width: 900px;
+            margin: 10px auto;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,150,255,0.2);
+            border-radius: 15px;
+            padding: 20px;
+            display: none;
+        }
+
+        .surah-list {
+            max-height: 500px;
+            overflow-y: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+        }
+
+        .surah-list-item {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f0f8ff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .surah-list-item:hover {
+            background-color: #b3e0ff;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+            color: #0077be;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ</div>
+    <div style="text-align: center; padding: 20px;">
+        The following link has the original book of Quran meanings translation to Amazigh by Jouhadi Lahoussine:
+        <a href="https://www.jouhadilahoussine.com/publications/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%85%D8%B9%D8%A7%D9%86%D9%8A%D9%87-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D8%B2%D9%8A%D8%BA%D9%8A%D8%A9/8Ias6M02wrtAmU4lZYVd">Click here!</a>
+        Or <a href="https://archive.org/details/quran-jouhadi/">Here for a better scanned version</a>
+        <p style="margin-bottom: 10px;">This page features a re-written version in Amazigh script. Only some Hizbs are available so far. It still needs reviewing to fix any mistakes</p>
+        <p style="margin-bottom: 10px;"><br><span style="color: red;">REMEMBER THAT QURAN TRANSLATIONS ARE MEANT ONLY FOR UNDERSTANDING THE MEANINGS.</span></p>
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="navigation">
+        <button id="prevSurahBtn" class="nav-button">◀ Previous Surah</button>
+        <button id="showListBtn" class="nav-button">Show Surah List</button>
+        <button id="nextSurahBtn" class="nav-button">Next Surah ▶</button>
+    </div>
+
+    <!-- Surah list container -->
+    <div id="surahListContainer" class="surah-list-container">
+        <h2 style="text-align: center; margin-bottom: 15px;">Surah List</h2>
+        <div id="surahList" class="surah-list">
+            <!-- Surah list items will be added here dynamically -->
+        </div>
+    </div>
+
+    <!-- Quran content -->
+    <div class="container" id="quranContent">
+        <div class="loading">Loading surah list...</div>
+    </div>
+
+    <script>
+        // Global variables
+        let currentSurahNumber = 1;
+        let surahList = [];
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fetch the list of surahs first
+            fetchSurahList();
+
+            // Add event listeners for navigation
+            document.getElementById('prevSurahBtn').addEventListener('click', loadPreviousSurah);
+            document.getElementById('nextSurahBtn').addEventListener('click', loadNextSurah);
+            document.getElementById('showListBtn').addEventListener('click', toggleSurahList);
+        });
+
+        function fetchSurahList() {
+            fetch('list.txt')
+                .then(response => response.text())
+                .then(data => {
+                    parseSurahList(data);
+                    updateNavigationButtons();
+                    
+                    // Load the first surah by default
+                    if (surahList.length > 0) {
+                        loadSurah(surahList[0].number);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading surah list:', error);
+                    document.getElementById('quranContent').innerHTML = 
+                        `<div style="padding: 20px; color: red; text-align: center;">
+                            Error loading surah list. Please check the console for details.
+                        </div>`;
+                });
+        }
+
+        function parseSurahList(content) {
+            const lines = content.split('\n');
+            surahList = [];
+            
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                if (!line) continue;
+                
+                // Parse line format: number[name]
+                const match = line.match(/^(\d+)\[(.*?)\]$/);
+                if (match) {
+                    surahList.push({
+                        number: parseInt(match[1]),
+                        name: match[2]
+                    });
+                }
+            }
+            
+            // Populate the surah list UI
+            populateSurahListUI();
+        }
+
+        function populateSurahListUI() {
+            const surahListElement = document.getElementById('surahList');
+            surahListElement.innerHTML = '';
+            
+            surahList.forEach(surah => {
+                const listItem = document.createElement('div');
+                listItem.className = 'surah-list-item';
+                listItem.textContent = `${surah.number}. ${surah.name}`;
+                listItem.onclick = function() {
+                    loadSurah(surah.number);
+                    toggleSurahList(false); // Hide list after selection
+                };
+                surahListElement.appendChild(listItem);
+            });
+        }
+
+        function loadSurah(surahNumber) {
+            currentSurahNumber = surahNumber;
+            document.getElementById('quranContent').innerHTML = '<div class="loading">Loading surah...</div>';
+            
+            // Update navigation button states
+            updateNavigationButtons();
+            
+            // Fetch both Arabic and Amazigh versions of the surah
+            Promise.all([
+                fetch(`ar/${surahNumber}.txt`).then(response => response.text()),
+                fetch(`am/${surahNumber}.txt`).then(response => response.text())
+            ])
+            .then(([arabicContent, amazighContent]) => {
+                displaySurah(amazighContent, arabicContent);
+            })
+            .catch(error => {
+                console.error(`Error loading Surah ${surahNumber}:`, error);
+                document.getElementById('quranContent').innerHTML = 
+                    `<div style="padding: 20px; color: red; text-align: center;">
+                        Error loading Surah ${surahNumber}. Please check if the file exists.
+                    </div>`;
+            });
+        }
+
+        function displaySurah(amazighContent, arabicContent) {
+            // Parse the content for a single surah
+            const amazighSurah = parseSurahContent(amazighContent);
+            const arabicSurah = parseSurahContent(arabicContent);
+            
+            let surahHTML = '';
+            
+            // Create surah container
+            surahHTML += `<div class="surah">
+                        <h2 class="surah-name">${arabicSurah.title || 'Surah ' + arabicSurah.number}</h2>
+                        <h3 class="surah-name amazigh-title">${amazighSurah.title || ''}</h3>`;
+            
+            // Add opening (bismillah)
+            if (arabicSurah.opening) {
+                surahHTML += `<p class="opening arabic-opening">${arabicSurah.opening}</p>`;
+            }
+            if (amazighSurah.opening) {
+                surahHTML += `<p class="opening amazigh-opening">${amazighSurah.opening}</p>`;
+            }
+            
+            // Process each verse
+            for (let j = 0; j < amazighSurah.verses.length; j++) {
+                const amazighVerse = amazighSurah.verses[j];
+                // Try to find matching Arabic verse
+                const arabicVerse = arabicSurah.verses.find(v => v.number === amazighVerse.number);
+                
+                surahHTML += `<div class="verse-container">`;
+                
+                // Display Arabic verse if available, otherwise show placeholder
+                if (arabicVerse) {
+                    surahHTML += `<span class="amiri-regular"><p class="arabic-verse">${arabicVerse.text}</span> <span class="verse-number">${arabicVerse.number}</span></p>`;
+                } else {
+                    surahHTML += `<p class="arabic-verse">Original Arabic not found. <span class="verse-number">${amazighVerse.number}</span></p>`;
+                }
+                
+                // Display Amazigh verse (which we know exists)
+                const highlightedText = highlightWords(amazighVerse.text);
+                surahHTML += `<span class="noto-sans-tifinagh-regular"><p class="amazigh-verse"><span class="verse-number">${amazighVerse.number}</span> ${highlightedText}</p></span>`;
+                
+                surahHTML += `</div>`;
+            }
+            
+            surahHTML += `</div>`;
+            
+            document.getElementById('quranContent').innerHTML = surahHTML;
+        }
+
+        function parseSurahContent(content) {
+            const lines = content.split('\n');
+            let surah = {
+                number: 0,
+                title: '',
+                verses: [],
+                opening: ''
+            };
+            
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                
+                // Skip empty lines
+                if (!line) continue;
+                
+                // Check if it's a surah number
+                if (/^\d+$/.test(line)) {
+                    surah.number = parseInt(line);
+                    continue;
+                }
+                
+                // Check if it's a surah title
+                if (line.startsWith('[') && line.endsWith(']')) {
+                    // Set the title for the current surah
+                    surah.title = line.slice(1, -1);
+                    continue;
+                }
+                
+                // Check if it's the opening bismillah (line after title without a number)
+                if (surah.verses.length === 0 && !line.match(/^\d+\s/)) {
+                    // Only set the opening if it's not already set
+                    if (!surah.opening) {
+                        surah.opening = line;
+                    } else {
+                        // If opening is already set, append this line (could be multi-line opening)
+                        surah.opening += ' ' + line;
+                    }
+                    continue;
+                }
+                
+                // Check if it's a verse (starts with a number followed by space)
+                const verseMatch = line.match(/^(\d+)\s(.*)/);
+                if (verseMatch) {
+                    surah.verses.push({
+                        number: parseInt(verseMatch[1]),
+                        text: verseMatch[2]
+                    });
+                    continue;
+                }
+            }
+            
+            return surah;
+        }
+
+        function highlightWords(text) {
+            return text.replace(/\*\*(.*?)\*\*/g, '<span class="highlighted">$1</span>');
+        }
+
+        function loadPreviousSurah() {
+            // Find the current index in the surah list
+            const currentIndex = surahList.findIndex(s => s.number === currentSurahNumber);
+            if (currentIndex > 0) {
+                loadSurah(surahList[currentIndex - 1].number);
+            }
+        }
+
+        function loadNextSurah() {
+            // Find the current index in the surah list
+            const currentIndex = surahList.findIndex(s => s.number === currentSurahNumber);
+            if (currentIndex < surahList.length - 1) {
+                loadSurah(surahList[currentIndex + 1].number);
+            }
+        }
+
+        function updateNavigationButtons() {
+            const currentIndex = surahList.findIndex(s => s.number === currentSurahNumber);
+            
+            // Disable previous button if we're at the first surah
+            document.getElementById('prevSurahBtn').disabled = (currentIndex <= 0);
+            
+            // Disable next button if we're at the last surah
+            document.getElementById('nextSurahBtn').disabled = (currentIndex >= surahList.length - 1);
+        }
+
+        function toggleSurahList(show) {
+            const listContainer = document.getElementById('surahListContainer');
+            if (show === undefined) {
+                // Toggle visibility
+                listContainer.style.display = listContainer.style.display === 'none' || !listContainer.style.display ? 'block' : 'none';
+            } else {
+                // Set specific visibility
+                listContainer.style.display = show ? 'block' : 'none';
+            }
+        }
+    </script>
+</body>
+</html>
