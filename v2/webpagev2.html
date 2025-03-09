@@ -276,7 +276,7 @@
         });
 
         function fetchSurahList() {
-            fetch('v2/list.txt')
+            fetch('list.txt')
                 .then(response => response.text())
                 .then(data => {
                     parseSurahList(data);
