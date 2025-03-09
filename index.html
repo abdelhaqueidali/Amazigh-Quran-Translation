@@ -85,8 +85,12 @@
             font-size: 22px;
             line-height: 2.5;
             color: #222;
-            text-align: right; /* Right-align Arabic text */
+            /* text-align: right; /* Right-align Arabic text */
             margin-bottom: 5px; /* Space between Arabic and translation */
+            display: flex;
+flex-direction: row-reverse;
+justify-content: flex-end;
+align-items: flex-start;
         }
       .arabic-verse .verse-number{
         display: inline-block;
@@ -97,9 +101,11 @@
             color: #fff;
             text-align: center;
             line-height: 30px;
-             margin-right:10px;
-            margin-left: 5px;
             vertical-align: middle;
+          order: 2;
+flex-shrink: 0;
+margin-left: 0px;  /* Reset the existing margin-left */
+margin-right: 5px;
       }
 
         .amazigh-verse {
@@ -148,6 +154,9 @@
             margin-bottom: 20px;
             color: #00a86b;
         }
+        .arabic-verse .verse-text {
+  order: 1;
+}
     </style>
 </head>
 <body>
