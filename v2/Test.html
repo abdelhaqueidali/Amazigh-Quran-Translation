@@ -1,326 +1,350 @@
 <!DOCTYPE html>
 <html lang="zgh" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Sans+Tifinagh&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ</title>
 
-    <style>
-        :root {
-            --primary: #0077be;
-            --secondary: #00a86b;
-            --light: #f9f9f9;
-            --dark: #222;
-            --gray: #555;
-            --radius: 12px;
-            --shadow: 0 4px 10px rgba(0,0,0,0.08);
-        }
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Sans+Tifinagh&display=swap" rel="stylesheet">
 
-        body {
-            font-family: Arial, sans-serif;
-            background: var(--light);
-            margin: 0;
-            padding: 0;
-            color: var(--dark);
-        }
+  <style>
+    :root {
+      --primary: #064420;
+      --secondary: #3c6e71;
+      --background: #fdfdf9;
+      --panel: #ffffff;
+      --text-dark: #222;
+      --text-muted: #666;
+      --highlight: #d9e6dc;
+      --radius: 12px;
+      --shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
 
-        /* Header */
-        .header {
-            background: var(--primary);
-            color: #fff;
-            text-align: center;
-            padding: 20px 15px;
-            font-size: 28px;
-            font-weight: bold;
-            box-shadow: var(--shadow);
-        }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--background);
+      color: var(--text-dark);
+      display: flex;
+      min-height: 100vh;
+    }
 
-        /* Intro Section */
-        .intro {
-            text-align: center;
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: var(--radius);
-            box-shadow: var(--shadow);
-        }
+    /* Sidebar */
+    .sidebar {
+      width: 280px;
+      background: var(--primary);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      overflow-y: auto;
+      z-index: 1000;
+      transition: transform 0.3s ease;
+    }
 
-        .intro a {
-            color: var(--primary);
-            font-weight: bold;
-            text-decoration: none;
-        }
+    .sidebar h1 {
+      font-size: 22px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
 
-        .intro a:hover {
-            text-decoration: underline;
-        }
+    .sidebar .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      gap: 10px;
+    }
 
-        /* Navigation */
-        .navigation {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            max-width: 900px;
-            margin: 20px auto;
-        }
+    .sidebar button {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      font-size: 14px;
+      background: #3c6e71;
+      color: #fff;
+      transition: 0.3s;
+    }
 
-        .nav-button {
-            background: var(--primary);
-            color: #fff;
-            border: none;
-            padding: 12px 20px;
-            border-radius: var(--radius);
-            cursor: pointer;
-            font-size: 16px;
-            transition: 0.3s;
-            min-width: 120px;
-        }
+    .sidebar button:hover {
+      background: #2b4d50;
+    }
 
-        .nav-button:hover {
-            background: #005d91;
-        }
+    .surah-list {
+      flex-grow: 1;
+      margin-top: 10px;
+    }
 
-        .nav-button:disabled {
-            background: #ccc;
-            cursor: not-allowed;
-        }
+    .surah-list-item {
+      padding: 10px;
+      margin-bottom: 6px;
+      background: rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      cursor: pointer;
+      font-size: 15px;
+      transition: 0.3s;
+    }
 
-        /* Surah list */
-        .surah-list-container {
-            max-width: 900px;
-            margin: 10px auto;
-            background: #fff;
-            box-shadow: var(--shadow);
-            border-radius: var(--radius);
-            padding: 20px;
-            display: none;
-        }
+    .surah-list-item:hover,
+    .surah-list-item.active {
+      background: var(--highlight);
+      color: var(--text-dark);
+    }
 
-        .surah-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-            gap: 10px;
-            max-height: 400px;
-            overflow-y: auto;
-        }
+    /* Main content */
+    .main {
+      flex: 1;
+      margin-left: 280px;
+      padding: 30px;
+      background: var(--background);
+      overflow-y: auto;
+      transition: margin-left 0.3s ease;
+    }
 
-        .surah-list-item {
-            background: #f0f8ff;
-            padding: 10px;
-            border-radius: var(--radius);
-            text-align: center;
-            cursor: pointer;
-            transition: 0.3s;
-            font-weight: bold;
-            font-size: 15px;
-        }
+    .surah-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
 
-        .surah-list-item:hover {
-            background: #cce9ff;
-        }
+    .surah-name {
+      font-size: 28px;
+      color: var(--primary);
+      margin: 5px 0;
+      font-weight: bold;
+    }
 
-        /* Quran content */
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            background: #fff;
-            border-radius: var(--radius);
-            box-shadow: var(--shadow);
-            overflow: hidden;
-        }
+    .opening {
+      font-size: 20px;
+      color: var(--secondary);
+      margin: 15px 0;
+      font-weight: bold;
+    }
 
-        .surah {
-            padding: 20px;
-        }
+    .verse-container {
+      background: var(--panel);
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
 
-        .surah-name {
-            font-size: 26px;
-            text-align: center;
-            margin: 10px 0;
-            color: var(--primary);
-            font-weight: bold;
-        }
+    .arabic-verse {
+      font-family: "Amiri", serif;
+      font-size: 22px;
+      text-align: right;
+      margin-bottom: 12px;
+      color: var(--text-dark);
+    }
 
-        .opening {
-            font-size: 22px;
-            text-align: center;
-            margin: 20px 0;
-            color: var(--secondary);
-            font-weight: bold;
-        }
+    .amazigh-verse {
+      font-family: "Noto Sans Tifinagh", sans-serif;
+      font-size: 20px;
+      color: var(--text-muted);
+      line-height: 1.8;
+    }
 
-        .verse-container {
-            padding: 15px;
-            border-bottom: 1px solid #eee;
-        }
+    .verse-number {
+      display: inline-block;
+      min-width: 28px;
+      height: 28px;
+      line-height: 28px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: #fff;
+      font-size: 14px;
+      text-align: center;
+      margin: 0 8px;
+      font-weight: bold;
+    }
 
-        .arabic-verse {
-            font-size: 22px;
-            line-height: 2;
-            text-align: right;
-            margin-bottom: 10px;
-            color: var(--dark);
-            font-family: "Amiri", serif;
-        }
+    .loading {
+      text-align: center;
+      padding: 40px;
+      font-size: 18px;
+      color: var(--secondary);
+    }
 
-        .amazigh-verse {
-            font-size: 20px;
-            line-height: 1.8;
-            color: var(--gray);
-            font-family: "Noto Sans Tifinagh", sans-serif;
-        }
-
-        .verse-number {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 28px;
-            height: 28px;
-            margin: 0 8px;
-            border-radius: 50%;
-            background: var(--primary);
-            color: #fff;
-            font-size: 14px;
-            font-weight: bold;
-        }
-
-        .loading {
-            text-align: center;
-            padding: 30px;
-            font-size: 18px;
-            color: var(--primary);
-        }
-
-        /* Responsive */
-        @media (max-width: 600px) {
-            .header {
-                font-size: 22px;
-                padding: 15px;
-            }
-            .surah-name {
-                font-size: 22px;
-            }
-            .arabic-verse {
-                font-size: 20px;
-            }
-            .amazigh-verse {
-                font-size: 18px;
-            }
-            .nav-button {
-                flex: 1;
-                min-width: unset;
-            }
-        }
-    </style>
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+      .sidebar {
+        transform: translateX(-100%);
+      }
+      .sidebar.active {
+        transform: translateX(0);
+      }
+      .main {
+        margin-left: 0;
+        padding: 20px;
+      }
+      .toggle-sidebar {
+        position: fixed;
+        top: 15px;
+        left: 15px;
+        z-index: 1100;
+        background: var(--primary);
+        color: #fff;
+        border: none;
+        padding: 10px 14px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="header">ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ</div>
-    
-    <div class="intro">
-        <p>
-            The following link has the original book of Quran meanings translation to Amazigh by Jouhadi Lahoussine:
-            <br><a href="https://www.jouhadilahoussine.com/publications/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%85%D8%B9%D8%A7%D9%86%D9%8A%D9%87-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D8%B2%D9%8A%D8%BA%D9%8A%D8%A9/8Ias6M02wrtAmU4lZYVd">Click here</a>
-            or <a href="https://archive.org/details/quran-jouhadi/">here for a better scanned version</a>.
-        </p>
-        <p>This page features a re-written version in Amazigh script. Only some Hizbs are available so far. It still needs reviewing to fix any mistakes.</p>
-        <p style="color: red; font-weight: bold;">REMEMBER THAT QURAN TRANSLATIONS ARE MEANT ONLY FOR UNDERSTANDING THE MEANINGS.</p>
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <h1>ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵍⵇⵓⵔⴰⵏ</h1>
+    <div class="nav-buttons">
+      <button id="prevSurahBtn">◀ Prev</button>
+      <button id="nextSurahBtn">Next ▶</button>
     </div>
+    <div class="surah-list" id="surahList">Loading...</div>
+  </div>
 
-    <!-- Navigation -->
-    <div class="navigation">
-        <button id="prevSurahBtn" class="nav-button">◀ Previous</button>
-        <button id="showListBtn" class="nav-button">Surah List</button>
-        <button id="nextSurahBtn" class="nav-button">Next ▶</button>
-    </div>
+  <!-- Mobile toggle -->
+  <button class="toggle-sidebar" onclick="toggleSidebar()">☰</button>
 
-    <!-- Surah list -->
-    <div id="surahListContainer" class="surah-list-container">
-        <h2 style="text-align: center; margin-bottom: 15px;">Surah List</h2>
-        <div id="surahList" class="surah-list"></div>
-    </div>
+  <!-- Main content -->
+  <div class="main" id="quranContent">
+    <div class="loading">Loading Surah...</div>
+  </div>
 
-    <!-- Quran content -->
-    <div class="container" id="quranContent">
-        <div class="loading">Loading surah list...</div>
-    </div>
+  <!-- JavaScript -->
+  <script>
+    let currentSurahNumber = 1;
+    let surahList = [];
 
-    <!-- Original JavaScript (unchanged) -->
-    <script>
-        // Global variables
-        let currentSurahNumber = 1;
-        let surahList = [];
+    document.addEventListener('DOMContentLoaded', function() {
+      fetchSurahList();
+      document.getElementById('prevSurahBtn').addEventListener('click', loadPreviousSurah);
+      document.getElementById('nextSurahBtn').addEventListener('click', loadNextSurah);
+    });
 
-        document.addEventListener('DOMContentLoaded', function() {
-            // Fetch the list of surahs first
-            fetchSurahList();
-
-            // Add event listeners for navigation
-            document.getElementById('prevSurahBtn').addEventListener('click', loadPreviousSurah);
-            document.getElementById('nextSurahBtn').addEventListener('click', loadNextSurah);
-            document.getElementById('showListBtn').addEventListener('click', toggleSurahList);
+    function fetchSurahList() {
+      fetch('list.txt')
+        .then(r => r.text())
+        .then(data => {
+          parseSurahList(data);
+          if (surahList.length > 0) {
+            loadSurah(surahList[0].number);
+          }
+        })
+        .catch(e => {
+          console.error(e);
+          document.getElementById('quranContent').innerHTML =
+            '<div class="loading" style="color:red">Error loading surah list</div>';
         });
+    }
 
-        function fetchSurahList() {
-            fetch('list.txt')
-                .then(response => response.text())
-                .then(data => {
-                    parseSurahList(data);
-                    updateNavigationButtons();
-                    
-                    // Load the first surah by default
-                    if (surahList.length > 0) {
-                        loadSurah(surahList[0].number);
-                    }
-                })
-                .catch(error => {
-                    console.error('Error loading surah list:', error);
-                    document.getElementById('quranContent').innerHTML = 
-                        `<div style="padding: 20px; color: red; text-align: center;">
-                            Error loading surah list. Please check the console for details.
-                        </div>`;
-                });
+    function parseSurahList(content) {
+      const lines = content.split('\n');
+      surahList = [];
+      for (let line of lines) {
+        const m = line.trim().match(/^(\d+)\[(.*?)\]$/);
+        if (m) surahList.push({ number: parseInt(m[1]), name: m[2] });
+      }
+      populateSurahListUI();
+    }
+
+    function populateSurahListUI() {
+      const el = document.getElementById('surahList');
+      el.innerHTML = '';
+      surahList.forEach(surah => {
+        const item = document.createElement('div');
+        item.className = 'surah-list-item';
+        item.textContent = `${surah.number}. ${surah.name}`;
+        item.onclick = () => {
+          loadSurah(surah.number);
+          highlightActiveSurah(surah.number);
+          if (window.innerWidth < 768) toggleSidebar();
+        };
+        el.appendChild(item);
+      });
+    }
+
+    function highlightActiveSurah(num) {
+      document.querySelectorAll('.surah-list-item').forEach(el => {
+        el.classList.toggle('active', el.textContent.startsWith(num + '.'));
+      });
+    }
+
+    function loadSurah(num) {
+      currentSurahNumber = num;
+      document.getElementById('quranContent').innerHTML = '<div class="loading">Loading surah...</div>';
+      Promise.all([
+        fetch(`ar/${num}.txt`).then(r => r.text()),
+        fetch(`am/${num}.txt`).then(r => r.text())
+      ]).then(([ar, am]) => {
+        displaySurah(am, ar);
+        highlightActiveSurah(num);
+      }).catch(e => {
+        console.error(e);
+        document.getElementById('quranContent').innerHTML =
+          `<div class="loading" style="color:red">Error loading Surah ${num}</div>`;
+      });
+    }
+
+    function displaySurah(amContent, arContent) {
+      const am = parseSurahContent(amContent);
+      const ar = parseSurahContent(arContent);
+      let html = `<div class="surah-header">
+                    <h2 class="surah-name">${ar.title || 'Surah ' + ar.number}</h2>
+                    <h3 class="surah-name">${am.title || ''}</h3>`;
+      if (ar.opening) html += `<p class="opening">${ar.opening}</p>`;
+      if (am.opening) html += `<p class="opening">${am.opening}</p>`;
+      html += '</div>';
+      am.verses.forEach(v => {
+        const aVerse = ar.verses.find(x => x.number === v.number);
+        html += `<div class="verse-container">
+                   <p class="arabic-verse">${aVerse ? aVerse.text : ''} <span class="verse-number">${v.number}</span></p>
+                   <p class="amazigh-verse"><span class="verse-number">${v.number}</span> ${v.text}</p>
+                 </div>`;
+      });
+      document.getElementById('quranContent').innerHTML = html;
+    }
+
+    function parseSurahContent(content) {
+      const lines = content.split('\n');
+      let s = { number: 0, title: '', verses: [], opening: '' };
+      for (let line of lines) {
+        line = line.trim();
+        if (!line) continue;
+        if (/^\d+$/.test(line)) s.number = parseInt(line);
+        else if (line.startsWith('[') && line.endsWith(']')) s.title = line.slice(1, -1);
+        else if (s.verses.length === 0 && !/^\d+\s/.test(line)) s.opening += (s.opening ? ' ' : '') + line;
+        else {
+          const m = line.match(/^(\d+)\s(.*)/);
+          if (m) s.verses.push({ number: parseInt(m[1]), text: m[2] });
         }
+      }
+      return s;
+    }
 
-        function parseSurahList(content) {
-            const lines = content.split('\n');
-            surahList = [];
-            
-            for (let i = 0; i < lines.length; i++) {
-                const line = lines[i].trim();
-                if (!line) continue;
-                
-                // Parse line format: number[name]
-                const match = line.match(/^(\d+)\[(.*?)\]$/);
-                if (match) {
-                    surahList.push({
-                        number: parseInt(match[1]),
-                        name: match[2]
-                    });
-                }
-            }
-            
-            // Populate the surah list UI
-            populateSurahListUI();
-        }
+    function loadPreviousSurah() {
+      const i = surahList.findIndex(s => s.number === currentSurahNumber);
+      if (i > 0) loadSurah(surahList[i - 1].number);
+    }
 
-        function populateSurahListUI() {
-            const surahListElement = document.getElementById('surahList');
-            surahListElement.innerHTML = '';
-            
-            surahList.forEach(surah => {
-                const listItem = document.createElement('div');
-                listItem.className = 'surah-list-item';
-                listItem.textContent = `${surah.number}. ${surah.name}`;
-                listItem.onclick = function() {
-                    loadSurah(surah.number);
-                    toggleSurahList(false); // Hide list after selection
+    function loadNextSurah() {
+      const i = surahList.findIndex(s => s.number === currentSurahNumber);
+      if (i < surahList.length - 1) loadSurah(surahList[i + 1].number);
+    }
+
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>     toggleSurahList(false); // Hide list after selection
                 };
                 surahListElement.appendChild(listItem);
             });
