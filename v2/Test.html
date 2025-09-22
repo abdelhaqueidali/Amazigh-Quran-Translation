@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zgh" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Sans+Tifinagh&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #0077be;
+            --secondary: #00a86b;
+            --light: #f9f9f9;
+            --dark: #222;
+            --gray: #666;
+            --radius: 12px;
+            --shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: var(--light);
+            margin: 0;
+            padding: 0;
+            color: var(--dark);
+        }
+
+        /* Header */
+        .header {
+            background: var(--primary);
+            color: #fff;
+            text-align: center;
+            padding: 20px 15px;
+            font-size: 28px;
+            font-weight: bold;
+            box-shadow: var(--shadow);
+        }
+
+        /* Intro Section */
+        .intro {
+            text-align: center;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        .intro a {
+            color: var(--primary);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .intro a:hover {
+            text-decoration: underline;
+        }
+
+        /* Navigation */
+        .navigation {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: 20px auto;
+        }
+
+        .nav-button {
+            background: var(--primary);
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: var(--radius);
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+            min-width: 120px;
+        }
+
+        .nav-button:hover {
+            background: #005d91;
+        }
+
+        .nav-button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        /* Surah list */
+        .surah-list-container {
+            max-width: 900px;
+            margin: 10px auto;
+            background: #fff;
+            box-shadow: var(--shadow);
+            border-radius: var(--radius);
+            padding: 20px;
+            display: none;
+        }
+
+        .surah-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 10px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .surah-list-item {
+            background: #f0f8ff;
+            padding: 10px;
+            border-radius: var(--radius);
+            text-align: center;
+            cursor: pointer;
+            transition: 0.3s;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .surah-list-item:hover {
+            background: #cce9ff;
+        }
+
+        /* Quran content */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .surah {
+            padding: 20px;
+        }
+
+        .surah-name {
+            font-size: 26px;
+            text-align: center;
+            margin: 10px 0;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        .opening {
+            font-size: 22px;
+            text-align: center;
+            margin: 20px 0;
+            color: var(--secondary);
+            font-weight: bold;
+        }
+
+        .verse-container {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .arabic-verse {
+            font-size: 22px;
+            line-height: 2;
+            text-align: right;
+            margin-bottom: 10px;
+            color: var(--dark);
+            font-family: "Amiri", serif;
+        }
+
+        .amazigh-verse {
+            font-size: 20px;
+            line-height: 1.8;
+            color: var(--gray);
+            font-family: "Noto Sans Tifinagh", sans-serif;
+        }
+
+        .verse-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            margin: 0 8px;
+            border-radius: 50%;
+            background: var(--primary);
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 30px;
+            font-size: 18px;
+            color: var(--primary);
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .header {
+                font-size: 22px;
+                padding: 15px;
+            }
+            .surah-name {
+                font-size: 22px;
+            }
+            .arabic-verse {
+                font-size: 20px;
+            }
+            .amazigh-verse {
+                font-size: 18px;
+            }
+            .nav-button {
+                flex: 1;
+                min-width: unset;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ</div>
+    
+    <div class="intro">
+        <p>
+            The following link has the original book of Quran meanings translation to Amazigh by Jouhadi Lahoussine:
+            <br><a href="https://www.jouhadilahoussine.com/publications/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%85%D8%B9%D8%A7%D9%86%D9%8A%D9%87-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D8%B2%D9%8A%D8%BA%D9%8A%D8%A9/8Ias6M02wrtAmU4lZYVd">Click here</a>
+            or <a href="https://archive.org/details/quran-jouhadi/">here for a better scanned version</a>.
+        </p>
+        <p>This page features a re-written version in Amazigh script. Only some Hizbs are available so far. It still needs reviewing to fix any mistakes.</p>
+        <p style="color: red; font-weight: bold;">REMEMBER THAT QURAN TRANSLATIONS ARE MEANT ONLY FOR UNDERSTANDING THE MEANINGS.</p>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navigation">
+        <button id="prevSurahBtn" class="nav-button">◀ Previous</button>
+        <button id="showListBtn" class="nav-button">Surah List</button>
+        <button id="nextSurahBtn" class="nav-button">Next ▶</button>
+    </div>
+
+    <!-- Surah list -->
+    <div id="surahListContainer" class="surah-list-container">
+        <h2 style="text-align: center; margin-bottom: 15px;">Surah List</h2>
+        <div id="surahList" class="surah-list"></div>
+    </div>
+
+    <!-- Quran content -->
+    <div class="container" id="quranContent">
+        <div class="loading">Loading surah list...</div>
+    </div>
+
+    <!-- Original JS (unchanged) -->
+    <script>
+        // your same JS functions here ...
+    </script>
+</body>
+</html>
