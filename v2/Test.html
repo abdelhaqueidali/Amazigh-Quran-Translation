@@ -16,7 +16,7 @@
             --secondary: #00a86b;
             --light: #f9f9f9;
             --dark: #222;
-            --gray: #666;
+            --gray: #555;
             --radius: 12px;
             --shadow: 0 4px 10px rgba(0,0,0,0.08);
         }
@@ -251,9 +251,244 @@
         <div class="loading">Loading surah list...</div>
     </div>
 
-    <!-- Original JS (unchanged) -->
+    <!-- Original JavaScript (unchanged) -->
     <script>
-        // your same JS functions here ...
+        // Global variables
+        let currentSurahNumber = 1;
+        let surahList = [];
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fetch the list of surahs first
+            fetchSurahList();
+
+            // Add event listeners for navigation
+            document.getElementById('prevSurahBtn').addEventListener('click', loadPreviousSurah);
+            document.getElementById('nextSurahBtn').addEventListener('click', loadNextSurah);
+            document.getElementById('showListBtn').addEventListener('click', toggleSurahList);
+        });
+
+        function fetchSurahList() {
+            fetch('list.txt')
+                .then(response => response.text())
+                .then(data => {
+                    parseSurahList(data);
+                    updateNavigationButtons();
+                    
+                    // Load the first surah by default
+                    if (surahList.length > 0) {
+                        loadSurah(surahList[0].number);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading surah list:', error);
+                    document.getElementById('quranContent').innerHTML = 
+                        `<div style="padding: 20px; color: red; text-align: center;">
+                            Error loading surah list. Please check the console for details.
+                        </div>`;
+                });
+        }
+
+        function parseSurahList(content) {
+            const lines = content.split('\n');
+            surahList = [];
+            
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                if (!line) continue;
+                
+                // Parse line format: number[name]
+                const match = line.match(/^(\d+)\[(.*?)\]$/);
+                if (match) {
+                    surahList.push({
+                        number: parseInt(match[1]),
+                        name: match[2]
+                    });
+                }
+            }
+            
+            // Populate the surah list UI
+            populateSurahListUI();
+        }
+
+        function populateSurahListUI() {
+            const surahListElement = document.getElementById('surahList');
+            surahListElement.innerHTML = '';
+            
+            surahList.forEach(surah => {
+                const listItem = document.createElement('div');
+                listItem.className = 'surah-list-item';
+                listItem.textContent = `${surah.number}. ${surah.name}`;
+                listItem.onclick = function() {
+                    loadSurah(surah.number);
+                    toggleSurahList(false); // Hide list after selection
+                };
+                surahListElement.appendChild(listItem);
+            });
+        }
+
+        function loadSurah(surahNumber) {
+            currentSurahNumber = surahNumber;
+            document.getElementById('quranContent').innerHTML = '<div class="loading">Loading surah...</div>';
+            
+            // Update navigation button states
+            updateNavigationButtons();
+            
+            // Fetch both Arabic and Amazigh versions of the surah
+            Promise.all([
+                fetch(`ar/${surahNumber}.txt`).then(response => response.text()),
+                fetch(`am/${surahNumber}.txt`).then(response => response.text())
+            ])
+            .then(([arabicContent, amazighContent]) => {
+                displaySurah(amazighContent, arabicContent);
+            })
+            .catch(error => {
+                console.error(`Error loading Surah ${surahNumber}:`, error);
+                document.getElementById('quranContent').innerHTML = 
+                    `<div style="padding: 20px; color: red; text-align: center;">
+                        Error loading Surah ${surahNumber}. Please check if the file exists.
+                    </div>`;
+            });
+        }
+
+        function displaySurah(amazighContent, arabicContent) {
+            // Parse the content for a single surah
+            const amazighSurah = parseSurahContent(amazighContent);
+            const arabicSurah = parseSurahContent(arabicContent);
+            
+            let surahHTML = '';
+            
+            // Create surah container
+            surahHTML += `<div class="surah">
+                        <h2 class="surah-name">${arabicSurah.title || 'Surah ' + arabicSurah.number}</h2>
+                        <h3 class="surah-name amazigh-title">${amazighSurah.title || ''}</h3>`;
+            
+            // Add opening (bismillah)
+            if (arabicSurah.opening) {
+                surahHTML += `<p class="opening arabic-opening">${arabicSurah.opening}</p>`;
+            }
+            if (amazighSurah.opening) {
+                surahHTML += `<p class="opening amazigh-opening">${amazighSurah.opening}</p>`;
+            }
+            
+            // Process each verse
+            for (let j = 0; j < amazighSurah.verses.length; j++) {
+                const amazighVerse = amazighSurah.verses[j];
+                // Try to find matching Arabic verse
+                const arabicVerse = arabicSurah.verses.find(v => v.number === amazighVerse.number);
+                
+                surahHTML += `<div class="verse-container">`;
+                
+                // Display Arabic verse if available, otherwise show placeholder
+                if (arabicVerse) {
+                    surahHTML += `<span class="amiri-regular"><p class="arabic-verse">${arabicVerse.text}</span></p>`;
+                } else {
+                    surahHTML += `<p class="arabic-verse">Original Arabic not found. <span class="verse-number">${amazighVerse.number}</span></p>`;
+                }
+                
+                // Display Amazigh verse (which we know exists)
+                const highlightedText = highlightWords(amazighVerse.text);
+                surahHTML += `<span class="noto-sans-tifinagh-regular"><p class="amazigh-verse"><span class="verse-number">${amazighVerse.number}</span> ${highlightedText}</p></span>`;
+                
+                surahHTML += `</div>`;
+            }
+            
+            surahHTML += `</div>`;
+            
+            document.getElementById('quranContent').innerHTML = surahHTML;
+        }
+
+        function parseSurahContent(content) {
+            const lines = content.split('\n');
+            let surah = {
+                number: 0,
+                title: '',
+                verses: [],
+                opening: ''
+            };
+            
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                
+                // Skip empty lines
+                if (!line) continue;
+                
+                // Check if it's a surah number
+                if (/^\d+$/.test(line)) {
+                    surah.number = parseInt(line);
+                    continue;
+                }
+                
+                // Check if it's a surah title
+                if (line.startsWith('[') && line.endsWith(']')) {
+                    // Set the title for the current surah
+                    surah.title = line.slice(1, -1);
+                    continue;
+                }
+                
+                // Check if it's the opening bismillah (line after title without a number)
+                if (surah.verses.length === 0 && !line.match(/^\d+\s/)) {
+                    // Only set the opening if it's not already set
+                    if (!surah.opening) {
+                        surah.opening = line;
+                    } else {
+                        // If opening is already set, append this line (could be multi-line opening)
+                        surah.opening += ' ' + line;
+                    }
+                    continue;
+                }
+                
+                // Check if it's a verse (starts with a number followed by space)
+                const verseMatch = line.match(/^(\d+)\s(.*)/);
+                if (verseMatch) {
+                    surah.verses.push({
+                        number: parseInt(verseMatch[1]),
+                        text: verseMatch[2]
+                    });
+                    continue;
+                }
+            }
+            
+            return surah;
+        }
+
+        function highlightWords(text) {
+            return text.replace(/\*\*(.*?)\*\*/g, '<span class="highlighted">$1</span>');
+        }
+
+        function loadPreviousSurah() {
+            // Find the current index in the surah list
+            const currentIndex = surahList.findIndex(s => s.number === currentSurahNumber);
+            if (currentIndex > 0) {
+                loadSurah(surahList[currentIndex - 1].number);
+            }
+        }
+
+        function loadNextSurah() {
+            // Find the current index in the surah list
+            const currentIndex = surahList.findIndex(s => s.number === currentSurahNumber);
+            if (currentIndex < surahList.length - 1) {
+                loadSurah(surahList[currentIndex + 1].number);
+            }
+        }
+
+        function updateNavigationButtons() {
+            const currentIndex = surahList.findIndex(s => s.number === currentSurahNumber);
+            
+            // Disable previous button if we're at the first surah
+            document.getElementById('prevSurahBtn').disabled = (currentIndex <= 0);
+            
+            // Disable next button if we're at the last surah
+            document.getElementById('nextSurahBtn').disabled = (currentIndex >= surahList.length - 1);
+        }
+
+        function toggleSurahList() {  
+            const listContainer = document.getElementById('surahListContainer');
+            if (listContainer.style.display === 'none' || listContainer.style.display === '') {
+                listContainer.style.display = 'block';
+            } else {
+                listContainer.style.display = 'none';
+            }
+        }
     </script>
 </body>
 </html>
