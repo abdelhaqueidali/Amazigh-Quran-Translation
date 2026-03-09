@@ -1,6 +1,6 @@
 # Amazigh Quran Translation (ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ)
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Hosted-green.svg)](https://abdelhaqueidali.github.io/Amazigh-Quran-Translation/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Hosted-green.svg)](https://abdelhaqueidali.github.io/Amazigh-Quran-Translation/V3/Version3.html)
 
 New version v2 : https://abdelhaqueidali.github.io/Amazigh-Quran-Translation/v2/webpagev2.html
 
