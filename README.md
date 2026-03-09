@@ -2,7 +2,7 @@
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Hosted-green.svg)](https://abdelhaqueidali.github.io/Amazigh-Quran-Translation/V3/Version3.html)
 
-New version v2 : https://abdelhaqueidali.github.io/Amazigh-Quran-Translation/v2/webpagev2.html
+New version, Version 3 : https://abdelhaqueidali.github.io/Amazigh-Quran-Translation/v2/webpagev2.html
 
 This repository contains a digital, interactive version of Jouhadi Lahoussine's Amazigh (Tamazight) translation of the meanings of the Holy Quran.  The project aims to make this valuable translation more accessible and to present it beautifully re-written in the Tifinagh script.
 
