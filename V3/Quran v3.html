@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="zgh" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ - Quran Amazigh Translation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Sans+Tifinagh&display=swap" rel="stylesheet">
+    <style>
+        /* Local Custom Font for Warsh Arabic */
+        @font-face {
+            font-family: 'AlMaghrabi';
+            src: url('aalmaghrabi.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        :root {
+            --primary-color: #0077be;
+            --secondary-color: #005d91;
+            --bg-color: #f4f9f9;
+            --card-bg: #ffffff;
+            --text-main: #333333;
+            --text-arabic: #1a1a1a;
+            --sidebar-width: 350px; 
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* --- Header / Top Bar --- */
+        .top-bar {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            z-index: 5;
+        }
+
+        .menu-btn {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            padding: 8px 18px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: bold;
+        }
+
+        .menu-btn:hover {
+            background-color: white;
+            color: var(--primary-color);
+        }
+
+        .top-title {
+            margin: 0 0 0 20px;
+            font-family: "Noto Sans Tifinagh", sans-serif;
+            font-size: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        /* --- Overlay Index (Drawer) --- */
+        .index-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            z-index: 1000;
+            display: flex;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+
+        .index-overlay.open {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .backdrop {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.6);
+            backdrop-filter: blur(2px);
+            cursor: pointer;
+        }
+
+        .sidebar {
+            position: relative;
+            width: var(--sidebar-width);
+            max-width: 85%;
+            background-color: var(--card-bg);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            transform: translateX(-100%);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 5px 0 25px rgba(0,0,0,0.4);
+        }
+
+        .index-overlay.open .sidebar {
+            transform: translateX(0);
+        }
+
+        .sidebar-header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 15px; right: 15px;
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 28px;
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .sidebar-header h2 {
+            margin: 0 0 20px 0;
+            font-size: 22px;
+        }
+
+        .controls select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: white;
+            color: var(--text-main);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .surah-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 12px;
+        }
+
+        .surah-item {
+            padding: 14px 15px;
+            margin-bottom: 8px;
+            border-radius: 10px;
+            background-color: #f0f4f7;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+        }
+
+        .surah-item:hover {
+            background-color: #dbeafe;
+            transform: scale(1.02);
+        }
+
+        .surah-item.active {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .surah-item-number {
+            font-weight: bold;
+            margin-right: 15px;
+            background: rgba(0,0,0,0.08);
+            width: 38px;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .surah-item-titles {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .surah-item-name-am {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .surah-item-name-ar {
+            font-family: 'AlMaghrabi', 'Amiri', serif;
+            font-size: 19px;
+            direction: rtl;
+            color: var(--primary-color);
+        }
+
+        .surah-item.active .surah-item-name-ar {
+            color: #d1edff;
+        }
+
+        /* --- Main Content Layout --- */
+        .main-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            scroll-behavior: smooth;
+        }
+
+        .content-container {
+            max-width: 98%; 
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            border-radius: 15px;
+            padding: 25px;
+        }
+
+        .surah-header {
+            text-align: center;
+            border-bottom: 3px solid var(--bg-color);
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+
+        .surah-title-ar {
+            font-family: 'AlMaghrabi', 'Amiri', serif;
+            font-size: 42px;
+            color: var(--primary-color);
+            margin: 0 0 12px 0;
+        }
+
+        .surah-title-am {
+            font-size: 26px;
+            color: #555;
+            margin: 0;
+        }
+
+        /* --- Verse Styling & Fixes --- */
+        .verse-block {
+            margin-bottom: 35px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .verse-block:last-child {
+            border-bottom: none;
+        }
+
+        .verse-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-color: var(--primary-color);
+            color: white;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            margin: 0 10px;
+            vertical-align: middle;
+            font-weight: bold;
+        }
+
+        .arabic-text {
+            font-family: 'AlMaghrabi', 'Amiri', serif;
+            font-size: 30px;
+            line-height: 2.3; /* Sufficient spacing for Warsh scripts */
+            color: var(--text-arabic);
+            direction: rtl;
+            text-align: right;
+            margin-bottom: 20px;
+            word-break: keep-all; /* FIXED: Prevents breaking words mid-line */
+            overflow-wrap: normal;
+        }
+
+        .amazigh-text {
+            font-size: 22px;
+            line-height: 1.8;
+            color: var(--text-main);
+            direction: ltr;
+            text-align: left;
+        }
+
+        /* Script Specifics */
+        .script-tifinagh .amazigh-text { font-family: "Noto Sans Tifinagh", sans-serif; }
+        .script-latin .amazigh-text { font-family: Arial, sans-serif; }
+        .script-arab .amazigh-text { 
+            font-family: 'Amiri', serif; 
+            direction: rtl; 
+            text-align: right;
+        }
+        .script-arab .surah-item-name-am { 
+            font-family: 'Amiri', serif; 
+            direction: rtl; 
+            text-align: right;
+        }
+
+        .highlighted {
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        .loader {
+            text-align: center;
+            padding: 60px;
+            font-size: 20px;
+            color: var(--primary-color);
+        }
+
+        @media (max-width: 768px) {
+            .arabic-text { font-size: 26px; line-height: 2.1; }
+            .amazigh-text { font-size: 19px; }
+            .content-container { max-width: 100%; padding: 15px; }
+            .surah-title-ar { font-size: 34px; }
+            .sidebar { width: 90%; }
+        }
+    </style>
+</head>
+<body class="script-tifinagh">
+
+    <header class="top-bar">
+        <button class="menu-btn" onclick="toggleMenu(true)">
+            <span>☰</span> ⵜⵉⵙⵓⵔⵉⵡⵉⵏ (Index)
+        </button>
+        <h1 class="top-title">ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵍⵇⵓⵔⴰⵏ</h1>
+    </header>
+
+    <div class="index-overlay" id="indexOverlay">
+        <div class="backdrop" onclick="toggleMenu(false)"></div>
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <button class="close-btn" onclick="toggleMenu(false)">✖</button>
+                <h2>Surah Index</h2>
+                <div class="controls">
+                    <select id="scriptSelect">
+                        <option value="tifinagh">Amazigh (Tifinagh)</option>
+                        <option value="latin">Amazigh (Latin)</option>
+                        <option value="arab">Amazigh (Arabic Script)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="surah-list" id="surahIndex">
+                </div>
+        </aside>
+    </div>
+
+    <main class="main-content" id="mainScroll">
+        <div class="content-container" id="contentArea">
+            <div class="loader" id="loadingMessage">Loading texts... Please ensure you are running this on a local server.</div>
+        </div>
+    </main>
+
+    <script>
+        // Configuration: Filenames in the same folder
+        const FILES = {
+            arabic: 'quranwarsh.txt',
+            translations: {
+                tifinagh: 'amazightranslation.txt',
+                latin: 'amazightranslation_latin.txt',
+                arab: 'amazightranslation_arab.txt'
+            }
+        };
+
+        // State
+        let quranData = {};
+        let amazighData = {}; 
+        let currentScript = 'tifinagh';
+        let currentSurahId = null;
+
+        // DOM caching
+        const elIndex = document.getElementById('surahIndex');
+        const elContent = document.getElementById('contentArea');
+        const elScriptSelect = document.getElementById('scriptSelect');
+        const elBody = document.body;
+        const elMainScroll = document.getElementById('mainScroll');
+        const elOverlay = document.getElementById('indexOverlay');
+
+        async function init() {
+            elScriptSelect.addEventListener('change', (e) => {
+                currentScript = e.target.value;
+                elBody.className = `script-${currentScript}`;
+                loadData();
+            });
+
+            await loadData();
+            
+            // Auto-open index on page load
+            toggleMenu(true);
+        }
+
+        function toggleMenu(show) {
+            if (show) {
+                elOverlay.classList.add('open');
+            } else {
+                elOverlay.classList.remove('open');
+            }
+        }
+
+        async function loadData() {
+            elContent.innerHTML = '<div class="loader">Loading files...</div>';
+            try {
+                const [amazighRaw, arabicRaw] = await Promise.all([
+                    fetchFile(FILES.translations[currentScript]),
+                    fetchFile(FILES.arabic)
+                ]);
+
+                amazighData = parseTextFile(amazighRaw);
+                quranData = parseTextFile(arabicRaw);
+
+                buildIndex();
+                
+                const availableSurahs = Object.keys(amazighData);
+                if (availableSurahs.length > 0) {
+                    const surahToLoad = amazighData[currentSurahId] ? currentSurahId : availableSurahs[0];
+                    renderSurah(surahToLoad);
+                } else {
+                    elContent.innerHTML = '<div class="loader" style="color:red;">No translation found in the selected file.</div>';
+                }
+
+            } catch (error) {
+                console.error(error);
+                elContent.innerHTML = `<div class="loader" style="color:red;">
+                    <b>Error loading files.</b><br><br>
+                    Make sure all .txt files and fonts are in the same folder as this HTML file.
+                </div>`;
+            }
+        }
+
+        async function fetchFile(filename) {
+            const res = await fetch(filename);
+            if (!res.ok) throw new Error(`Could not fetch ${filename}`);
+            return await res.text();
+        }
+
+        function parseTextFile(rawText) {
+            const data = {};
+            // Split by double line breaks to get Surah blocks
+            const blocks = rawText.trim().split(/\n\s*\n/);
+
+            for (let block of blocks) {
+                const lines = block.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+                if (lines.length < 2) continue;
+
+                const surahNum = lines[0];
+                const surahTitle = lines[1];
+                const verses = {};
+
+                for (let i = 2; i < lines.length; i++) {
+                    const line = lines[i];
+                    const match = line.match(/^(\d+)\s+(.*)/);
+                    if (match) {
+                        verses[match[1]] = match[2];
+                    }
+                }
+                data[surahNum] = { title: surahTitle, verses: verses };
+            }
+            return data;
+        }
+
+        function buildIndex() {
+            elIndex.innerHTML = '';
+            
+            for (const [sNum, surahObj] of Object.entries(amazighData)) {
+                const arSurah = quranData[sNum];
+                const arTitle = arSurah ? arSurah.title : '';
+
+                const item = document.createElement('div');
+                item.className = 'surah-item';
+                item.id = `nav-surah-${sNum}`;
+                
+                item.innerHTML = `
+                    <div class="surah-item-number">${sNum}</div>
+                    <div class="surah-item-titles">
+                        <div class="surah-item-name-am">${surahObj.title}</div>
+                        <div class="surah-item-name-ar">${arTitle}</div>
+                    </div>
+                `;
+                
+                item.addEventListener('click', () => {
+                    renderSurah(sNum);
+                    toggleMenu(false);
+                });
+                
+                elIndex.appendChild(item);
+            }
+        }
+
+        function renderSurah(sNum) {
+            currentSurahId = sNum;
+            const amSurah = amazighData[sNum];
+            const arSurah = quranData[sNum];
+
+            // UI Active State
+            document.querySelectorAll('.surah-item').forEach(el => el.classList.remove('active'));
+            const activeNav = document.getElementById(`nav-surah-${sNum}`);
+            if (activeNav) activeNav.classList.add('active');
+
+            let html = `
+                <div class="surah-header">
+                    <h2 class="surah-title-ar">${arSurah ? arSurah.title : `Surah ${sNum}`}</h2>
+                    <h3 class="surah-title-am">${amSurah.title}</h3>
+                </div>
+            `;
+
+            const verseNumbers = Object.keys(amSurah.verses).sort((a, b) => parseInt(a) - parseInt(b));
+
+            for (const vNum of verseNumbers) {
+                const amText = formatAmazighText(amSurah.verses[vNum]);
+                const arText = (arSurah && arSurah.verses[vNum]) ? arSurah.verses[vNum] : "Arabic text missing";
+
+                // Number is moved to the end of the text string for both versions
+                html += `
+                    <div class="verse-block">
+                        <div class="arabic-text">
+                            ${arText} <span class="verse-number">${vNum}</span>
+                        </div>
+                        <div class="amazigh-text">
+                            <span>${amText}</span> <span class="verse-number">${vNum}</span>
+                        </div>
+                    </div>
+                `;
+            }
+
+            elContent.innerHTML = html;
+            elMainScroll.scrollTop = 0;
+        }
+
+        function formatAmazighText(text) {
+            // Replaces **text** with a highlighted span
+            return text.replace(/\*\*(.*?)\*\*/g, '<span class="highlighted">$1</span>');
+        }
+
+        init();
+    </script>
+</body>
+</html>
