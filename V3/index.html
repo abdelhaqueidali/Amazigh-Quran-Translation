@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵓⵇⵓⵔⴰⵏ</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=:wght@400;700&family=Noto+Sans+Tifinagh&display=swap" rel="stylesheet">
     <style>
+        /* Local Fonts Configuration */
+        @font-face {
+            font-family: 'Adlis';
+            src: url('Adlis.otf') format('opentype');
+            font-weight: normal; 
+            font-style: normal;
+        }
+
         @font-face {
             font-family: 'AlMaghrabi';
             src: url('aalmaghrabi.ttf') format('truetype');
-            font-weight: normal; font-style: normal;
+            font-weight: normal; 
+            font-style: normal;
         }
 
         :root {
@@ -24,7 +30,7 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Adlis', Arial, sans-serif; /* Set Adlis as primary */
             background-color: var(--bg-color);
             margin: 0; padding: 0;
             display: flex; flex-direction: column;
@@ -41,6 +47,7 @@
             background-color: transparent; border: 2px solid white;
             color: white; padding: 8px 18px; font-size: 16px;
             border-radius: 6px; cursor: pointer; font-weight: bold;
+            font-family: 'Adlis', sans-serif;
         }
 
         .index-overlay {
@@ -61,7 +68,12 @@
             box-shadow: 5px 0 25px rgba(0,0,0,0.3);
         }
         .index-overlay.open .sidebar { transform: translateX(0); }
-        .sidebar-header { background-color: var(--primary-color); color: white; padding: 20px; }
+        .sidebar-header { 
+            background-color: var(--primary-color); 
+            color: white; 
+            padding: 20px; 
+            font-family: 'Adlis', sans-serif;
+        }
         .surah-list { flex: 1; overflow-y: auto; padding: 12px; }
 
         .surah-item {
@@ -75,12 +87,14 @@
             justify-content: center; border-radius: 50%; flex-shrink: 0;
         }
         .surah-item-titles { display: flex; flex-direction: column; flex: 1; }
+        .surah-item-name-am { font-family: 'Adlis', sans-serif; font-size: 18px; }
         .surah-item-name-ar { font-family: 'AlMaghrabi', serif; font-size: 18px; direction: rtl; }
 
         .main-content { flex: 1; overflow-y: auto; padding: 20px; }
         .content-container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; }
         .surah-header { text-align: center; border-bottom: 2px solid #eee; margin-bottom: 30px; padding-bottom: 20px; }
         .surah-title-ar { font-family: 'AlMaghrabi', serif; font-size: 40px; color: var(--primary-color); margin: 0; }
+        .surah-header h3 { font-family: 'Adlis', sans-serif; }
 
         .verse-block { margin-bottom: 40px; border-bottom: 1px solid #f9f9f9; padding-bottom: 20px; }
 
@@ -105,19 +119,31 @@
             font-size: 14px; margin: 0 10px; vertical-align: middle; font-weight: bold;
         }
 
-        .amazigh-text { font-size: 22px; line-height: 1.8; color: #444; margin-top: 15px; }
+        .amazigh-text { 
+            font-family: 'Adlis', sans-serif; 
+            font-size: 24px; 
+            line-height: 1.8; 
+            color: #444; 
+            margin-top: 15px; 
+        }
         .highlighted { color: var(--primary-color); font-weight: bold; }
-        .loader { text-align: center; padding: 40px; color: var(--primary-color); font-weight: bold; }
+        .loader { 
+            text-align: center; padding: 40px; color: var(--primary-color); 
+            font-weight: bold; font-family: 'Adlis', sans-serif;
+        }
 
-        /* Arabic Script Translation specific alignment */
-        .script-arab .amazigh-text { direction: rtl; text-align: right; font-size: 26px; }
+        /* Script specific alignment */
+        .script-arab .amazigh-text { 
+            direction: rtl; text-align: right; font-size: 26px; 
+            font-family: Arial, sans-serif; /* Fallback for Arabic script if needed */
+        }
     </style>
 </head>
 <body class="script-tifinagh">
 
     <header class="top-bar">
         <button class="menu-btn" onclick="toggleMenu(true)">☰ ⵜⵉⴽⵟⵟⵓⵎⵉⵏ<br/>السور</button>
-        <h1 style="margin-left: 20px; font-size: 1.2rem;">ⵉⵏⵓⵎⴰⴽ ⵏ ⵓⵇⵓⵔⴰⵏ ⵙ ⵜⵎⴰⵣⵉⵖⵜ<br/> معاني القرآن بالأمازيغية</h1>
+        <h1 style="margin-left: 20px; font-size: 1.2rem; font-family: 'Adlis', sans-serif;">ⵉⵏⵓⵎⴰⴽ ⵏ ⵓⵇⵓⵔⴰⵏ ⵙ ⵜⵎⴰⵣⵉⵖⵜ<br/> معاني القرآن بالأمازيغية</h1>
     </header>
 
     <div class="index-overlay" id="indexOverlay">
@@ -125,7 +151,7 @@
         <aside class="sidebar">
             <div class="sidebar-header">
                 <h2>ⵜⵉⴽⵟⵟⵓⵎⵉⵏ السور</h2>
-                <select id="scriptSelect" style="width:100%; padding:8px; border-radius:4px; border:none;">
+                <select id="scriptSelect" style="width:100%; padding:8px; border-radius:4px; border:none; font-family: 'Adlis', sans-serif;">
                     <option value="tifinagh">ⵜⴰⵎⴰⵣⵉⵖⵜ</option>
                     <option value="latin">Tamaziɣt</option>
                     <option value="arab">تامازيغت</option>
@@ -138,26 +164,23 @@
     </div>
 
     <main class="main-content" id="mainScroll">
-    	<div style="text-align: center; padding: 20px;">
-    ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵓⵇⵓⵔⴰⵏ ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⵏ ⵍⵃⵓⵙⵉⵏ ⵊⵓⵀⴰⴷⵉ:
-    <br>ترجمة معاني القرآن للأمازيغية للحسين الجوهادي:
-    <br/><a href="https://www.jouhadilahoussine.com/publications/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%85%D8%B9%D8%A7%D9%86%D9%8A%D9%87-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D8%B2%D9%8A%D8%BA%D9%8A%D8%A9/8Ias6M02wrtAmU4lZYVd">ⵜⵓⵏⵖⵉⵍⵜ ⵙⴳ ⵓⵙⵉⵜ ⵓⵏⵚⵉⴱ<br/>نسخة من الموقع الرسمي</a>
-    <p></p>
-    <br/><a href="https://archive.org/details/quran-jouhadi/">ⵜⵓⵏⵖⵉⵍⵜ ⵢⴰⴹⵏ<br/>نسخة أخرى</a>
-    <p style="margin-bottom: 10px;">
-        ⵜⴰⵙⵏⴰ ⴰⴷ ⴳⵉⵙ ⵜⵓⵏⵖⵉⵍⵜ ⵙ ⵓⵙⴽⴽⵉⵍ ⴰⵎⴰⵣⵉⵖ, ⵜⵉⴼⵉⵏⴰⵖ. ⴰⵔ ⴷⵖⵉ, ⵍⵍⴰⵏ ⵖⴰⵙ ⴽⵔⴰ ⵏ ⵉⵃⵉⵣⴱⵏ (5), ⴷ ⵙⵓⵍ ⵜⵓⵙⵔ ⴰⵙⵙⵣⵔⴰⵢ.
-        <br>هذه الصفحة توفر نسخة مكتوبة بالحرف الأمازيغي، تيفيناغ
-إلى الآن، هناك بعض الأحزاب فقط (5)، ولا تزال تحتاج للمراجعة.
-    </p>
-    <p style="margin-bottom: 10px;"><br><span style="color: red;">
-        ⵜⴰⵖⴹⴼⵜ: ⵜⴰⵙⵓⵖⵍⵜ ⵜⴳⴰ ⵖⴰⵙ ⵉ ⵓⵔⵎⴰⵙ ⵏ ⵉⵏⵓⵎⴰⴽ, ⵓⵔ ⵜⴳⵉ ⵉ ⵜⵖⵔⵉ.
-        <br>تنبيه: الترجمة مخصصة لفهم المعاني فقط، ولا تجوز بها التلاوة.
-    </span></p>
-</div>
+        <div style="text-align: center; padding: 20px; font-family: 'Adlis', sans-serif;">
+            ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵓⵇⵓⵔⴰⵏ ⵙ ⵜⵎⴰⵣⵉⵖⵜ ⵏ ⵍⵃⵓⵙⵉⵏ ⵊⵓⵀⴰⴷⵉ:
+            <br>ترجمة معاني القرآن للأمازيغية للحسين الجوهادي:
+            <br/><a href="https://www.jouhadilahoussine.com/publications/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%85%D8%B9%D8%A7%D9%86%D9%8A%D9%87-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D8%B2%D9%8A%D8%BA%D9%8A%D8%A9/8Ias6M02wrtAmU4lZYVd">ⵜⵓⵏⵖⵉⵍⵜ ⵙⴳ ⵓⵙⵉⵜ ⵓⵏⵚⵉⴱ<br/>نسخة من الموقع الرسمي</a>
+            <p></p>
+            <br/><a href="https://archive.org/details/quran-jouhadi/">ⵜⵓⵏⵖⵉⵍⵜ ⵢⴰⴹⵏ<br/>نسخة أخرى</a>
+            <p style="margin-bottom: 10px;">
+                ⵜⴰⵙⵏⴰ ⴰⴷ ⴳⵉⵙ ⵜⵓⵏⵖⵉⵍⵜ ⵙ ⵓⵙⴽⴽⵉⵍ ⴰⵎⴰⵣⵉⵖ, ⵜⵉⴼⵉⵏⴰⵖ. ⴰⵔ ⴷⵖⵉ, ⵍⵍⴰⵏ ⵖⴰⵙ ⴽⵔⴰ ⵏ ⵉⵃⵉⵣⴱⵏ (5), ⴷ ⵙⵓⵍ ⵜⵓⵙⵔ ⴰⵙⵙⵣⵔⴰⵢ.
+                <br>هذه الصفحة توفر نسخة مكتوبة بالحرف الأمازيغي، تيفيناغ
+                إلى الآن، هناك بعض الأحزاب فقط (5)، ولا تزال تحتاج للمراجعة.
+            </p>
+            <p style="margin-bottom: 10px;"><br><span style="color: red;">
+                ⵜⴰⵖⴹⴼⵜ: ⵜⴰⵙⵓⵖⵍⵜ ⵜⴳⴰ ⵖⴰⵙ ⵉ ⵓⵔⵎⴰⵙ ⵏ ⵉⵏⵓⵎⴰⴽ, ⵓⵔ ⵜⴳⵉ ⵉ ⵜⵖⵔⵉ.
+                <br>تنبيه: الترجمة مخصصة لفهم المعاني فقط، ولا تجوز بها التلاوة.
+            </span></p>
+        </div>
 
-
-
-    
         <div class="content-container" id="contentArea">
             <div class="loader">ⴰⵣⴷⴰⵎ...تحميل</div>
         </div>
@@ -182,11 +205,10 @@
                 currentScript = e.target.value;
                 document.body.className = `script-${currentScript}`;
                 
-                // FIXED: Immediately re-render the current surah with the new script
                 if (currentSurahId) {
                     await renderSurah(currentSurahId);
                 }
-                buildIndex(); // Refresh index names too
+                buildIndex();
             });
 
             await scanAvailableSurahs();
@@ -210,7 +232,6 @@
 
         async function checkSurahExists(id) {
             try {
-                // Baseline check using Tifinagh
                 const amRes = await fetch(`${FOLDERS.translations['tifinagh']}/${id}.txt`);
                 if (!amRes.ok) return null;
                 const amText = await amRes.text();
@@ -259,7 +280,6 @@
                 const amData = parseFile(amRaw);
                 const arData = parseFile(arRaw);
 
-                // Update active state in UI
                 document.querySelectorAll('.surah-item').forEach(el => el.classList.remove('active'));
                 document.getElementById(`nav-surah-${id}`)?.classList.add('active');
 
@@ -274,8 +294,6 @@
                 
                 vKeys.forEach(vNum => {
                     const rawArText = arData.verses[vNum] || "";
-                    
-                    // Arabic word protection: treat chunks separated by space as unbreakable units
                     const processedArText = rawArText.split(' ').map(word => {
                         return `<span class="quran-word">${word}</span>`;
                     }).join(' ');
@@ -320,4 +338,3 @@
     </script>
 </body>
 </html>
-
