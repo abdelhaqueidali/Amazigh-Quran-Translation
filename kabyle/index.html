@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zgh" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵓⵇⵓⵔⴰⵏ</title>
+    <style>
+        /* Local Fonts Configuration */
+        @font-face {
+            font-family: 'Adlis';
+            src: url('Adlis.otf') format('opentype');
+            font-weight: normal; 
+            font-style: normal;
+        }
+
+        :root {
+            --primary-color: #0077be;
+            --bg-color: #f4f9f9;
+            --card-bg: #ffffff;
+            --text-main: #333333;
+            --sidebar-width: 350px; 
+        }
+
+        body {
+            font-family: 'Adlis', Arial, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0; padding: 0;
+            display: flex; flex-direction: column;
+            height: 100vh; overflow: hidden;
+        }
+
+        .top-bar {
+            background-color: var(--primary-color);
+            color: white; padding: 12px 20px;
+            display: flex; align-items: center; z-index: 5;
+        }
+
+        .menu-btn {
+            background-color: transparent; border: 2px solid white;
+            color: white; padding: 8px 18px; font-size: 16px;
+            border-radius: 6px; cursor: pointer; font-weight: bold;
+            font-family: 'Adlis', sans-serif;
+        }
+
+        .index-overlay {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            z-index: 1000; display: flex; visibility: hidden; opacity: 0;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+        .index-overlay.open { visibility: visible; opacity: 1; }
+        .backdrop {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.6); backdrop-filter: blur(2px);
+        }
+        .sidebar {
+            position: relative; width: var(--sidebar-width); max-width: 85%;
+            background-color: var(--card-bg); height: 100%;
+            display: flex; flex-direction: column;
+            transform: translateX(-100%); transition: transform 0.4s;
+            box-shadow: 5px 0 25px rgba(0,0,0,0.3);
+        }
+        .index-overlay.open .sidebar { transform: translateX(0); }
+        .sidebar-header { 
+            background-color: var(--primary-color); 
+            color: white; 
+            padding: 20px; 
+            font-family: 'Adlis', sans-serif;
+        }
+        .surah-list { flex: 1; overflow-y: auto; padding: 12px; }
+
+        .surah-item {
+            padding: 12px; margin-bottom: 8px; border-radius: 8px;
+            background-color: #f0f4f7; cursor: pointer; display: flex; align-items: center;
+        }
+        .surah-item.active { background-color: var(--primary-color); color: white; }
+        .surah-item-number {
+            font-weight: bold; margin-right: 12px; width: 35px; height: 35px;
+            background: rgba(0,0,0,0.05); display: flex; align-items: center;
+            justify-content: center; border-radius: 50%; flex-shrink: 0;
+        }
+        .surah-item-titles { display: flex; flex-direction: column; flex: 1; }
+        .surah-item-name-am { font-family: 'Adlis', sans-serif; font-size: 18px; }
+        .surah-item-name-ar { font-family: 'Amiri', 'Traditional Arabic', 'Scheherazade New', serif; font-size: 18px; direction: rtl; }
+
+        .main-content { flex: 1; overflow-y: auto; padding: 20px; }
+        .content-container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; }
+        .surah-header { text-align: center; border-bottom: 2px solid #eee; margin-bottom: 30px; padding-bottom: 20px; }
+        
+        /* Replaced custom font with standard beautiful Arabic fonts */
+        .surah-title-ar { font-family: 'Amiri', 'Traditional Arabic', 'Scheherazade New', serif; font-size: 40px; color: var(--primary-color); margin: 0; }
+        .surah-header h3 { font-family: 'Adlis', sans-serif; }
+
+        .verse-block { margin-bottom: 40px; border-bottom: 1px solid #f9f9f9; padding-bottom: 20px; }
+
+        .arabic-text {
+            font-family: 'Amiri', 'Traditional Arabic', 'Scheherazade New', Arial, serif; 
+            font-size: 20px;
+            line-height: 2.2; direction: rtl; text-align: right;
+            word-break: keep-all; 
+            overflow-wrap: anywhere; 
+        }
+
+        .quran-word {
+            display: inline-block;
+            white-space: nowrap;
+            direction: rtl;
+        }
+
+        .verse-number {
+            font-family: Arial, sans-serif !important;
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 34px; height: 34px; border-radius: 50%;
+            background-color: var(--primary-color); color: white;
+            font-size: 14px; margin: 0 10px; vertical-align: middle; font-weight: bold;
+        }
+
+        .amazigh-text { 
+            font-family: 'Adlis', sans-serif; 
+            font-size: 20px; 
+            line-height: 1.8; 
+            color: #444; 
+            margin-top: 15px; 
+        }
+        
+        /* Switch font to sans-serif when Latin is selected */
+        .script-latin .amazigh-text {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        .highlighted { color: var(--primary-color); font-weight: bold; }
+        .loader { 
+            text-align: center; padding: 40px; color: var(--primary-color); 
+            font-weight: bold; font-family: 'Adlis', sans-serif;
+        }
+
+    </style>
+</head>
+<body class="script-tifinagh">
+
+    <header class="top-bar">
+        <button class="menu-btn" onclick="toggleMenu(true)">☰ ⵜⵉⴽⵟⵟⵓⵎⵉⵏ<br/>السور</button>
+        <h1 style="margin-left: 20px; font-size: 1.2rem; font-family: 'Adlis', sans-serif;">ⵉⵏⵓⵎⴰⴽ ⵏ ⵓⵇⵓⵔⴰⵏ ⵙ ⵜⵎⴰⵣⵉⵖⵜ<br/> معاني القرآن بالأمازيغية</h1>
+    </header>
+
+    <div class="index-overlay" id="indexOverlay">
+        <div class="backdrop" onclick="toggleMenu(false)"></div>
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>ⵜⵉⴽⵟⵟⵓⵎⵉⵏ السور</h2>
+                <!-- Removed Arabic option -->
+                <select id="scriptSelect" style="width:100%; padding:8px; border-radius:4px; border:none; font-family: 'Adlis', sans-serif;">
+                    <option value="tifinagh">ⵜⴰⵎⴰⵣⵉⵖⵜ</option>
+                    <option value="latin">Tamaziɣt</option>
+                </select>
+            </div>
+            <div class="surah-list" id="surahIndex">
+                <div class="loader">ⴰⵣⴷⴰⵎ...تحميل</div>
+            </div>
+        </aside>
+    </div>
+
+    <main class="main-content" id="mainScroll">
+        <div style="text-align: center; padding: 20px; font-family: 'Adlis', sans-serif;">
+            ⵜⴰⵙⵓⵖⵍⵜ ⵏ ⵉⵏⵓⵎⴰⴽ ⵏ ⵓⵇⵓⵔⴰⵏ ⵙ ⵜⵎⴰⵣⵉⵖⵜ (ⵜⴰⵇⴱⴰⵢⵍⵉⵜ) ⵏ ⵕⵎⴹⴰⵏ ⴰⵜ ⵎⵏⵚⵓⵕ:
+            <br>ترجمة معاني القرآن للأمازيغية (القبائلية) لرمضان أت منصور:
+            <br/><a href="https://archive.org/details/LEQRAN.pdfAneruUeremSurRemanAtMansur">ⵜⵓⵏⵖⵉⵍⵜ ⴰⴷ ⵜⵜ ⵜⴰⴼⴷ ⴷⴰ<br/>نسخة تجدها هنا</a>
+            <p></p>
+
+            <p style="margin-bottom: 10px;"><br><span style="color: red;">
+                ⵜⴰⵖⴹⴼⵜ: ⵜⴰⵙⵓⵖⵍⵜ ⵜⴳⴰ ⵖⴰⵙ ⵉ ⵓⵔⵎⴰⵙ ⵏ ⵉⵏⵓⵎⴰⴽ, ⵓⵔ ⵜⴳⵉ ⵉ ⵜⵖⵔⵉ.
+                <br>تنبيه: الترجمة مخصصة لفهم المعاني فقط، ولا تجوز بها التلاوة.
+            </span></p>
+        </div>
+
+        <div class="content-container" id="contentArea">
+            <div class="loader">ⴰⵣⴷⴰⵎ...تحميل</div>
+        </div>
+    </main>
+
+    <script>
+        // Global object to store merged CSV data
+        const quranData = {};
+        let availableSurahs = []; 
+        let currentScript = 'tifinagh';
+        let currentSurahId = null;
+
+        // Custom function to parse CSV robustly (handles quotes and commas inside text)
+        function parseCSV(str) {
+            const arr = [];
+            let quote = false;
+            let row = 0;
+            let col = 0;
+            for (let c = 0; c < str.length; c++) {
+                let cc = str[c], nc = str[c+1];
+                arr[row] = arr[row] || [];
+                arr[row][col] = arr[row][col] || '';
+                
+                if (cc == '"' && quote && nc == '"') { arr[row][col] += cc; ++c; continue; }
+                if (cc == '"') { quote = !quote; continue; }
+                if (cc == ',' && !quote) { ++col; continue; }
+                if (cc == '\r' && nc == '\n' && !quote) { ++row; col = 0; ++c; continue; }
+                if (cc == '\n' && !quote) { ++row; col = 0; continue; }
+                
+                arr[row][col] += cc;
+            }
+            return arr.filter(r => r.length > 1 && r[0] !== "");
+        }
+
+        async function init() {
+            document.getElementById('scriptSelect').addEventListener('change', (e) => {
+                currentScript = e.target.value;
+                document.body.className = `script-${currentScript}`;
+                if (currentSurahId) {
+                    renderSurah(currentSurahId);
+                }
+            });
+
+            await loadData();
+            buildIndex();
+            
+            if (availableSurahs.length > 0) {
+                currentSurahId = availableSurahs[0];
+                renderSurah(currentSurahId);
+                toggleMenu(true);
+            }
+        }
+
+        async function loadData() {
+            try {
+                // Fetch both CSV files concurrently
+                const [arRes, trRes] = await Promise.all([
+                    fetch('quran.csv'),
+                    fetch('quran_translation.csv')
+                ]);
+
+                const arText = await arRes.text();
+                const trText = await trRes.text();
+
+                const arData = parseCSV(arText);
+                const trData = parseCSV(trText);
+
+                // Skip header rows by starting i=1
+                
+                // Process Arabic Original Data
+                for (let i = 1; i < arData.length; i++) {
+                    let surah = parseInt(arData[i][0]);
+                    let ayah = parseInt(arData[i][1]);
+                    let content = arData[i][2];
+
+                    if (!surah) continue;
+                    if (!quranData[surah]) quranData[surah] = { verses: {} };
+                    
+                    quranData[surah].verses[ayah] = { ar: content };
+                }
+
+                // Process Amazigh Translations
+                for (let i = 1; i < trData.length; i++) {
+                    let surah = parseInt(trData[i][0]);
+                    let ayah = parseInt(trData[i][1]);
+                    let latinContent = trData[i][3]; // latin_inalco is column 3
+                    let tifinaghContent = trData[i][4]; // Tifinagh is column 4
+
+                    if (!surah || !quranData[surah]) continue;
+                    if (!quranData[surah].verses[ayah]) quranData[surah].verses[ayah] = {};
+                    
+                    quranData[surah].verses[ayah].latin = latinContent;
+                    quranData[surah].verses[ayah].tifinagh = tifinaghContent;
+                }
+
+                availableSurahs = Object.keys(quranData).map(Number).sort((a,b) => a - b);
+
+            } catch (err) {
+                console.error("Error loading CSV files:", err);
+                document.getElementById('surahIndex').innerHTML = '<div style="padding:20px;color:red;">Error loading data. Ensure quran.csv and quran_translation.csv are present.</div>';
+            }
+        }
+
+        function buildIndex() {
+            const indexEl = document.getElementById('surahIndex');
+            indexEl.innerHTML = '';
+            
+            availableSurahs.forEach(surahId => {
+                const item = document.createElement('div');
+                item.className = 'surah-item' + (currentSurahId == surahId ? ' active' : '');
+                item.id = `nav-surah-${surahId}`;
+                
+                // Since CSV doesn't have names, default to "Surah X"
+                // Feel free to replace these with actual mappings if you have them.
+                const arName = `سورة ${surahId}`; 
+                const amName = currentScript === 'tifinagh' ? `ⵜⴰⴽⵟⵟⵓⵎⵜ ${surahId}` : `Takeṭṭumt ${surahId}`;
+                
+                item.innerHTML = `
+                    <div class="surah-item-number">${surahId}</div>
+                    <div class="surah-item-titles">
+                        <div class="surah-item-name-am">${amName}</div>
+                        <div class="surah-item-name-ar">${arName}</div>
+                    </div>
+                `;
+                item.onclick = () => { renderSurah(surahId); toggleMenu(false); };
+                indexEl.appendChild(item);
+            });
+        }
+
+        function renderSurah(id) {
+            currentSurahId = id;
+            const contentEl = document.getElementById('contentArea');
+            
+            if (!quranData[id]) {
+                contentEl.innerHTML = '<div class="loader" style="color:red;">ⵉⵍⵍⴰ ⴽⵔⴰ ⵏ ⵓⵎⵓⴽⵔⵉⵙ هناك مشكلة</div>';
+                return;
+            }
+
+            document.querySelectorAll('.surah-item').forEach(el => el.classList.remove('active'));
+            document.getElementById(`nav-surah-${id}`)?.classList.add('active');
+
+            const arName = `سورة ${id}`;
+            const amName = currentScript === 'tifinagh' ? `ⵜⴰⴽⵟⵟⵓⵎⵜ ${id}` : `Takeṭṭumt ${id}`;
+
+            let html = `
+                <div class="surah-header">
+                    <h2 class="surah-title-ar">${arName}</h2>
+                    <h3 style="color:#666">${amName}</h3>
+                </div>
+            `;
+
+            const verses = quranData[id].verses;
+            const vKeys = Object.keys(verses).map(Number).sort((a, b) => a - b);
+            
+            vKeys.forEach(vNum => {
+                const verseData = verses[vNum];
+                const rawArText = verseData.ar || "";
+                
+                // Wrap arabic words for potential styling 
+                const processedArText = rawArText.split(' ').map(word => {
+                    return `<span class="quran-word">${word}</span>`;
+                }).join(' ');
+
+                // Select text based on current script
+                let rawAmText = (currentScript === 'tifinagh' ? verseData.tifinagh : verseData.latin) || "";
+                
+                // Add highlight styling if bold markers exist
+                const amText = rawAmText.replace(/\*\*(.*?)\*\*/g, '<span class="highlighted">$1</span>');
+                
+                html += `
+                    <div class="verse-block">
+                        <div class="arabic-text">
+                            ${processedArText} 
+                        </div>
+                        <div class="amazigh-text">
+                            ${amText} <span class="verse-number">${vNum}</span>
+                        </div>
+                    </div>
+                `;
+            });
+
+            contentEl.innerHTML = html;
+            document.getElementById('mainScroll').scrollTop = 0;
+            
+            // Re-build index so Amazigh titles switch script if changed
+            buildIndex();
+        }
+
+        function toggleMenu(show) {
+            const overlay = document.getElementById('indexOverlay');
+            show ? overlay.classList.add('open') : overlay.classList.remove('open');
+        }
+
+        // Initialize App
+        init();
+    </script>
+</body>
+</html>
