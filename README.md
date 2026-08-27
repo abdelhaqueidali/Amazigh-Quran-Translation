@@ -6,7 +6,7 @@ New version, Version 3 - Southern Amazigh (Tashelhit): https://abdelhaqueidali.g
 
 Kabyle Amazigh version 1 : https://abdelhaqueidali.github.io/Amazigh-Quran-Translation/kabyle/index.html
 
-Old version, Version 2, Ayahs are not aligned well as the Arabic version is not Warsh as the translation: https://abdelhaqueidali.github.io/Amazigh-Quran-Translation/v2/webpage2.html
+Old version, Version 2, Ayahs are not aligned well as the Arabic version is not Warsh as the translation: https://abdelhaqueidali.github.io/Amazigh-Quran-Translation/v2/webpagev2.html
 
 
 This repository contains a digital, interactive version of Jouhadi Lahoussine's Amazigh (Tamazight) translation of the meanings of the Holy Quran.  The project aims to make this valuable translation more accessible and to present it beautifully re-written in the Tifinagh script.
