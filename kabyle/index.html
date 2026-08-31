@@ -86,7 +86,6 @@
         .content-container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; }
         .surah-header { text-align: center; border-bottom: 2px solid #eee; margin-bottom: 30px; padding-bottom: 20px; }
         
-        /* Replaced custom font with standard beautiful Arabic fonts */
         .surah-title-ar { font-family: 'Amiri', 'Traditional Arabic', 'Scheherazade New', serif; font-size: 40px; color: var(--primary-color); margin: 0; }
         .surah-header h3 { font-family: 'Adlis', sans-serif; }
 
@@ -98,6 +97,17 @@
             line-height: 2.2; direction: rtl; text-align: right;
             word-break: keep-all; 
             overflow-wrap: anywhere; 
+        }
+
+        .transliteration-text {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666;
+            font-style: italic;
+            margin-top: 8px;
+            direction: ltr;
+            text-align: left;
         }
 
         .quran-word {
@@ -119,10 +129,9 @@
             font-size: 20px; 
             line-height: 1.8; 
             color: #444; 
-            margin-top: 15px; 
+            margin-top: 12px; 
         }
         
-        /* Switch font to sans-serif when Latin is selected */
         .script-latin .amazigh-text {
             font-family: Arial, sans-serif;
             font-size: 20px;
@@ -133,7 +142,6 @@
             text-align: center; padding: 40px; color: var(--primary-color); 
             font-weight: bold; font-family: 'Adlis', sans-serif;
         }
-
     </style>
 </head>
 <body class="script-tifinagh">
@@ -148,7 +156,6 @@
         <aside class="sidebar">
             <div class="sidebar-header">
                 <h2>ⵜⵉⴽⵟⵟⵓⵎⵉⵏ السور</h2>
-                <!-- Removed Arabic option -->
                 <select id="scriptSelect" style="width:100%; padding:8px; border-radius:4px; border:none; font-family: 'Adlis', sans-serif;">
                     <option value="tifinagh">ⵜⴰⵎⴰⵣⵉⵖⵜ</option>
                     <option value="latin">Tamaziɣt</option>
@@ -170,6 +177,8 @@
             <p style="margin-bottom: 10px;"><br><span style="color: red;">
                 ⵜⴰⵖⴹⴼⵜ: ⵜⴰⵙⵓⵖⵍⵜ ⵜⴳⴰ ⵖⴰⵙ ⵉ ⵓⵔⵎⴰⵙ ⵏ ⵉⵏⵓⵎⴰⴽ, ⵓⵔ ⵜⴳⵉ ⵉ ⵜⵖⵔⵉ.
                 <br>تنبيه: الترجمة مخصصة لفهم المعاني فقط، ولا تجوز بها التلاوة.
+                <br>ⴰⵡⴷ ⴰⵙⵜⵓⵜⵍⴰⵢ ⵙ ⵓⵍⴰⵜⵉⵏ ⵉⵍⵍⴰ ⵖⴰⵙ ⴰⴷ ⵢⴰⵡⵙ, ⵉⵣⵎⵔ ⴰⴷ ⵓⵔ ⵉⵙⵙⵍⴽⵎ ⵉⵎⵙⵍⵉ ⵙ ⵜⵉⵎⵎⴰⴷ ⴷ ⵉⵣⵎⵔ ⴰⴷ ⴷⵉⴳⵙ ⵉⵍⵉⵏ ⵉⵎⵓⴽⵔⵉⵙⵏ.
+                <br>وأيضا النطق الممثل باللاتيني فقط للمساعدة، قد لا ينقل النطق الصحيح كليا وقد تكون به مشاكل. 
             </span></p>
         </div>
 
@@ -179,13 +188,11 @@
     </main>
 
     <script>
-        // Global object to store merged CSV data
         const quranData = {};
         let availableSurahs = []; 
         let currentScript = 'tifinagh';
         let currentSurahId = null;
 
-        // Custom function to parse CSV robustly (handles quotes and commas inside text)
         function parseCSV(str) {
             const arr = [];
             let quote = false;
@@ -228,20 +235,21 @@
 
         async function loadData() {
             try {
-                // Fetch both CSV files concurrently
-                const [arRes, trRes] = await Promise.all([
+                // Fetch all three CSV files concurrently
+                const [arRes, trRes, translitRes] = await Promise.all([
                     fetch('quran.csv'),
-                    fetch('quran_translation.csv')
+                    fetch('quran_translation.csv'),
+                    fetch('quran_transliteration.csv')
                 ]);
 
                 const arText = await arRes.text();
                 const trText = await trRes.text();
+                const translitText = await translitRes.text();
 
                 const arData = parseCSV(arText);
                 const trData = parseCSV(trText);
+                const translitData = parseCSV(translitText);
 
-                // Skip header rows by starting i=1
-                
                 // Process Arabic Original Data
                 for (let i = 1; i < arData.length; i++) {
                     let surah = parseInt(arData[i][0]);
@@ -254,12 +262,24 @@
                     quranData[surah].verses[ayah] = { ar: content };
                 }
 
+                // Process Transliteration Data
+                for (let i = 1; i < translitData.length; i++) {
+                    let surah = parseInt(translitData[i][0]);
+                    let ayah = parseInt(translitData[i][1]);
+                    let content = translitData[i][2];
+
+                    if (!surah || !quranData[surah]) continue;
+                    if (!quranData[surah].verses[ayah]) quranData[surah].verses[ayah] = {};
+
+                    quranData[surah].verses[ayah].transliteration = content;
+                }
+
                 // Process Amazigh Translations
                 for (let i = 1; i < trData.length; i++) {
                     let surah = parseInt(trData[i][0]);
                     let ayah = parseInt(trData[i][1]);
-                    let latinContent = trData[i][3]; // latin_inalco is column 3
-                    let tifinaghContent = trData[i][4]; // Tifinagh is column 4
+                    let latinContent = trData[i][3];
+                    let tifinaghContent = trData[i][4];
 
                     if (!surah || !quranData[surah]) continue;
                     if (!quranData[surah].verses[ayah]) quranData[surah].verses[ayah] = {};
@@ -272,7 +292,7 @@
 
             } catch (err) {
                 console.error("Error loading CSV files:", err);
-                document.getElementById('surahIndex').innerHTML = '<div style="padding:20px;color:red;">Error loading data. Ensure quran.csv and quran_translation.csv are present.</div>';
+                document.getElementById('surahIndex').innerHTML = '<div style="padding:20px;color:red;">Error loading data. Ensure quran.csv, quran_transliteration.csv, and quran_translation.csv are present.</div>';
             }
         }
 
@@ -285,8 +305,6 @@
                 item.className = 'surah-item' + (currentSurahId == surahId ? ' active' : '');
                 item.id = `nav-surah-${surahId}`;
                 
-                // Since CSV doesn't have names, default to "Surah X"
-                // Feel free to replace these with actual mappings if you have them.
                 const arName = `سورة ${surahId}`; 
                 const amName = currentScript === 'tifinagh' ? `ⵜⴰⴽⵟⵟⵓⵎⵜ ${surahId}` : `Takeṭṭumt ${surahId}`;
                 
@@ -330,16 +348,13 @@
             vKeys.forEach(vNum => {
                 const verseData = verses[vNum];
                 const rawArText = verseData.ar || "";
+                const rawTranslitText = verseData.transliteration || "";
                 
-                // Wrap arabic words for potential styling 
                 const processedArText = rawArText.split(' ').map(word => {
                     return `<span class="quran-word">${word}</span>`;
                 }).join(' ');
 
-                // Select text based on current script
                 let rawAmText = (currentScript === 'tifinagh' ? verseData.tifinagh : verseData.latin) || "";
-                
-                // Add highlight styling if bold markers exist
                 const amText = rawAmText.replace(/\*\*(.*?)\*\*/g, '<span class="highlighted">$1</span>');
                 
                 html += `
@@ -347,6 +362,7 @@
                         <div class="arabic-text">
                             ${processedArText} 
                         </div>
+                        ${rawTranslitText ? `<div class="transliteration-text">${rawTranslitText}</div>` : ''}
                         <div class="amazigh-text">
                             ${amText} <span class="verse-number">${vNum}</span>
                         </div>
@@ -357,7 +373,6 @@
             contentEl.innerHTML = html;
             document.getElementById('mainScroll').scrollTop = 0;
             
-            // Re-build index so Amazigh titles switch script if changed
             buildIndex();
         }
 
@@ -366,7 +381,6 @@
             show ? overlay.classList.add('open') : overlay.classList.remove('open');
         }
 
-        // Initialize App
         init();
     </script>
 </body>
